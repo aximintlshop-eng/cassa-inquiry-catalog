@@ -1,10 +1,10 @@
-
 import { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ChevronLeft, ChevronRight, Check, ArrowLeft } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import InquiryForm from '@/components/InquiryForm';
+import RelatedProductCard from '@/components/RelatedProductCard';
 import { getProductById, products } from '@/data/products';
 
 const ProductDetail = () => {
@@ -14,7 +14,6 @@ const ProductDetail = () => {
   const [activeImageIndex, setActiveImageIndex] = useState(0);
   const [activeTab, setActiveTab] = useState('description');
   
-  // If product doesn't exist, show a message
   if (!product) {
     return (
       <div className="min-h-screen flex flex-col">
@@ -34,12 +33,10 @@ const ProductDetail = () => {
     );
   }
   
-  // Get related products (same category)
   const relatedProducts = products
     .filter(p => p.categoryId === product.categoryId && p.id !== product.id)
     .slice(0, 3);
   
-  // Image gallery navigation
   const nextImage = () => {
     if (product.gallery) {
       setActiveImageIndex((activeImageIndex + 1) % product.gallery.length);
@@ -57,7 +54,6 @@ const ProductDetail = () => {
       <Navbar />
       
       <main className="flex-grow">
-        {/* Breadcrumb */}
         <div className="bg-gray-100 py-4">
           <div className="container-custom">
             <div className="flex items-center text-sm">
@@ -81,11 +77,9 @@ const ProductDetail = () => {
           </div>
         </div>
         
-        {/* Product Details */}
         <section className="section-padding">
           <div className="container-custom">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-              {/* Product Images */}
               <div>
                 <div className="bg-white rounded-lg shadow-md p-4 mb-4">
                   <div className="relative h-72 md:h-96 overflow-hidden rounded-lg">
@@ -114,7 +108,6 @@ const ProductDetail = () => {
                   </div>
                 </div>
                 
-                {/* Thumbnail Gallery */}
                 {product.gallery && product.gallery.length > 1 && (
                   <div className="flex gap-2 overflow-x-auto pb-2">
                     {product.gallery.map((img, index) => (
@@ -134,7 +127,6 @@ const ProductDetail = () => {
                 )}
               </div>
               
-              {/* Product Info & Inquiry Form */}
               <div>
                 <div className="bg-white rounded-lg shadow-md p-6 mb-8">
                   <span className="inline-block bg-cassa-blue text-white text-sm px-3 py-1 rounded-full mb-4">
@@ -177,12 +169,10 @@ const ProductDetail = () => {
                   </div>
                 </div>
                 
-                {/* Inquiry Form */}
                 <InquiryForm productName={product.name} />
               </div>
             </div>
             
-            {/* Product Details Tabs */}
             <div className="mt-12 bg-white rounded-lg shadow-md overflow-hidden">
               <div className="flex border-b">
                 <button 
@@ -238,13 +228,12 @@ const ProductDetail = () => {
               </div>
             </div>
             
-            {/* Related Products */}
             {relatedProducts.length > 0 && (
               <div className="mt-16">
                 <h2 className="text-2xl font-bold mb-6">Related Products</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                   {relatedProducts.map((related) => (
-                    <ProductCard 
+                    <RelatedProductCard 
                       key={related.id}
                       id={related.id}
                       name={related.name}
