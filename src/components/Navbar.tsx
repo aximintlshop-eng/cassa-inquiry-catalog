@@ -2,6 +2,8 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X, Phone, Mail } from 'lucide-react';
+import cassaLogo from '@/assets/cassa-logo.png';
+import aximLogo from '@/assets/axim-logo.png';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -29,9 +31,9 @@ const Navbar = () => {
       {/* Main navbar */}
       <div className="container-custom py-4">
         <div className="flex justify-between items-center">
-          <Link to="/" className="flex items-center space-x-2">
-            <span className="font-bold text-2xl text-cassa-blue">Cassa<sup>®</sup></span>
-            <span className="text-xs text-gray-500 hidden sm:inline-block">by Axim International</span>
+          <Link to="/" className="flex items-center space-x-4">
+            <img src={cassaLogo} alt="Cassa Logo" className="h-12" />
+            <img src={aximLogo} alt="Axim International" className="h-8 hidden sm:block" />
           </Link>
           
           {/* Desktop menu */}
