@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import { MapPin, Phone, Mail, Clock, Facebook, Instagram, Linkedin, Twitter } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, Facebook, Instagram, Linkedin, Twitter, Globe } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -11,10 +11,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Cassa<sup>®</sup></h3>
+            <h3 className="text-xl font-bold mb-4">Axim International</h3>
+            <p className="text-gray-600 mb-2 font-medium">Trading as CASSA®</p>
             <p className="text-gray-600 mb-4">
-              Premium hardware tools and solutions for professionals and DIY enthusiasts. 
-              A brand of Axim International.
+              Premium hardware tools, furniture fittings, screws & fasteners, and professional tools for the industry.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-cassa-blue hover:text-cassa-yellow transition-colors">
@@ -57,15 +57,23 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <MapPin className="text-cassa-blue mt-1 flex-shrink-0" size={18} />
-                <span className="text-gray-600">123 Hardware Avenue, Tool City, TC 12345</span>
+                <span className="text-gray-600">Naif Bazaar Building, Shop No. 40, Naif Bazar Centre, Naif Road, Deira, Dubai, U.A.E</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="text-cassa-blue flex-shrink-0" size={18} />
-                <a href="tel:+1234567890" className="text-gray-600 hover:text-cassa-yellow transition-colors">+123 456 7890</a>
+                <div className="flex flex-col">
+                  <a href="tel:+971589275323" className="text-gray-600 hover:text-cassa-yellow transition-colors">+971 58 927 5323</a>
+                  <a href="tel:+971589209109" className="text-gray-600 hover:text-cassa-yellow transition-colors">+971 58 920 9109</a>
+                  <a href="tel:+97142225410" className="text-gray-600 hover:text-cassa-yellow transition-colors">+971 4 222 5410</a>
+                </div>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="text-cassa-blue flex-shrink-0" size={18} />
-                <a href="mailto:info@cassa.com" className="text-gray-600 hover:text-cassa-yellow transition-colors">info@cassa.com</a>
+                <a href="mailto:aximinternationaltr@gmail.com" className="text-gray-600 hover:text-cassa-yellow transition-colors">aximinternationaltr@gmail.com</a>
+              </li>
+              <li className="flex items-center space-x-3">
+                <Globe className="text-cassa-blue flex-shrink-0" size={18} />
+                <a href="https://aximintltr.ae" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-cassa-yellow transition-colors">aximintltr.ae</a>
               </li>
             </ul>
           </div>
@@ -102,7 +110,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-gray-200 mt-8 pt-6 text-center">
           <p className="text-gray-600">
-            © {currentYear} Cassa® by Axim International. All Rights Reserved.
+            © {currentYear} CASSA® by Axim International. All Rights Reserved.
           </p>
         </div>
       </div>
