@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import HeroSection from '@/components/HeroSection';
 import CategoryCard from '@/components/CategoryCard';
 import ProductCard from '@/components/ProductCard';
-import { categories } from '@/data/categories';
+import { getFeaturedCategories } from '@/data/categories';
 import { products } from '@/data/products';
 
 const Index = () => {
@@ -27,12 +27,12 @@ const Index = () => {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">Featured Categories</h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                Explore our wide range of premium hardware tools and solutions designed for professionals and DIY enthusiasts.
+                Explore our comprehensive range of door hardware, furniture fittings, tools, and fasteners for professionals and contractors.
               </p>
             </div>
             
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {categories.map((category) => (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {getFeaturedCategories().map((category) => (
                 <CategoryCard 
                   key={category.id}
                   id={category.id}
@@ -88,30 +88,30 @@ const Index = () => {
         <section className="section-padding bg-white">
           <div className="container-custom">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div>
-                <h2 className="text-3xl font-bold mb-4">About Cassa<sup>®</sup></h2>
+            <div>
+                <h2 className="text-3xl font-bold mb-4">About CASSA<sup>®</sup></h2>
                 <p className="text-gray-600 mb-4">
-                  Cassa® is a premium brand under Axim International, specializing in high-quality hardware tools and solutions for professionals and DIY enthusiasts.
+                  CASSA® is a premium brand under Axim International, your trusted partner for high-quality furniture hardware, furniture fittings, screws & fasteners, and professional tools.
                 </p>
                 <p className="text-gray-600 mb-6">
-                  With over 25 years of industry experience, we've built our reputation on delivering exceptional quality, innovative design, and outstanding customer service.
+                  Located in the heart of Dubai's Deira district, we serve contractors, carpenters, and hardware professionals across the UAE with our comprehensive product range.
                 </p>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-start">
                     <span className="text-cassa-yellow font-bold mr-2">✓</span>
-                    <span>Premium quality materials and construction</span>
+                    <span>Furniture Hardware & Fittings</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-cassa-yellow font-bold mr-2">✓</span>
-                    <span>Innovative design for improved performance</span>
+                    <span>Screws & Fasteners</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-cassa-yellow font-bold mr-2">✓</span>
-                    <span>Rigorous testing for durability and reliability</span>
+                    <span>Professional Tools & Machinery</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-cassa-yellow font-bold mr-2">✓</span>
-                    <span>Comprehensive warranty coverage</span>
+                    <span>Door Hardware & Lock Systems</span>
                   </li>
                 </ul>
                 <Link to="/about" className="btn-secondary inline-flex items-center">
@@ -151,11 +151,16 @@ const Index = () => {
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Call Us</h3>
                 <p className="text-gray-600 mb-4">
-                  Our customer service team is available Monday to Friday, 9am to 6pm.
+                  Our team is available to assist you with all your hardware needs.
                 </p>
-                <a href="tel:+1234567890" className="text-cassa-blue font-medium hover:text-cassa-yellow transition-colors">
-                  +123 456 7890
-                </a>
+                <div className="flex flex-col space-y-1">
+                  <a href="tel:+971589275323" className="text-cassa-blue font-medium hover:text-cassa-yellow transition-colors">
+                    +971 58 927 5323
+                  </a>
+                  <a href="tel:+971589209109" className="text-cassa-blue font-medium hover:text-cassa-yellow transition-colors">
+                    +971 58 920 9109
+                  </a>
+                </div>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center">
@@ -164,10 +169,10 @@ const Index = () => {
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Email Us</h3>
                 <p className="text-gray-600 mb-4">
-                  Send us an email for any inquiries, and we'll respond within 24 hours.
+                  Send us an email for any inquiries, and we'll respond promptly.
                 </p>
-                <a href="mailto:info@cassa.com" className="text-cassa-blue font-medium hover:text-cassa-yellow transition-colors">
-                  info@cassa.com
+                <a href="mailto:aximinternationaltr@gmail.com" className="text-cassa-blue font-medium hover:text-cassa-yellow transition-colors text-sm">
+                  aximinternationaltr@gmail.com
                 </a>
               </div>
               
@@ -180,7 +185,7 @@ const Index = () => {
                   Message us on WhatsApp for immediate assistance with your inquiries.
                 </p>
                 <a 
-                  href="https://wa.me/1234567890" 
+                  href="https://wa.me/971589275323" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-green-600 font-medium hover:text-green-700 transition-colors"
@@ -193,13 +198,13 @@ const Index = () => {
             <div className="mt-12">
               <div className="bg-white p-4 rounded-lg shadow-md">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.3059445135!2d-74.25986173255611!3d40.69714941680757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sca!4v1619756483885!5m2!1sen!2sca" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.5675825654884!2d55.31674731501047!3d25.27294198385714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sNaif%20Bazaar!5e0!3m2!1sen!2sae!4v1619756483885!5m2!1sen!2sae" 
                   width="100%" 
                   height="400" 
                   style={{ border: 0 }} 
                   allowFullScreen 
                   loading="lazy"
-                  title="Cassa Location Map"
+                  title="Axim International Location - Naif Bazaar, Dubai"
                 ></iframe>
               </div>
             </div>
