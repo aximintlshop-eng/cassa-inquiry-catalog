@@ -31,9 +31,9 @@ const Navbar = () => {
       {/* Main navbar */}
       <div className="container-custom py-4">
         <div className="flex justify-between items-center">
-          <Link to="/" className="flex items-center space-x-4">
-            <img src={cassaLogo} alt="Cassa Logo" className="h-16" />
-            <img src={aximLogo} alt="Axim International" className="h-12 hidden sm:block" />
+          <Link to="/" className="flex items-center space-x-6">
+            <img src={cassaLogo} alt="Cassa Logo" className="h-20" />
+            <img src={aximLogo} alt="Axim International" className="h-16 hidden sm:block" />
           </Link>
           
           {/* Desktop menu */}
