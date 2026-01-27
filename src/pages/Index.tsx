@@ -120,13 +120,13 @@ const Index = () => {
                 </Link>
               </div>
               
-              <div className="relative">
+              <div className="relative pb-8 pl-8">
                 <img 
                   src="https://images.unsplash.com/photo-1581094794329-c8112a89af44?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
                   alt="Cassa Tools Manufacturing" 
-                  className="rounded-lg shadow-xl"
+                  className="rounded-lg shadow-xl w-full"
                 />
-                <div className="absolute -bottom-6 -left-6 bg-cassa-yellow p-4 rounded-lg shadow-lg hidden md:block">
+                <div className="absolute bottom-2 left-2 bg-cassa-yellow p-4 rounded-lg shadow-lg hidden md:block">
                   <p className="font-bold text-black">25+ Years of Excellence</p>
                 </div>
               </div>
