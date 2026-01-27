@@ -139,39 +139,9 @@ const HeroSection = () => {
             </div>
           ))}
           
-          {/* Navigation Arrows */}
-          <button
-            onClick={goToPrevious}
-            className="absolute left-3 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white p-2 rounded-full shadow-lg transition-all z-10"
-            aria-label="Previous slide"
-          >
-            <ChevronLeft size={24} className="text-gray-800" />
-          </button>
-          <button
-            onClick={goToNext}
-            className="absolute right-3 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white p-2 rounded-full shadow-lg transition-all z-10"
-            aria-label="Next slide"
-          >
-            <ChevronRight size={24} className="text-gray-800" />
-          </button>
         </div>
       </div>
 
-      {/* Slide Indicators */}
-      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-10">
-        {slides.map((_, index) => (
-          <button
-            key={index}
-            onClick={() => goToSlide(index)}
-            className={`w-3 h-3 rounded-full transition-all ${
-              index === currentSlide 
-                ? 'bg-cassa-yellow w-8' 
-                : 'bg-gray-300 hover:bg-gray-400'
-            }`}
-            aria-label={`Go to slide ${index + 1}`}
-          />
-        ))}
-      </div>
     </div>
   );
 };
