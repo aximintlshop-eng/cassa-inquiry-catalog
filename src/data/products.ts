@@ -1,3 +1,4 @@
+import { doorHardwareLocksProducts } from './products/door-hardware-locks';
 
 export interface Product {
   id: string;
@@ -14,7 +15,7 @@ export interface Product {
   };
 }
 
-export const products: Product[] = [
+const baseProducts: Product[] = [
   // Paint Tools
   {
     id: 'pt-001',
@@ -233,6 +234,12 @@ export const products: Product[] = [
       'Durability': 'Tested for 200,000 cycles'
     }
   }
+];
+
+// Combine all products
+export const products: Product[] = [
+  ...doorHardwareLocksProducts,
+  ...baseProducts
 ];
 
 export const getProductsByCategoryId = (categoryId: string): Product[] => {
