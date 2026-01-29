@@ -9,169 +9,145 @@ export interface Category {
 
 export const categories: Category[] = [
   {
-    id: 'door-hardware-locks',
-    name: 'Door Hardware & Locks',
+    id: 'door-handles-accessories',
+    name: 'Door Handles & Accessories',
     image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    productCount: 45,
+    productCount: 65,
     subcategories: [
-      'Door Handles (Lever, Pull, Full Set)',
-      'Cabinet & Cupboard Handles',
-      'Door Knobs',
-      'Door Closers',
-      'Door Stoppers',
+      'Door Handles',
+      'Rozets',
+      'Cabinet Handles',
+      'Window Handles',
+      'Door Plates',
+      'Knobs',
+      'Magnetic Catchers',
+      'Door Closers & Stoppers'
+    ]
+  },
+  {
+    id: 'locks-cylinders',
+    name: 'Locks & Cylinders',
+    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    productCount: 32,
+    subcategories: [
       'Mortise Locks',
       'Rim Locks',
       'Pad Locks',
-      'Cylinders & Lock Accessories',
-      'Magnetic Catchers',
-      'Push to Open Systems',
-      'Door Plates (Push / Pull Plates)'
+      'Cylinders',
+      'Drawer & Cabinet Locks',
+      'Sliding Locks',
+      'Glass Locks & Patches'
     ]
   },
   {
-    id: 'furniture-fittings-hinges',
-    name: 'Furniture Fittings & Hinges',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    productCount: 52,
+    id: 'keys-hooks-misc',
+    name: 'Keys, Hooks & Misc. Hardware',
+    image: 'https://images.unsplash.com/photo-1530119458221-cf266ca1273c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    productCount: 10,
     subcategories: [
-      'Concealed Hinges (Soft Close / Normal)',
-      'Butterfly Hinges',
-      '3D Concealed Hinges',
+      'Key Rings',
+      'S Hooks',
+      'Safety Locks',
+      'Curtain Hooks',
+      'Shelf Supporters',
+      'Glass Lifters'
+    ]
+  },
+  {
+    id: 'glass-fittings-hinges',
+    name: 'Glass Fittings & Hinges',
+    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    productCount: 16,
+    subcategories: [
       'Glass Hinges',
+      'Glass Bottom Machines',
       'MS Hinges',
       'Bearing Hinges',
-      'Flag Hinges',
-      'Double Action Hinges',
-      'Magnum Hinges',
-      'Tower Bolts',
-      'Aldrops',
-      'Hasp & Staples',
-      'L Brackets & Corner Brackets',
-      'Shelf Brackets'
+      'Concealed Hinges',
+      'Butterfly Hinges',
+      'Special Hinges'
     ]
   },
   {
-    id: 'drawer-slides-sliding-systems',
-    name: 'Drawer Slides & Sliding Systems',
+    id: 'slides-drawer-systems',
+    name: 'Slides & Drawer Systems',
     image: 'https://images.unsplash.com/photo-1530119458221-cf266ca1273c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    productCount: 38,
+    productCount: 8,
     subcategories: [
-      'Full Extension Drawer Slides',
-      'Soft Closing Drawer Slides',
-      'Push to Open Slides',
-      'Sliding Door Wheels',
-      'Sliding Door Wheel Sets',
-      'Curtain Pipes & Accessories',
-      'Chrome Pipes & Oval Pipes',
-      'Pipe Brackets & Sockets',
-      'Shelf Supporters',
-      'Slat Board Channels',
-      'Mirror Clips & Display Hooks'
+      'Sliding Wheels',
+      'Drawer Slides',
+      'Push-to-Open Systems'
     ]
   },
   {
-    id: 'tools-accessories',
-    name: 'Hand Tools',
-    image: 'https://images.unsplash.com/photo-1530124566582-a618bc2615dc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    productCount: 48,
+    id: 'brackets-channels',
+    name: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    productCount: 29,
     subcategories: [
-      'Hammers',
-      'Chisels',
-      'Pliers & Cutters',
-      'Wrenches & Spanners',
-      'Screwdrivers & Bits',
-      'Allen Keys',
-      'Measuring Tools',
-      'Scrapers & Putty Tools',
-      'Rivet Guns',
-      'Tool Boxes',
-      'Ladders',
-      'Clamps & Hooks',
-      'Utility Knives'
+      'L Brackets',
+      'Corner Brackets',
+      'Shelf Brackets',
+      'Pipe Connectors',
+      'Towel Brackets',
+      'Flanges & Sockets',
+      'Pipes & Channels',
+      'Display Accessories'
     ]
   },
   {
     id: 'drilling-cutting-tools',
     name: 'Drilling & Cutting Tools',
     image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    productCount: 42,
+    productCount: 29,
     subcategories: [
-      'SDS Drill Bits',
-      'HSS Drill Bits',
-      'Masonry Drill Bits',
-      'Wood Drill Bits',
-      'Flat Wood Bits',
-      'Hole Saws (TCT & Bi-Metal)',
-      'Cutting Discs (Metal, Marble, Concrete, Wood)',
-      'Grinding & Flap Discs',
-      'Saw Blades',
-      'Jigsaw Blades',
-      'Drill Chucks & Adaptors'
+      'Arbors & Chucks',
+      'Drill Bits',
+      'Cutting Discs',
+      'Grinding Discs',
+      'Hole Saws',
+      'Hand Saws',
+      'Hacksaw Blades'
     ]
   },
   {
-    id: 'painting-tools',
-    name: 'Painting & Finishing Tools',
-    image: 'https://images.unsplash.com/photo-1588779180563-d7599d96d8a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    productCount: 24,
+    id: 'hand-tools',
+    name: 'Hand Tools',
+    image: 'https://images.unsplash.com/photo-1530124566582-a618bc2615dc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    productCount: 75,
     subcategories: [
-      'Paint Brushes',
-      'Paint Rollers',
-      'Paint Refills',
-      'Silicon Guns',
-      'Scrapers',
-      'Water Paper (Sand Paper)',
-      'Chalk Line Set',
-      'Net Fixing Rollers'
+      'Scrapers & Blades',
+      'Plastering Tools',
+      'Measuring Tools',
+      'Paint Tools',
+      'Hammers',
+      'Chisels',
+      'Pliers & Cutters',
+      'Wrenches & Spanners',
+      'Screwdrivers',
+      'Chains & Ropes',
+      'Ladders & Trolleys'
     ]
   },
   {
-    id: 'screws-fasteners',
-    name: 'Screws & Fasteners',
+    id: 'cassa-screws-fasteners',
+    name: 'Cassa Screws & Fasteners',
     image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    productCount: 65,
+    productCount: 20,
     subcategories: [
-      'Drywall Screws (Fine / Coarse)',
-      'Self Drilling Screws',
-      'Self Tapping Screws',
-      'Hex Head Screws',
-      'CSK Screws',
-      'Gypsum Screws',
+      'Wall Plugs',
       'Expansion Bolts',
-      'Fischer & Wall Plugs',
-      'Nails & Pins',
-      'Hose Clips',
-      'Binding Wire'
+      'Nails',
+      'Screws',
+      'Rivets'
     ]
   },
   {
-    id: 'glass-aluminum-fittings',
-    name: 'Glass & Aluminum Fittings',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    productCount: 32,
-    subcategories: [
-      'Glass Door Hinges',
-      'Glass Lifters (1 Way / 2 Way / 3 Way)',
-      'Glass Spacers',
-      'Glass Bottom Machines',
-      'Aluminum Handles',
-      'Aluminum Profiles',
-      'PVC Tile Trims',
-      'Window Handles',
-      'Window Holders'
-    ]
-  },
-  {
-    id: 'cassa-machinery',
-    name: 'CASSA Machinery',
+    id: 'cassa-electronic-paint-machinery',
+    name: 'Cassa Electronic Paint Machinery',
     image: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    productCount: 15,
-    subcategories: [
-      'Airless Putty & Painting Machines',
-      'Injection Grouting Machines',
-      'Sanding & Grinding Machines',
-      'Machinery Spare Parts'
-    ]
+    productCount: 0,
+    subcategories: []
   }
 ];
 

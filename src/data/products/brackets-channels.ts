@@ -1,0 +1,323 @@
+import { Product } from '../products';
+
+export const bracketsChannelsProducts: Product[] = [
+  {
+    id: 'bc-001',
+    name: 'GI "L" Bracket – Size 37×20×20',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'GI L bracket in 37×20×20 size.',
+    description: 'Galvanized Iron L Bracket in 37×20×20 size for furniture and shelf mounting applications.',
+    features: ['GI construction', 'L-shape design', 'Corrosion resistant', 'Multiple mounting holes', 'Strong support'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Galvanized Iron', 'Size': '37×20×20 mm', 'Type': 'L Bracket', 'Application': 'Furniture & Shelving' }
+  },
+  {
+    id: 'bc-002',
+    name: 'GI "L" Bracket – Size 48×48×40',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'GI L bracket in 48×48×40 size.',
+    description: 'Galvanized Iron L Bracket in 48×48×40 size for heavy duty mounting applications.',
+    features: ['Heavy duty', 'GI construction', 'Large size', 'Multiple holes', 'Strong support'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Galvanized Iron', 'Size': '48×48×40 mm', 'Type': 'L Bracket', 'Application': 'Heavy Duty' }
+  },
+  {
+    id: 'bc-003',
+    name: 'PVC Cupboard Fitting with Cap (White / Brown / Beige)',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'PVC cupboard fitting with cap in three colors.',
+    description: 'PVC Cupboard Fitting with decorative cap available in White, Brown, and Beige colors.',
+    features: ['Decorative cap', 'Three colors', 'PVC material', 'Easy installation', 'Clean finish'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'PVC', 'Color': 'White / Brown / Beige', 'Type': 'Cupboard Fitting', 'Application': 'Cupboards' }
+  },
+  {
+    id: 'bc-004',
+    name: 'GI "L" Corner – All Sizes',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'GI L corner brackets in all sizes.',
+    description: 'Galvanized Iron L Corner brackets available in all sizes for corner reinforcement.',
+    features: ['All sizes available', 'GI construction', 'Corner reinforcement', 'Corrosion resistant', 'Strong joints'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Galvanized Iron', 'Sizes': 'Various', 'Type': 'L Corner', 'Application': 'Corner Joints' }
+  },
+  {
+    id: 'bc-005',
+    name: 'GI Flat Corner – All Sizes',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'GI flat corner plates in all sizes.',
+    description: 'Galvanized Iron Flat Corner plates available in all sizes for flat surface joining.',
+    features: ['All sizes available', 'Flat design', 'GI material', 'Surface mounting', 'Multiple holes'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Galvanized Iron', 'Sizes': 'Various', 'Type': 'Flat Corner', 'Application': 'Flat Joints' }
+  },
+  {
+    id: 'bc-006',
+    name: 'Heavy Duty "S" Bracket – Black (Sizes 5×6, 6×8, 8×10, 10×12, 12×14)',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Heavy duty S bracket in black, multiple sizes.',
+    description: 'Heavy Duty S Bracket in black finish, available in sizes from 5×6 to 12×14 inches.',
+    features: ['Heavy duty', 'S-shape design', 'Black finish', 'Multiple sizes', 'High load capacity'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Color': 'Black', 'Sizes': '5×6 to 12×14 inch', 'Type': 'S Bracket' }
+  },
+  {
+    id: 'bc-007',
+    name: 'Heavy Duty Shelf Bracket (Sizes 8×10, 9×12, 11×16, 13×20)',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Heavy duty shelf brackets in multiple sizes.',
+    description: 'Heavy Duty Shelf Brackets available in 8×10, 9×12, 11×16, and 13×20 sizes for heavy shelving.',
+    features: ['Heavy duty rated', 'Multiple sizes', 'Strong support', 'Powder coated', 'Easy mounting'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Sizes': '8×10, 9×12, 11×16, 13×20', 'Type': 'Shelf Bracket', 'Load': 'Heavy Duty' }
+  },
+  {
+    id: 'bc-008',
+    name: 'Heavy Duty "S" Bracket – White (Sizes 5×6, 6×8, 8×10, 10×12, 12×14)',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Heavy duty S bracket in white, multiple sizes.',
+    description: 'Heavy Duty S Bracket in white finish, available in sizes from 5×6 to 12×14 inches.',
+    features: ['Heavy duty', 'S-shape design', 'White finish', 'Multiple sizes', 'Clean look'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Color': 'White', 'Sizes': '5×6 to 12×14 inch', 'Type': 'S Bracket' }
+  },
+  {
+    id: 'bc-009',
+    name: 'Shelf Bracket – White (Sizes 5×6, 6×8, 8×10, 10×12, 12×14)',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Standard shelf brackets in white, multiple sizes.',
+    description: 'Standard Shelf Brackets in white finish, available in sizes from 5×6 to 12×14 inches.',
+    features: ['Standard duty', 'White finish', 'Multiple sizes', 'Easy installation', 'Clean appearance'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Color': 'White', 'Sizes': '5×6 to 12×14 inch', 'Type': 'Shelf Bracket' }
+  },
+  {
+    id: 'bc-010',
+    name: 'Pipe Connector CP Elbow (Sizes 3/4", 1")',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Chrome plated pipe elbow connectors.',
+    description: 'Chrome Plated Pipe Elbow Connectors in 3/4" and 1" sizes for wardrobe rail systems.',
+    features: ['90 degree elbow', 'Chrome plated', 'Two sizes', 'For pipe rails', 'Secure connection'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Finish': 'Chrome Plated', 'Sizes': '3/4", 1"', 'Type': 'Elbow Connector' }
+  },
+  {
+    id: 'bc-011',
+    name: 'Pipe Connector CP Cross (Sizes 3/4", 1")',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Chrome plated pipe cross connectors.',
+    description: 'Chrome Plated Pipe Cross Connectors in 3/4" and 1" sizes for 4-way pipe connections.',
+    features: ['4-way connection', 'Chrome plated', 'Two sizes', 'For pipe systems', 'Strong joint'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Finish': 'Chrome Plated', 'Sizes': '3/4", 1"', 'Type': 'Cross Connector' }
+  },
+  {
+    id: 'bc-012',
+    name: 'Pipe Connector CP 3-Way (Sizes 3/4", 1")',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Chrome plated 3-way pipe connectors.',
+    description: 'Chrome Plated 3-Way Pipe Connectors in 3/4" and 1" sizes for corner connections.',
+    features: ['3-way connection', 'Chrome plated', 'Two sizes', 'Corner fitting', 'Quality finish'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Finish': 'Chrome Plated', 'Sizes': '3/4", 1"', 'Type': '3-Way Connector' }
+  },
+  {
+    id: 'bc-013',
+    name: 'Pipe Connector CP Tee (Sizes 3/4", 1")',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Chrome plated pipe tee connectors.',
+    description: 'Chrome Plated Pipe Tee Connectors in 3/4" and 1" sizes for T-junction connections.',
+    features: ['T-junction', 'Chrome plated', 'Two sizes', 'For pipe rails', 'Secure fit'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Finish': 'Chrome Plated', 'Sizes': '3/4", 1"', 'Type': 'Tee Connector' }
+  },
+  {
+    id: 'bc-014',
+    name: 'Pipe Connector CP "K" Type (Sizes 3/4", 1")',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Chrome plated K-type pipe connectors.',
+    description: 'Chrome Plated K-Type Pipe Connectors in 3/4" and 1" sizes for angular connections.',
+    features: ['K-type design', 'Chrome plated', 'Two sizes', 'Angular joint', 'Quality construction'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Finish': 'Chrome Plated', 'Sizes': '3/4", 1"', 'Type': 'K Connector' }
+  },
+  {
+    id: 'bc-015',
+    name: 'Pipe Connector Joint Pipe (Sizes 3/4", 1")',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Pipe joint connectors for extending pipes.',
+    description: 'Pipe Joint Connectors in 3/4" and 1" sizes for extending pipe rail lengths.',
+    features: ['Straight joint', 'Extends pipes', 'Two sizes', 'Chrome finish', 'Secure connection'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Finish': 'Chrome Plated', 'Sizes': '3/4", 1"', 'Type': 'Joint Connector' }
+  },
+  {
+    id: 'bc-016',
+    name: 'Towel Bracket – Open Type (Sizes 3/4", 1")',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Open type towel bracket for pipe rails.',
+    description: 'Open Type Towel Bracket for mounting pipe rails on walls, available in 3/4" and 1" sizes.',
+    features: ['Open design', 'Wall mounting', 'Two sizes', 'Chrome finish', 'Easy pipe insertion'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Finish': 'Chrome Plated', 'Sizes': '3/4", 1"', 'Type': 'Open Bracket' }
+  },
+  {
+    id: 'bc-017',
+    name: 'Towel Bracket – Close Type (Sizes 3/4", 1")',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Closed type towel bracket for secure mounting.',
+    description: 'Closed Type Towel Bracket for secure pipe rail mounting, available in 3/4" and 1" sizes.',
+    features: ['Closed design', 'Secure mounting', 'Two sizes', 'Chrome finish', 'Firm grip'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Finish': 'Chrome Plated', 'Sizes': '3/4", 1"', 'Type': 'Close Bracket' }
+  },
+  {
+    id: 'bc-018',
+    name: 'CP Flange (Sizes 3/4", 1")',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Chrome plated flanges for pipe ends.',
+    description: 'Chrome Plated Flanges for covering pipe ends and wall connections, in 3/4" and 1" sizes.',
+    features: ['Decorative cover', 'Chrome plated', 'Two sizes', 'Wall finishing', 'Professional look'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Finish': 'Chrome Plated', 'Sizes': '3/4", 1"', 'Type': 'Flange' }
+  },
+  {
+    id: 'bc-019',
+    name: 'Oval Pipe Bracket (Small / Big)',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Brackets for oval wardrobe pipes.',
+    description: 'Oval Pipe Brackets in small and big sizes for supporting oval wardrobe hanging rails.',
+    features: ['For oval pipes', 'Two sizes', 'Chrome finish', 'Secure support', 'Easy installation'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Finish': 'Chrome Plated', 'Sizes': 'Small / Big', 'Type': 'Oval Bracket' }
+  },
+  {
+    id: 'bc-020',
+    name: 'Curtain Pipe Bracket – Heavy Duty (CP / GP)',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Heavy duty curtain pipe brackets.',
+    description: 'Heavy Duty Curtain Pipe Brackets in Chrome Plated and Gold Plated finishes.',
+    features: ['Heavy duty', 'For curtain rails', 'CP & GP finishes', 'Strong support', 'Professional grade'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Finish': 'CP / GP', 'Type': 'Heavy Duty', 'Application': 'Curtain Rails' }
+  },
+  {
+    id: 'bc-021',
+    name: 'Pipe Socket Bend (Sizes 3/4", 1")',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Pipe socket bends for angled connections.',
+    description: 'Pipe Socket Bends in 3/4" and 1" sizes for creating angled pipe connections.',
+    features: ['Angled connection', 'Two sizes', 'Chrome finish', 'Socket type', 'Secure fit'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Finish': 'Chrome Plated', 'Sizes': '3/4", 1"', 'Type': 'Socket Bend' }
+  },
+  {
+    id: 'bc-022',
+    name: 'Pipe Socket Straight (Sizes 3/4", 1")',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Straight pipe sockets for extending pipes.',
+    description: 'Straight Pipe Sockets in 3/4" and 1" sizes for joining pipes in a straight line.',
+    features: ['Straight connection', 'Two sizes', 'Chrome finish', 'Socket type', 'Easy joining'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Finish': 'Chrome Plated', 'Sizes': '3/4", 1"', 'Type': 'Socket Straight' }
+  },
+  {
+    id: 'bc-023',
+    name: 'U Clamp – All Sizes',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'U clamps in all sizes for pipe mounting.',
+    description: 'U Clamps available in all sizes for securing pipes to walls and surfaces.',
+    features: ['All sizes available', 'U-shape design', 'Pipe securing', 'Easy installation', 'Strong grip'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Finish': 'Galvanized', 'Sizes': 'Various', 'Type': 'U Clamp' }
+  },
+  {
+    id: 'bc-024',
+    name: 'Chrome Plated Oval Pipes',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Chrome plated oval pipes for wardrobes.',
+    description: 'Chrome Plated Oval Pipes for wardrobe hanging rails with elegant finish.',
+    features: ['Oval profile', 'Chrome plated', 'For wardrobes', 'Hanging clothes', 'Cut to length'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Finish': 'Chrome Plated', 'Type': 'Oval Pipe', 'Application': 'Wardrobes' }
+  },
+  {
+    id: 'bc-025',
+    name: 'Chrome Plated Pipes (Sizes 1/2", 1", 3/4" – Length 3 Mtr)',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Chrome plated round pipes in 3 meter lengths.',
+    description: 'Chrome Plated Round Pipes in 1/2", 3/4", and 1" sizes, available in 3 meter lengths.',
+    features: ['Round profile', 'Chrome plated', 'Three sizes', '3 meter length', 'Cut to size'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Finish': 'Chrome Plated', 'Sizes': '1/2", 3/4", 1"', 'Length': '3 Meter' }
+  },
+  {
+    id: 'bc-026',
+    name: 'Aluminium Slat Board Channel',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Aluminium slat board channels for retail displays.',
+    description: 'Aluminium Slat Board Channels for retail display systems and shop fittings.',
+    features: ['For retail displays', 'Aluminium construction', 'Modular system', 'Easy installation', 'Professional look'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Aluminium', 'Finish': 'Anodized', 'Type': 'Slat Board Channel', 'Application': 'Retail Displays' }
+  },
+  {
+    id: 'bc-027',
+    name: 'PVC Tile Trim – 10 mm (All Colours)',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'PVC tile trims in 10mm, all colors available.',
+    description: 'PVC Tile Trims in 10mm size available in all colors for finishing tile edges.',
+    features: ['10mm size', 'All colors available', 'Edge finishing', 'PVC material', 'Easy installation'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'PVC', 'Size': '10 mm', 'Colors': 'Various', 'Type': 'Tile Trim' }
+  },
+  {
+    id: 'bc-028',
+    name: '4 Pcs Mirror Clip Set',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: '4 piece mirror clip set for mirror mounting.',
+    description: '4 Piece Mirror Clip Set for securely mounting mirrors on walls.',
+    features: ['4 clips included', 'For mirrors', 'Easy mounting', 'Secure hold', 'Chrome finish'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Finish': 'Chrome Plated', 'Quantity': '4 Pieces', 'Type': 'Mirror Clips' }
+  },
+  {
+    id: 'bc-029',
+    name: 'Display Hook (Sizes 2", 4", 6", 8", 10")',
+    categoryId: 'brackets-channels',
+    category: 'Brackets & Channels',
+    image: 'https://images.unsplash.com/photo-1518709594023-6ebd2b5ae4e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Display hooks in multiple sizes for retail.',
+    description: 'Display Hooks in 2", 4", 6", 8", and 10" sizes for retail slat board displays.',
+    features: ['Multiple sizes', 'For slat boards', 'Retail displays', 'Chrome finish', 'Easy insertion'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel Wire', 'Finish': 'Chrome Plated', 'Sizes': '2", 4", 6", 8", 10"', 'Type': 'Display Hook' }
+  }
+];
