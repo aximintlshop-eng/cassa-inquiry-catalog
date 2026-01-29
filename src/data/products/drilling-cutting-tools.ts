@@ -1,0 +1,323 @@
+import { Product } from '../products';
+
+export const drillingCuttingToolsProducts: Product[] = [
+  {
+    id: 'dct-001',
+    name: 'A2 Arbor',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'A2 arbor for hole saw mounting.',
+    description: 'A2 Arbor for mounting hole saws on drills, compatible with standard hole saw sizes.',
+    features: ['For hole saws', 'Pilot drill included', 'Quick change', 'Standard fitting', 'Durable construction'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Type': 'A2 Arbor', 'Compatibility': 'Standard Hole Saws', 'Application': 'Drilling' }
+  },
+  {
+    id: 'dct-002',
+    name: 'A4 Arbor',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'A4 arbor for large hole saws.',
+    description: 'A4 Arbor for mounting large hole saws, suitable for heavy duty drilling applications.',
+    features: ['For large hole saws', 'Heavy duty', 'Pilot drill included', 'Secure mounting', 'Professional grade'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Type': 'A4 Arbor', 'Compatibility': 'Large Hole Saws', 'Application': 'Heavy Duty Drilling' }
+  },
+  {
+    id: 'dct-003',
+    name: 'Drill Chuck Key with Adaptor (Sizes 13 mm, 16 mm)',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Drill chuck key with adaptor in two sizes.',
+    description: 'Drill Chuck Key with Adaptor available in 13mm and 16mm sizes for drill chuck operation.',
+    features: ['With adaptor', 'Two sizes', 'Quality steel', 'Easy grip', 'Durable'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Sizes': '13 mm, 16 mm', 'Type': 'Chuck Key with Adaptor', 'Application': 'Drill Chucks' }
+  },
+  {
+    id: 'dct-004',
+    name: 'Drill Chuck Key – All Sizes',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Drill chuck keys in all standard sizes.',
+    description: 'Drill Chuck Keys available in all standard sizes for tightening and loosening drill chucks.',
+    features: ['All sizes available', 'Standard design', 'Quality steel', 'Easy operation', 'Durable'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Sizes': 'Various', 'Type': 'Chuck Key', 'Application': 'All Drills' }
+  },
+  {
+    id: 'dct-005',
+    name: 'Screwdriver Bit – All Sizes',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Screwdriver bits in all types and sizes.',
+    description: 'Screwdriver Bits available in all types (Phillips, Flat, Torx, Hex) and sizes.',
+    features: ['All types available', 'All sizes', 'Impact rated', 'Quality steel', 'Long lasting'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'S2 Steel', 'Types': 'PH, SL, TX, HX', 'Sizes': 'Various', 'Application': 'Power Drivers' }
+  },
+  {
+    id: 'dct-006',
+    name: 'Masonry Drill Bit Set – All Sizes',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Masonry drill bits for concrete and brick.',
+    description: 'Masonry Drill Bit Set for drilling into concrete, brick, and stone materials.',
+    features: ['Carbide tipped', 'For masonry', 'All sizes', 'Hammer drill compatible', 'Long lasting'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel with Carbide Tip', 'Sizes': 'Various', 'Type': 'Masonry Bit', 'Application': 'Concrete / Brick / Stone' }
+  },
+  {
+    id: 'dct-007',
+    name: 'H.S.S. Drill Bit – All Sizes',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'High speed steel drill bits for metal.',
+    description: 'High Speed Steel (HSS) Drill Bits for drilling into metal, wood, and plastic.',
+    features: ['HSS material', 'All sizes', 'For metal', 'Precision ground', 'Long lasting'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'High Speed Steel', 'Sizes': 'Various', 'Type': 'HSS Bit', 'Application': 'Metal / Wood / Plastic' }
+  },
+  {
+    id: 'dct-008',
+    name: 'SDS Drill Bits',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'SDS drill bits for hammer drills.',
+    description: 'SDS Drill Bits designed for rotary hammer drills, ideal for heavy duty masonry drilling.',
+    features: ['SDS shank', 'For hammer drills', 'Carbide tipped', 'Heavy duty', 'Various sizes'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel with Carbide', 'Shank': 'SDS Plus', 'Type': 'SDS Bit', 'Application': 'Heavy Masonry' }
+  },
+  {
+    id: 'dct-009',
+    name: 'Glass Drill Bit (Sizes 6, 8, 10 mm)',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Spear point glass drill bits in three sizes.',
+    description: 'Glass Drill Bits with spear point tip in 6mm, 8mm, and 10mm sizes for glass and tile.',
+    features: ['Spear point tip', 'For glass & tile', 'Three sizes', 'Precision drilling', 'Carbide tip'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Carbide Tipped', 'Sizes': '6, 8, 10 mm', 'Type': 'Glass Bit', 'Application': 'Glass / Ceramic / Tile' }
+  },
+  {
+    id: 'dct-010',
+    name: 'Wood Flat Bit – All Sizes',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Flat wood bits for large diameter holes.',
+    description: 'Wood Flat Bits for drilling large diameter holes in wood, available in all sizes.',
+    features: ['Flat design', 'For wood', 'All sizes', 'Fast drilling', 'Clean holes'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Carbon Steel', 'Sizes': 'Various', 'Type': 'Flat Bit', 'Application': 'Wood' }
+  },
+  {
+    id: 'dct-011',
+    name: 'Hinge Hole Cutter – 35 mm',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: '35mm hinge hole cutter for concealed hinges.',
+    description: '35mm Hinge Hole Cutter for creating precise holes for European concealed hinges.',
+    features: ['35mm diameter', 'For concealed hinges', 'Precision cut', 'Carbide teeth', 'Clean holes'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel with Carbide', 'Size': '35 mm', 'Type': 'Forstner Bit', 'Application': 'Hinge Holes' }
+  },
+  {
+    id: 'dct-012',
+    name: 'Tile Cutting Disc – 4.5"',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: '4.5 inch diamond tile cutting disc.',
+    description: '4.5 inch Diamond Tile Cutting Disc for cutting ceramic tiles and porcelain.',
+    features: ['Diamond edge', '4.5 inch size', 'For tiles', 'Clean cuts', 'Long lasting'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Diamond', 'Size': '4.5 inch', 'Type': 'Tile Disc', 'Application': 'Ceramic / Porcelain Tiles' }
+  },
+  {
+    id: 'dct-013',
+    name: 'Metal Cutting Disc – All Sizes',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Metal cutting discs in all sizes.',
+    description: 'Metal Cutting Discs available in all sizes for cutting steel, iron, and other metals.',
+    features: ['All sizes available', 'For metal', 'Fast cutting', 'Thin profile', 'Safe use'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Aluminium Oxide', 'Sizes': 'Various', 'Type': 'Cutting Disc', 'Application': 'Metal' }
+  },
+  {
+    id: 'dct-014',
+    name: 'Concrete Cutting Disc',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Diamond disc for cutting concrete.',
+    description: 'Diamond Concrete Cutting Disc for cutting concrete, block, and masonry materials.',
+    features: ['Diamond segment', 'For concrete', 'Fast cutting', 'Dry or wet use', 'Long life'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Diamond', 'Type': 'Segmented Disc', 'Application': 'Concrete / Block / Masonry', 'Use': 'Dry / Wet' }
+  },
+  {
+    id: 'dct-015',
+    name: 'Marble Cutting Disc – All Sizes',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Diamond discs for cutting marble.',
+    description: 'Diamond Marble Cutting Discs for clean, chip-free cutting of marble and granite.',
+    features: ['Continuous rim', 'For marble/granite', 'All sizes', 'Chip-free cuts', 'Wet cutting'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Diamond', 'Sizes': 'Various', 'Type': 'Continuous Rim', 'Application': 'Marble / Granite' }
+  },
+  {
+    id: 'dct-016',
+    name: 'Wood Cutting Disc – All Sizes',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'TCT wood cutting discs in all sizes.',
+    description: 'TCT Wood Cutting Discs for cutting wood, plywood, and MDF, available in all sizes.',
+    features: ['TCT teeth', 'For wood', 'All sizes', 'Clean cuts', 'Long lasting'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'TCT', 'Sizes': 'Various', 'Type': 'Circular Saw Blade', 'Application': 'Wood / Plywood / MDF' }
+  },
+  {
+    id: 'dct-017',
+    name: 'Multi Cutting Disc – All Sizes',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Multi-purpose cutting discs.',
+    description: 'Multi-Purpose Cutting Discs for cutting various materials including metal, wood, and plastic.',
+    features: ['Multi-material', 'All sizes', 'Versatile', 'Quality material', 'Good performance'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Composite', 'Sizes': 'Various', 'Type': 'Multi Disc', 'Application': 'Metal / Wood / Plastic' }
+  },
+  {
+    id: 'dct-018',
+    name: 'Flap Grinding Disc (60 / 80 Grit)',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Flap discs for grinding in 60 and 80 grit.',
+    description: 'Flap Grinding Discs in 60 and 80 grit for surface preparation and finishing.',
+    features: ['60 & 80 grit options', 'For grinding', 'Surface finishing', 'Flexible flaps', 'Long lasting'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Aluminium Oxide', 'Grit': '60 / 80', 'Type': 'Flap Disc', 'Application': 'Grinding / Finishing' }
+  },
+  {
+    id: 'dct-019',
+    name: 'Velcro Backing Pad – All Sizes',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Velcro backing pads for sanders.',
+    description: 'Velcro Backing Pads for attaching sanding discs to random orbital sanders.',
+    features: ['Velcro attachment', 'All sizes', 'For sanders', 'Easy disc change', 'Durable'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Foam / Rubber', 'Sizes': 'Various', 'Type': 'Backing Pad', 'Application': 'Sanders' }
+  },
+  {
+    id: 'dct-020',
+    name: 'TCT Hole Saw',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'TCT hole saws for metal and stainless steel.',
+    description: 'TCT Hole Saws with carbide teeth for cutting holes in metal and stainless steel.',
+    features: ['TCT teeth', 'For metal', 'Long lasting', 'Various sizes', 'Professional grade'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'TCT Carbide', 'Sizes': 'Various', 'Type': 'Hole Saw', 'Application': 'Metal / Stainless Steel' }
+  },
+  {
+    id: 'dct-021',
+    name: 'Bi-Metal Hole Saw Cutter',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Bi-metal hole saws for wood and metal.',
+    description: 'Bi-Metal Hole Saw Cutters for cutting holes in wood, plastic, and thin metal.',
+    features: ['Bi-metal construction', 'For wood & metal', 'Various sizes', 'Teeth per inch options', 'Durable'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Bi-Metal', 'Sizes': 'Various', 'Type': 'Hole Saw', 'Application': 'Wood / Plastic / Thin Metal' }
+  },
+  {
+    id: 'dct-022',
+    name: 'Baghdadi Saw (Sizes 16", 18")',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Traditional Baghdadi saws in two sizes.',
+    description: 'Traditional Baghdadi Saws in 16" and 18" sizes for wood cutting.',
+    features: ['Traditional design', 'Two sizes', 'For wood', 'Sharp teeth', 'Comfortable handle'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Sizes': '16", 18"', 'Type': 'Hand Saw', 'Application': 'Wood' }
+  },
+  {
+    id: 'dct-023',
+    name: 'Wood Hand Saw (Sizes 16", 18")',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Wood hand saws in standard sizes.',
+    description: 'Wood Hand Saws in 16" and 18" sizes with hardpoint teeth for fast cutting.',
+    features: ['Hardpoint teeth', 'Two sizes', 'Fast cutting', 'Comfortable grip', 'Durable blade'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Sizes': '16", 18"', 'Type': 'Hand Saw', 'Teeth': 'Hardpoint' }
+  },
+  {
+    id: 'dct-024',
+    name: 'Gypsum Board Saw',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Specialized saw for cutting gypsum board.',
+    description: 'Gypsum Board Saw with pointed tip for plunge cutting into drywall and gypsum boards.',
+    features: ['Pointed tip', 'For gypsum board', 'Plunge cutting', 'Easy control', 'Comfortable handle'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Type': 'Jab Saw', 'Application': 'Gypsum / Drywall', 'Feature': 'Plunge Cut' }
+  },
+  {
+    id: 'dct-025',
+    name: 'Hacksaw Frame – 10"',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: '10 inch hacksaw frame for metal cutting.',
+    description: '10 inch Hacksaw Frame with adjustable blade tension for cutting metal pipes and rods.',
+    features: ['10 inch size', 'Adjustable tension', 'For metal', 'Comfortable grip', 'Durable frame'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Size': '10 inch', 'Type': 'Hacksaw Frame', 'Application': 'Metal Cutting' }
+  },
+  {
+    id: 'dct-026',
+    name: 'Mini Hacksaw',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Compact mini hacksaw for tight spaces.',
+    description: 'Compact Mini Hacksaw for cutting in tight spaces and detailed work.',
+    features: ['Compact size', 'For tight spaces', 'Lightweight', 'Easy to use', 'Blade included'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'Steel / Plastic', 'Type': 'Mini Hacksaw', 'Application': 'Detail Work', 'Blade': '6 inch' }
+  },
+  {
+    id: 'dct-027',
+    name: 'Double Edge Hacksaw Blade',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Double edge hacksaw blades for versatile cutting.',
+    description: 'Double Edge Hacksaw Blades with teeth on both edges for versatile metal cutting.',
+    features: ['Double edge', 'Versatile cutting', 'For metal', 'Long lasting', 'Standard size'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'HSS / Bi-Metal', 'Type': 'Double Edge Blade', 'Size': '12 inch', 'TPI': '18/24' }
+  },
+  {
+    id: 'dct-028',
+    name: 'Single Edge Hacksaw Blade',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Standard single edge hacksaw blades.',
+    description: 'Standard Single Edge Hacksaw Blades for general metal cutting applications.',
+    features: ['Single edge', 'Standard design', 'For metal', 'Various TPI', 'Quality steel'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'HSS / Bi-Metal', 'Type': 'Single Edge Blade', 'Size': '12 inch', 'TPI': '18/24/32' }
+  },
+  {
+    id: 'dct-029',
+    name: 'Mini Hacksaw Blade',
+    categoryId: 'drilling-cutting-tools',
+    category: 'Drilling & Cutting Tools',
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Small hacksaw blades for mini hacksaws.',
+    description: 'Mini Hacksaw Blades sized for compact hacksaws and detail cutting work.',
+    features: ['Mini size', 'For compact saws', 'Fine teeth', 'Detail work', 'Pack of blades'],
+    specifications: { 'Brand': 'CASSA', 'Material': 'HSS', 'Type': 'Mini Blade', 'Size': '6 inch', 'Application': 'Detail Cutting' }
+  }
+];
