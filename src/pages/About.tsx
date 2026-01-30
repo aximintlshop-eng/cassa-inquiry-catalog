@@ -1,8 +1,10 @@
 
-import { ArrowRight, Award, CheckCircle, Users } from 'lucide-react';
+import { ArrowRight, Award, CheckCircle, Users, MapPin, Globe } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import cassaLogoGlobe from '@/assets/cassa-logo-globe.png';
+import aximLogo from '@/assets/axim-logo.png';
 
 const About = () => {
   return (
@@ -13,58 +15,78 @@ const About = () => {
         {/* Page Header */}
         <div className="bg-gray-100 py-12">
           <div className="container-custom text-center">
-            <h1 className="text-4xl font-bold mb-4">About Cassa<sup>®</sup></h1>
+            <h1 className="text-4xl font-bold mb-4">About Us</h1>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Learn about our journey, values, and commitment to providing high-quality hardware tools and solutions.
+              Your one-stop trusted partner
             </p>
           </div>
         </div>
         
-        {/* Company Overview */}
+        {/* AXIM International Overview */}
         <section className="section-padding bg-white">
           <div className="container-custom">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div>
-                <h2 className="text-3xl font-bold mb-6">Our Story</h2>
-                <p className="text-gray-600 mb-4">
-                  Founded in 1997, Cassa® began as a small family-owned business with a passion for quality tools and hardware solutions. Today, as a brand under Axim International, we've grown into a trusted name in the industry, serving professionals and DIY enthusiasts worldwide.
-                </p>
-                <p className="text-gray-600 mb-4">
-                  Our journey has been defined by our unwavering commitment to quality, innovation, and customer satisfaction. Every Cassa® product is designed with precision, manufactured with care, and tested rigorously to ensure it meets our exacting standards.
-                </p>
-                <p className="text-gray-600 mb-4">
-                  We believe that great tools make great work possible. That's why we continuously refine our designs, improve our manufacturing processes, and search for new ways to make our products more efficient, durable, and user-friendly.
-                </p>
+              <div className="flex justify-center">
+                <img 
+                  src={aximLogo} 
+                  alt="AXIM International Logo" 
+                  className="max-w-xs"
+                />
               </div>
-              
-              <div className="grid grid-cols-2 gap-4">
+              <div>
+                <h2 className="text-3xl font-bold mb-6">AXIM International Trading LLC</h2>
+                <p className="text-gray-600 mb-4">
+                  AXIM International Trading LLC is based in Dubai, UAE, and is a flexible company that sells a wide variety of products. We specialize in furniture fittings, tools, and building materials for construction projects. We also deal in textiles, offering many types of fabrics and ready-made clothing.
+                </p>
+                <p className="text-gray-600 mb-4">
+                  We trade blankets, towels, linens, watches, clocks, and spare parts as well. Our product range includes imitation jewelry, gifts, toys, games, perfumes, and cosmetics.
+                </p>
+                <p className="text-gray-600 mb-4">
+                  With offices in <strong>Dubai, Mumbai and London</strong>, AXIM has a strong international presence in the wholesale and distribution market.
+                </p>
+                <div className="flex items-center gap-2 text-cassa-blue font-medium">
+                  <Globe size={20} />
+                  <span>Global Reach, Local Expertise</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Cassa Brand Section */}
+        <section className="section-padding bg-gray-50">
+          <div className="container-custom">
+            <div className="text-center mb-8">
+              <h2 className="text-3xl font-bold mb-2">Our Brand</h2>
+              <p className="text-cassa-blue font-semibold text-lg">Original Trademark Product By AXIM International</p>
+            </div>
+            
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div className="flex justify-center">
                 <img 
-                  src="https://images.unsplash.com/photo-1581094794329-c8112a89af44?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                  alt="Cassa Manufacturing" 
-                  className="rounded-lg shadow-md h-48 object-cover"
+                  src={cassaLogoGlobe} 
+                  alt="Cassa Logo" 
+                  className="max-w-sm"
                 />
-                <img 
-                  src="https://images.unsplash.com/photo-1565665681743-6ed8dae1e7b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                  alt="Cassa Tools" 
-                  className="rounded-lg shadow-md h-48 object-cover"
-                />
-                <img 
-                  src="https://images.unsplash.com/photo-1567361808960-c7b6dd1072c6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                  alt="Cassa Workshop" 
-                  className="rounded-lg shadow-md h-48 object-cover"
-                />
-                <img 
-                  src="https://images.unsplash.com/photo-1560716092-847eeca867c1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                  alt="Cassa Team" 
-                  className="rounded-lg shadow-md h-48 object-cover"
-                />
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-cassa-blue">Cassa<sup>®</sup></h3>
+                <p className="text-gray-600 mb-4">
+                  Cassa is a distinguished trademark brand of Axim International Traders, specializing in the hardware and fittings industry. Renowned for its high-quality products, Cassa offers a diverse range of essential hardware solutions, including door handles, locks and accessories, door stoppers, screws, bolts, anchors, and more.
+                </p>
+                <p className="text-gray-600 mb-4">
+                  With a commitment to durability, functionality, and innovative design, Cassa caters to both residential and commercial needs, ensuring reliable performance across its extensive product line.
+                </p>
+                <p className="text-gray-600">
+                  As a trusted name in the market, Cassa continues to set benchmarks in the hardware and fittings sector, delivering excellence to customers worldwide.
+                </p>
               </div>
             </div>
           </div>
         </section>
         
         {/* Our Values */}
-        <section className="section-padding bg-gray-50">
+        <section className="section-padding bg-white">
           <div className="container-custom">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">Our Values</h2>
@@ -74,7 +96,7 @@ const About = () => {
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-white p-6 rounded-lg shadow-md text-center">
+              <div className="bg-gray-50 p-6 rounded-lg shadow-md text-center">
                 <div className="w-16 h-16 bg-cassa-yellow rounded-full flex items-center justify-center mx-auto mb-4">
                   <Award className="text-black" size={32} />
                 </div>
@@ -84,7 +106,7 @@ const About = () => {
                 </p>
               </div>
               
-              <div className="bg-white p-6 rounded-lg shadow-md text-center">
+              <div className="bg-gray-50 p-6 rounded-lg shadow-md text-center">
                 <div className="w-16 h-16 bg-cassa-yellow rounded-full flex items-center justify-center mx-auto mb-4">
                   <CheckCircle className="text-black" size={32} />
                 </div>
@@ -94,7 +116,7 @@ const About = () => {
                 </p>
               </div>
               
-              <div className="bg-white p-6 rounded-lg shadow-md text-center">
+              <div className="bg-gray-50 p-6 rounded-lg shadow-md text-center">
                 <div className="w-16 h-16 bg-cassa-yellow rounded-full flex items-center justify-center mx-auto mb-4">
                   <Users className="text-black" size={32} />
                 </div>
@@ -106,68 +128,29 @@ const About = () => {
             </div>
           </div>
         </section>
-        
-        {/* Our Team */}
-        <section className="section-padding bg-white">
+
+        {/* Location Map */}
+        <section className="section-padding bg-gray-50">
           <div className="container-custom">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">Our Leadership Team</h2>
-              <p className="text-gray-600 max-w-2xl mx-auto">
-                Meet the experienced professionals who guide Cassa® with vision and expertise.
-              </p>
+            <div className="text-center mb-8">
+              <h2 className="text-3xl font-bold mb-4">Our Location</h2>
+              <div className="flex items-center justify-center gap-2 text-gray-600">
+                <MapPin className="text-cassa-blue" size={20} />
+                <p>Naif Bazaar Building, Shop No. 40, Dubai, U.A.E</p>
+              </div>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="h-64 overflow-hidden">
-                  <img 
-                    src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                    alt="John Doe" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold mb-1">John Doe</h3>
-                  <p className="text-cassa-blue font-medium mb-3">Chief Executive Officer</p>
-                  <p className="text-gray-600 mb-4">
-                    With over 25 years of experience in the hardware industry, John has been instrumental in shaping Cassa's vision and growth strategy.
-                  </p>
-                </div>
-              </div>
-              
-              <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="h-64 overflow-hidden">
-                  <img 
-                    src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                    alt="Jane Smith" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold mb-1">Jane Smith</h3>
-                  <p className="text-cassa-blue font-medium mb-3">Chief Operations Officer</p>
-                  <p className="text-gray-600 mb-4">
-                    Jane oversees all operational aspects of Cassa, ensuring efficient manufacturing processes and maintaining our high-quality standards.
-                  </p>
-                </div>
-              </div>
-              
-              <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="h-64 overflow-hidden">
-                  <img 
-                    src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                    alt="Michael Johnson" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold mb-1">Michael Johnson</h3>
-                  <p className="text-cassa-blue font-medium mb-3">Head of Product Development</p>
-                  <p className="text-gray-600 mb-4">
-                    Michael leads our research and development team, driving innovation and ensuring our products meet the evolving needs of our customers.
-                  </p>
-                </div>
-              </div>
+            <div className="rounded-lg overflow-hidden shadow-lg">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.0075!2d55.3089!3d25.2697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sNaif%20Bazaar%2C%20Deira%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2s!4v1704800000000!5m2!1sen!2s"
+                width="100%"
+                height="400"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="AXIM International Location"
+              ></iframe>
             </div>
           </div>
         </section>
