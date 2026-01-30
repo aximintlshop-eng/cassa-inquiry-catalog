@@ -15,12 +15,23 @@ const Navbar = () => {
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
       {/* Top info bar */}
-      <div className="bg-cassa-blue text-white py-1.5 hidden md:block">
-        <div className="container-custom flex justify-end items-center space-x-6">
-          <a href="tel:+971589275323" className="flex items-center space-x-2 hover:text-cassa-yellow transition-colors">
-            <Phone size={14} />
-            <span className="text-sm">+971 58 927 5323</span>
-          </a>
+      <div className="bg-cassa-blue text-white py-1.5 hidden md:block overflow-hidden">
+        <div className="container-custom flex justify-between items-center">
+          {/* Animated phone numbers */}
+          <div className="flex items-center space-x-6 animate-marquee">
+            <a href="tel:+971589275323" className="flex items-center space-x-2 animate-rgb-text">
+              <Phone size={14} />
+              <span className="text-sm font-medium">+971 58 927 5323</span>
+            </a>
+            <a href="tel:+971589209109" className="flex items-center space-x-2 animate-rgb-text animation-delay-200">
+              <Phone size={14} />
+              <span className="text-sm font-medium">+971 58 920 9109</span>
+            </a>
+            <a href="tel:+97142225410" className="flex items-center space-x-2 animate-rgb-text animation-delay-400">
+              <Phone size={14} />
+              <span className="text-sm font-medium">+971 4 222 5410</span>
+            </a>
+          </div>
           <a href="mailto:aximinternationaltr@gmail.com" className="flex items-center space-x-2 hover:text-cassa-yellow transition-colors">
             <Mail size={14} />
             <span className="text-sm">aximinternationaltr@gmail.com</span>

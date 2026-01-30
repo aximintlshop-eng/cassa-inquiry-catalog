@@ -57,7 +57,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <MapPin className="text-cassa-blue mt-1 flex-shrink-0" size={18} />
-                <span className="text-gray-600">Naif Bazaar Building, Shop No. 40, Naif Bazar Centre, Naif Road, Deira, Dubai, U.A.E</span>
+                <span className="text-gray-600">Naif Bazar Centre - Showroom No. 40 - Naif Rd - Naif - Deira - Dubai</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="text-cassa-blue flex-shrink-0" size={18} />

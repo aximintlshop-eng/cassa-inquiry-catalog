@@ -136,20 +136,20 @@ const About = () => {
               <h2 className="text-3xl font-bold mb-4">Our Location</h2>
               <div className="flex items-center justify-center gap-2 text-gray-600">
                 <MapPin className="text-cassa-blue" size={20} />
-                <p>Naif Bazaar Building, Shop No. 40, Dubai, U.A.E</p>
+                <p>Naif Bazar Centre - Showroom No. 40 - Naif Rd - Naif - Deira - Dubai</p>
               </div>
             </div>
             
             <div className="rounded-lg overflow-hidden shadow-lg">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.0075!2d55.3089!3d25.2697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sNaif%20Bazaar%2C%20Deira%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2s!4v1704800000000!5m2!1sen!2s"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.5675825654884!2d55.31674731501047!3d25.27294198385714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sNaif%20Bazar%20Centre!5e0!3m2!1sen!2sae!4v1704800000000!5m2!1sen!2sae"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="AXIM International Location"
+                title="AXIM International Location - Naif Bazar Centre"
               ></iframe>
             </div>
           </div>

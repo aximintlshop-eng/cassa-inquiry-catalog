@@ -195,13 +195,13 @@ const Index = () => {
             <div className="mt-12">
               <div className="bg-white p-4 rounded-lg shadow-md">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.5675825654884!2d55.31674731501047!3d25.27294198385714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sNaif%20Bazaar!5e0!3m2!1sen!2sae!4v1619756483885!5m2!1sen!2sae" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.5675825654884!2d55.31674731501047!3d25.27294198385714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sNaif%20Bazar%20Centre!5e0!3m2!1sen!2sae!4v1704800000000!5m2!1sen!2sae" 
                   width="100%" 
                   height="400" 
                   style={{ border: 0 }} 
                   allowFullScreen 
                   loading="lazy"
-                  title="Axim International Location - Naif Bazaar, Dubai"
+                  title="Axim International Location - Naif Bazar Centre, Dubai"
                 ></iframe>
               </div>
             </div>
