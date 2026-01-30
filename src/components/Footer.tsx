@@ -85,15 +85,15 @@ const Footer = () => {
               <li className="flex items-start space-x-3">
                 <Clock className="text-cassa-blue mt-1 flex-shrink-0" size={18} />
                 <div>
-                  <p className="text-gray-600">Monday - Friday:</p>
-                  <p className="text-gray-600">9:00 AM - 6:00 PM</p>
+                  <p className="text-gray-600">Monday - Thursday:</p>
+                  <p className="text-gray-600">8:00 AM - 8:30 PM</p>
                 </div>
               </li>
               <li className="flex items-start space-x-3">
                 <Clock className="text-cassa-blue mt-1 flex-shrink-0" size={18} />
                 <div>
-                  <p className="text-gray-600">Saturday:</p>
-                  <p className="text-gray-600">10:00 AM - 4:00 PM</p>
+                  <p className="text-gray-600">Friday - Saturday:</p>
+                  <p className="text-gray-600">8:00 AM - 8:30 PM</p>
                 </div>
               </li>
               <li className="flex items-start space-x-3">

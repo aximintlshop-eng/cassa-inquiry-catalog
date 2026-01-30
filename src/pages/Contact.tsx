@@ -68,10 +68,10 @@ const Contact = () => {
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Call Us</h3>
                 <p className="text-gray-600 mb-4">
-                  Our customer service team is available Monday to Friday, 9am to 6pm.
+                  Our customer service team is available Monday to Thursday & Saturday, 8am to 8:30pm.
                 </p>
-                <a href="tel:+1234567890" className="text-cassa-blue font-medium hover:text-cassa-yellow transition-colors">
-                  +123 456 7890
+                <a href="tel:+97142225410" className="text-cassa-blue font-medium hover:text-cassa-yellow transition-colors">
+                  +971 4 222 5410
                 </a>
               </div>
               
@@ -96,14 +96,24 @@ const Contact = () => {
                 <p className="text-gray-600 mb-4">
                   Message us on WhatsApp for immediate assistance with your inquiries.
                 </p>
-                <a 
-                  href="https://wa.me/1234567890" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-green-600 font-medium hover:text-green-700 transition-colors"
-                >
-                  Send Message
-                </a>
+                <div className="flex flex-col space-y-2">
+                  <a 
+                    href="https://wa.me/971589275323" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-green-600 font-medium hover:text-green-700 transition-colors"
+                  >
+                    +971 58 927 5323
+                  </a>
+                  <a 
+                    href="https://wa.me/971589209109" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-green-600 font-medium hover:text-green-700 transition-colors"
+                  >
+                    +971 58 920 9109
+                  </a>
+                </div>
               </div>
             </div>
             
@@ -214,11 +224,11 @@ const Contact = () => {
                   <div className="flex items-start mb-4">
                     <MapPin className="text-cassa-blue mt-1 mr-3 flex-shrink-0" size={24} />
                     <div>
-                      <h3 className="font-semibold text-lg">Cassa® Headquarters</h3>
+                      <h3 className="font-semibold text-lg">Axim International Trading LLC</h3>
                       <p className="text-gray-600">
-                        123 Hardware Avenue<br />
-                        Tool City, TC 12345<br />
-                        United States
+                        Naif Bazar Centre - Showroom No. 40<br />
+                        Naif Rd - Naif - Deira<br />
+                        Dubai, UAE
                       </p>
                     </div>
                   </div>
@@ -227,12 +237,16 @@ const Contact = () => {
                     <h3 className="font-semibold text-lg mb-2">Business Hours</h3>
                     <div className="grid grid-cols-2 gap-2">
                       <div>
-                        <p className="font-medium">Monday - Friday</p>
-                        <p className="text-gray-600">9:00 AM - 6:00 PM</p>
+                        <p className="font-medium">Monday - Thursday</p>
+                        <p className="text-gray-600">8:00 AM - 8:30 PM</p>
+                      </div>
+                      <div>
+                        <p className="font-medium">Friday</p>
+                        <p className="text-gray-600">8:00 AM - 8:30 PM</p>
                       </div>
                       <div>
                         <p className="font-medium">Saturday</p>
-                        <p className="text-gray-600">10:00 AM - 4:00 PM</p>
+                        <p className="text-gray-600">8:00 AM - 8:30 PM</p>
                       </div>
                       <div>
                         <p className="font-medium">Sunday</p>
@@ -244,13 +258,13 @@ const Contact = () => {
                 
                 <div className="bg-white p-4 rounded-lg shadow-md">
                   <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.3059445135!2d-74.25986173255611!3d40.69714941680757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sca!4v1619756483885!5m2!1sen!2sca" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.5176073152046!2d55.3089!3d25.2697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5ccf5d726a9d%3A0x8e3b3b3b3b3b3b3b!2sNaif%20Bazar%20Centre!5e0!3m2!1sen!2sae!4v1619756483885!5m2!1sen!2sae" 
                     width="100%" 
                     height="300" 
                     style={{ border: 0 }} 
                     allowFullScreen 
                     loading="lazy"
-                    title="Cassa Location Map"
+                    title="Axim International Location Map"
                   ></iframe>
                 </div>
               </div>
