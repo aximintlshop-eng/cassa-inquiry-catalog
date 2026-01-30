@@ -90,4 +90,37 @@
   .card-hover {
     @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
   }
+
+  /* RGB color animation for text */
+  @keyframes rgb-text {
+    0% { color: rgb(255, 0, 0); }
+    16% { color: rgb(255, 255, 0); }
+    33% { color: rgb(0, 255, 0); }
+    50% { color: rgb(0, 255, 255); }
+    66% { color: rgb(0, 0, 255); }
+    83% { color: rgb(255, 0, 255); }
+    100% { color: rgb(255, 0, 0); }
+  }
+
+  .animate-rgb-text {
+    animation: rgb-text 3s linear infinite;
+  }
+
+  .animation-delay-200 {
+    animation-delay: 0.5s;
+  }
+
+  .animation-delay-400 {
+    animation-delay: 1s;
+  }
+
+  /* Marquee animation */
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-10px); }
+  }
+
+  .animate-marquee {
+    animation: marquee 2s ease-in-out infinite alternate;
+  }
 }
