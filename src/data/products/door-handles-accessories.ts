@@ -1,729 +1,835 @@
 import { Product } from '../products';
 
+// Import product images
+import doorHandleAxm01 from '@/assets/products/door-handle-axm-01.png';
+import doorHandleAxm25 from '@/assets/products/door-handle-axm-25.png';
+import doorHandleAxm18 from '@/assets/products/door-handle-axm-18.png';
+import doorHandleAxm24 from '@/assets/products/door-handle-axm-24.png';
+import doorHandleAxm02 from '@/assets/products/door-handle-axm-02.png';
+import doorHandleAxm17 from '@/assets/products/door-handle-axm-17.png';
+import doorHandleAxm23Gp from '@/assets/products/door-handle-axm-23-gp.png';
+import doorHandleAxm19Cp from '@/assets/products/door-handle-axm-19-cp.png';
+import doorHandleAxm20Cp from '@/assets/products/door-handle-axm-20-cp.png';
+import doorHandleAxm22Cp from '@/assets/products/door-handle-axm-22-cp.png';
+
+// Placeholder for products without images yet
+const placeholderImage = 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80';
+
 export const doorHandlesAccessoriesProducts: Product[] = [
-  // Door Handles AXM Series
+  // 1. Door Handle AXM-01
   {
     id: 'dha-001',
     name: 'Door Handle AXM-01',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Premium AXM-01 door handle with modern design and durable construction.',
-    description: 'The AXIM AXM-01 Door Handle features a sleek, modern design crafted from high-quality materials. Perfect for residential and commercial applications, this handle offers smooth operation and long-lasting durability.',
-    features: ['Modern design', 'Durable construction', 'Smooth operation', 'Easy installation', 'Suitable for interior doors'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-01', 'Material': 'Zinc Alloy', 'Finish': 'Satin Nickel', 'Type': 'Lever Handle' }
+    image: doorHandleAxm01,
+    gallery: [doorHandleAxm01],
+    shortDescription: 'Premium quality door handle designed for modern residential and commercial interiors, offering durability, smooth operation, and an elegant finish.',
+    description: 'The Door Handle AXM-01 is crafted to meet both functional and aesthetic requirements of modern door hardware. Designed with precision, it offers a comfortable grip and smooth operation, making it ideal for daily use in homes, offices, hotels, and commercial spaces. Its durable metal body ensures reliability and resistance against wear and tear, while the premium surface finish enhances the overall appearance of the door. The AXM-01 model blends seamlessly with contemporary and classic interiors alike.',
+    features: [
+      'Strong metal construction for long-lasting performance',
+      'Smooth grip with ergonomic design',
+      'Corrosion-resistant surface finish',
+      'Suitable for wooden and metal doors',
+      'Manufactured using high-grade metal for superior strength',
+      'Engineered for smooth rotation and easy handling',
+      'Resistant to rust, corrosion, and surface fading',
+      'Easy installation with standard lock and latch systems',
+      'Compatible with standard mortise and cylindrical locks',
+      'Ideal for interior and exterior doors',
+      'Low maintenance and easy to clean'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle',
+      'Model': 'AXM-01',
+      'Material': 'Metal',
+      'Finish Options': 'As per availability',
+      'Application': 'Wooden / Metal Doors',
+      'Installation Type': 'Screw Fixing',
+      'Usage Area': 'Residential & Commercial'
+    }
   },
+  // 2. Door Handle AXM-25
   {
     id: 'dha-002',
     name: 'Door Handle AXM-25',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'AXM-25 door handle with contemporary styling and premium finish.',
-    description: 'The AXIM AXM-25 Door Handle combines contemporary styling with premium quality materials for a sophisticated look that complements any door.',
-    features: ['Contemporary design', 'Premium finish', 'Ergonomic grip', 'Corrosion resistant', 'Universal fit'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-25', 'Material': 'Zinc Alloy', 'Finish': 'Chrome Plated', 'Type': 'Lever Handle' }
+    image: doorHandleAxm25,
+    gallery: [doorHandleAxm25],
+    shortDescription: 'Modern metal door handle designed for durability, smooth operation, and a refined architectural look.',
+    description: 'Door Handle AXM-25 is engineered for long-term performance and visual appeal. Its sturdy build and smooth mechanism make it ideal for frequent use in homes, offices, and commercial buildings. The sleek design complements both modern and classic interiors.',
+    features: [
+      'Strong metal construction',
+      'Smooth grip and comfortable handling',
+      'Corrosion-resistant finish',
+      'Suitable for residential and commercial doors',
+      'High-quality metal body for enhanced strength',
+      'Smooth rotation for effortless door operation',
+      'Resistant to rust, moisture, and daily wear',
+      'Easy installation on standard door fittings'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle',
+      'Model': 'AXM-25',
+      'Material': 'Metal',
+      'Finish': 'As per availability',
+      'Door Type': 'Wooden / Metal',
+      'Installation': 'Screw fixing',
+      'Usage': 'Residential & Commercial'
+    }
   },
+  // 3. Door Handle AXM-18
   {
     id: 'dha-003',
     name: 'Door Handle AXM-18',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'AXM-18 door handle with elegant design for modern interiors.',
-    description: 'The AXIM AXM-18 Door Handle offers elegant styling perfect for modern interior spaces with its refined contours and quality construction.',
-    features: ['Elegant styling', 'Modern design', 'Quality construction', 'Smooth mechanism', 'Easy to clean'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-18', 'Material': 'Zinc Alloy', 'Finish': 'Satin Nickel', 'Type': 'Lever Handle' }
+    image: doorHandleAxm18,
+    gallery: [doorHandleAxm18],
+    shortDescription: 'Elegant and durable door handle offering reliable performance and a premium finish.',
+    description: 'The AXM-18 door handle is designed to provide smooth handling and dependable functionality. Its refined design enhances the appearance of doors while ensuring ease of use for daily operations in both residential and commercial environments.',
+    features: [
+      'Ergonomic handle design',
+      'Durable metal construction',
+      'Smooth surface finish',
+      'Long service life',
+      'Manufactured using high-grade metal',
+      'Designed for smooth grip and balance',
+      'Corrosion-resistant coating',
+      'Compatible with standard lock systems'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle',
+      'Model': 'AXM-18',
+      'Material': 'Metal',
+      'Finish': 'Standard / Decorative',
+      'Application': 'Wooden & Metal Doors',
+      'Installation Type': 'Screw mounted'
+    }
   },
+  // 4. Door Handle AXM-24
   {
     id: 'dha-004',
     name: 'Door Handle AXM-24',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'AXM-24 door handle featuring classic design with modern functionality.',
-    description: 'The AXIM AXM-24 Door Handle blends classic aesthetics with modern functionality, making it ideal for both traditional and contemporary settings.',
-    features: ['Classic design', 'Modern functionality', 'Durable finish', 'Comfortable grip', 'Versatile application'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-24', 'Material': 'Zinc Alloy', 'Finish': 'Antique Brass', 'Type': 'Lever Handle' }
+    image: doorHandleAxm24,
+    gallery: [doorHandleAxm24],
+    shortDescription: 'Premium door handle built for durability, comfort, and modern interior styling.',
+    description: 'Door Handle AXM-24 delivers both strength and elegance. Designed for frequent use, it ensures smooth door operation while maintaining its finish and performance over time.',
+    features: [
+      'Solid metal body',
+      'Comfortable grip',
+      'Smooth and quiet operation',
+      'Stylish appearance',
+      'Heavy-duty metal construction',
+      'Designed for long-term usage',
+      'Resistant to corrosion and scratches',
+      'Simple installation process'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle',
+      'Model': 'AXM-24',
+      'Material': 'Metal',
+      'Finish': 'As per stock',
+      'Suitable Doors': 'Wooden / Metal'
+    }
   },
+  // 5. Door Handle AXM-02
   {
     id: 'dha-005',
     name: 'Door Handle AXM-02',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'AXM-02 door handle with sleek profile and premium construction.',
-    description: 'The AXIM AXM-02 Door Handle features a sleek profile designed for modern spaces with premium construction ensuring years of reliable use.',
-    features: ['Sleek profile', 'Premium construction', 'Modern aesthetics', 'Reliable operation', 'Standard fitting'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-02', 'Material': 'Zinc Alloy', 'Finish': 'Satin Nickel', 'Type': 'Lever Handle' }
+    image: doorHandleAxm02,
+    gallery: [doorHandleAxm02],
+    shortDescription: 'Classic design door handle suitable for various interior and exterior door applications.',
+    description: 'AXM-02 door handle combines practicality with durability. It is designed to withstand regular use while maintaining a neat and professional look suitable for homes and offices.',
+    features: [
+      'Strong and reliable construction',
+      'Comfortable grip design',
+      'Smooth movement',
+      'Low maintenance',
+      'High-strength metal body',
+      'Smooth operation with minimal friction',
+      'Long-lasting surface finish',
+      'Easy to clean and maintain'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle',
+      'Model': 'AXM-02',
+      'Material': 'Metal',
+      'Finish': 'Multiple options',
+      'Installation': 'Standard fitting'
+    }
   },
+  // 6. Door Handle AXM-17
   {
     id: 'dha-006',
     name: 'Door Handle AXM-17',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'AXM-17 door handle with minimalist design and solid build.',
-    description: 'The AXIM AXM-17 Door Handle offers minimalist design combined with solid build quality for a clean, sophisticated appearance.',
-    features: ['Minimalist design', 'Solid construction', 'Clean lines', 'Quality finish', 'Easy maintenance'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-17', 'Material': 'Zinc Alloy', 'Finish': 'Chrome Plated', 'Type': 'Lever Handle' }
+    image: doorHandleAxm17,
+    gallery: [doorHandleAxm17],
+    shortDescription: 'Durable door handle designed for smooth handling and long-lasting performance.',
+    description: 'The AXM-17 door handle is crafted for daily use in residential and commercial spaces. Its solid structure and smooth operation ensure reliable performance over time.',
+    features: [
+      'Heavy-duty metal construction',
+      'Ergonomic shape',
+      'Corrosion-resistant finish',
+      'Easy installation',
+      'Made from premium-quality metal',
+      'Designed for easy grip and comfort',
+      'Resistant to rust and surface damage',
+      'Suitable for frequent use'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle',
+      'Model': 'AXM-17',
+      'Material': 'Metal',
+      'Finish': 'As available',
+      'Door Compatibility': 'Wooden / Metal'
+    }
   },
+  // 7. Door Handle AXM-23 GP
   {
     id: 'dha-007',
     name: 'Door Handle AXM-23 GP',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'AXM-23 GP door handle with gold plated finish for luxury interiors.',
-    description: 'The AXIM AXM-23 GP Door Handle features an elegant gold plated finish that adds a touch of luxury to any interior space.',
-    features: ['Gold plated finish', 'Luxury appearance', 'Premium quality', 'Durable coating', 'Elegant design'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-23 GP', 'Material': 'Zinc Alloy', 'Finish': 'Gold Plated', 'Type': 'Lever Handle' }
+    image: doorHandleAxm23Gp,
+    gallery: [doorHandleAxm23Gp],
+    shortDescription: 'Gold-plated door handle offering a luxurious appearance with dependable strength.',
+    description: 'AXM-23 GP door handle adds a touch of luxury to any door. The gold-plated finish enhances aesthetics while the solid construction ensures durability and smooth performance.',
+    features: [
+      'Premium gold-plated finish',
+      'Strong metal body',
+      'Elegant design',
+      'Smooth handling',
+      'High-quality gold-plated surface',
+      'Durable internal structure',
+      'Fade and corrosion resistance',
+      'Ideal for premium interiors'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle',
+      'Model': 'AXM-23 GP',
+      'Material': 'Metal',
+      'Finish': 'Gold Plated',
+      'Application': 'Residential / Commercial'
+    }
   },
+  // 8. Door Handle AXM-19 CP
   {
     id: 'dha-008',
     name: 'Door Handle AXM-19 CP',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'AXM-19 CP door handle with chrome plated finish for modern look.',
-    description: 'The AXIM AXM-19 CP Door Handle comes with a polished chrome plated finish for a bright, modern appearance.',
-    features: ['Chrome plated finish', 'Modern look', 'Bright appearance', 'Corrosion resistant', 'Easy to clean'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-19 CP', 'Material': 'Zinc Alloy', 'Finish': 'Chrome Plated', 'Type': 'Lever Handle' }
+    image: doorHandleAxm19Cp,
+    gallery: [doorHandleAxm19Cp],
+    shortDescription: 'Chrome-plated door handle designed for modern interiors and reliable daily use.',
+    description: 'The AXM-19 CP door handle features a sleek chrome finish that enhances modern interiors. Built for durability, it offers smooth operation and a refined look.',
+    features: [
+      'Chrome-plated finish',
+      'Smooth and shiny surface',
+      'Durable construction',
+      'Easy grip',
+      'High-quality chrome plating',
+      'Resistant to corrosion and fading',
+      'Smooth rotation mechanism',
+      'Long service life'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle',
+      'Model': 'AXM-19 CP',
+      'Material': 'Metal',
+      'Finish': 'Chrome Plated',
+      'Door Type': 'Wooden / Metal'
+    }
   },
+  // 9. Door Handle AXM-20 CP
   {
     id: 'dha-009',
     name: 'Door Handle AXM-20 CP',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'AXM-20 CP door handle with polished chrome finish and ergonomic design.',
-    description: 'The AXIM AXM-20 CP Door Handle features a polished chrome finish combined with an ergonomic design for comfortable use.',
-    features: ['Polished chrome', 'Ergonomic design', 'Comfortable grip', 'Durable finish', 'Modern style'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-20 CP', 'Material': 'Zinc Alloy', 'Finish': 'Chrome Plated', 'Type': 'Lever Handle' }
+    image: doorHandleAxm20Cp,
+    gallery: [doorHandleAxm20Cp],
+    shortDescription: 'Stylish chrome-plated door handle with durable construction and smooth performance.',
+    description: 'AXM-20 CP door handle is designed to deliver both style and reliability. Its chrome-plated surface provides a clean and contemporary look suitable for modern spaces.',
+    features: [
+      'Premium chrome finish',
+      'Solid metal build',
+      'Comfortable handling',
+      'Modern appearance',
+      'Strong metal core',
+      'Smooth and noise-free operation',
+      'Corrosion-resistant coating',
+      'Easy installation'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle',
+      'Model': 'AXM-20 CP',
+      'Material': 'Metal',
+      'Finish': 'Chrome Plated'
+    }
   },
+  // 10. Door Handle AXM-22 CP
   {
     id: 'dha-010',
     name: 'Door Handle AXM-22 CP',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'AXM-22 CP door handle with chrome plated finish and sleek design.',
-    description: 'The AXIM AXM-22 CP Door Handle offers a sleek design with durable chrome plated finish for lasting beauty.',
-    features: ['Chrome plated', 'Sleek design', 'Lasting finish', 'Quality materials', 'Easy installation'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-22 CP', 'Material': 'Zinc Alloy', 'Finish': 'Chrome Plated', 'Type': 'Lever Handle' }
+    image: doorHandleAxm22Cp,
+    gallery: [doorHandleAxm22Cp],
+    shortDescription: 'Durable chrome-plated door handle ideal for residential and commercial use.',
+    description: 'Door Handle AXM-22 CP is built for reliability and aesthetic appeal. Its smooth chrome finish adds elegance while ensuring consistent performance.',
+    features: [
+      'Smooth chrome finish',
+      'Robust construction',
+      'Comfortable grip',
+      'Long-lasting performance',
+      'High-grade metal body',
+      'Scratch and corrosion resistance',
+      'Designed for frequent usage',
+      'Simple fitting'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle',
+      'Model': 'AXM-22 CP',
+      'Material': 'Metal',
+      'Finish': 'Chrome Plated'
+    }
   },
+  // 11. Door Handle AXM-23 CP
   {
     id: 'dha-011',
     name: 'Door Handle AXM-23 CP',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'AXM-23 CP door handle with premium chrome plated finish.',
-    description: 'The AXIM AXM-23 CP Door Handle features a premium chrome plated finish with contemporary styling.',
-    features: ['Premium chrome finish', 'Contemporary styling', 'High quality', 'Smooth operation', 'Versatile use'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-23 CP', 'Material': 'Zinc Alloy', 'Finish': 'Chrome Plated', 'Type': 'Lever Handle' }
+    image: placeholderImage,
+    shortDescription: 'Premium chrome-plated door handle offering durability, comfort, and modern style.',
+    description: 'AXM-23 CP door handle delivers dependable performance with a polished appearance. It is suitable for both residential and commercial installations.',
+    features: [
+      'Polished chrome surface',
+      'Strong metal construction',
+      'Smooth operation',
+      'Elegant design',
+      'Durable chrome plating',
+      'Resistant to wear and corrosion',
+      'Ergonomic grip design',
+      'Long operational life'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle',
+      'Model': 'AXM-23 CP',
+      'Material': 'Metal',
+      'Finish': 'Chrome Plated'
+    }
   },
+  // 12. Door Handle AXM-HD 02 GP
   {
     id: 'dha-012',
     name: 'Door Handle AXM-HD 02 GP',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Heavy duty AXM-HD 02 GP door handle with gold plated finish.',
-    description: 'The AXIM AXM-HD 02 GP Heavy Duty Door Handle combines strength with elegance through its gold plated finish.',
-    features: ['Heavy duty construction', 'Gold plated finish', 'Extra strong', 'Premium quality', 'Commercial grade'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-HD 02 GP', 'Material': 'Solid Zinc', 'Finish': 'Gold Plated', 'Type': 'Heavy Duty Lever' }
+    image: placeholderImage,
+    shortDescription: 'Heavy-duty gold-plated door handle designed for premium and high-traffic applications.',
+    description: 'Door Handle AXM-HD 02 GP is engineered for strength and elegance. Its heavy-duty build makes it suitable for high-usage areas, while the gold-plated finish adds a luxurious touch.',
+    features: [
+      'Heavy-duty metal construction',
+      'Gold plated luxury finish',
+      'Strong grip and smooth handling',
+      'Long-lasting durability',
+      'Thick metal body for enhanced durability',
+      'Premium gold plating',
+      'Smooth mechanical performance',
+      'Suitable for commercial and luxury interiors'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle',
+      'Model': 'AXM-HD 02 GP',
+      'Material': 'Heavy-Duty Metal',
+      'Finish': 'Gold Plated (GP)',
+      'Usage Area': 'Residential / Commercial',
+      'Door Type': 'Wooden / Metal'
+    }
   },
+  // 13. Door Handle Slim
   {
     id: 'dha-013',
     name: 'Door Handle Slim',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Slim profile door handle for modern minimalist interiors.',
-    description: 'The Slim Door Handle features an ultra-thin profile perfect for modern minimalist interior designs.',
-    features: ['Ultra slim profile', 'Minimalist design', 'Modern aesthetics', 'Space saving', 'Contemporary style'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'Slim', 'Material': 'Zinc Alloy', 'Finish': 'Satin Nickel', 'Type': 'Slim Lever Handle' }
+    image: placeholderImage,
+    shortDescription: 'Slim-profile door handle designed for modern interiors with minimalistic styling.',
+    description: 'The Door Handle Slim model is ideal for contemporary spaces where clean lines and minimal design are preferred. Despite its slim profile, it offers excellent strength and smooth operation.',
+    features: [
+      'Sleek and slim design',
+      'Strong metal construction',
+      'Smooth grip',
+      'Modern appearance',
+      'Minimalist slim structure',
+      'Durable metal build',
+      'Comfortable handling',
+      'Easy installation and maintenance'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle',
+      'Model': 'Slim',
+      'Material': 'Metal',
+      'Finish': 'As available',
+      'Application': 'Interior Doors',
+      'Installation': 'Standard Fixing'
+    }
   },
+  // 14. Door Handle AXM-HD 03 GP
   {
     id: 'dha-014',
     name: 'Door Handle AXM-HD 03 GP',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Heavy duty AXM-HD 03 GP with luxurious gold plated finish.',
-    description: 'The AXIM AXM-HD 03 GP Heavy Duty Door Handle offers luxurious gold plating with robust construction.',
-    features: ['Heavy duty build', 'Luxurious gold plating', 'Robust construction', 'Premium materials', 'Long lasting'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-HD 03 GP', 'Material': 'Solid Zinc', 'Finish': 'Gold Plated', 'Type': 'Heavy Duty Lever' }
+    image: placeholderImage,
+    shortDescription: 'Heavy-duty gold-plated door handle designed for premium doors and high-usage environments.',
+    description: 'The AXM-HD 03 GP door handle is built for strength, durability, and luxury. Its heavy-duty metal body ensures reliable performance, while the gold-plated finish adds an elegant touch to high-end residential and commercial interiors.',
+    features: [
+      'Heavy-duty metal construction',
+      'Premium gold-plated finish',
+      'Smooth and firm grip',
+      'Long service life',
+      'Thick metal structure for enhanced strength',
+      'Gold plating for corrosion resistance',
+      'Smooth handling even with frequent use',
+      'Ideal for luxury and commercial doors'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle',
+      'Model': 'AXM-HD 03 GP',
+      'Material': 'Heavy-Duty Metal',
+      'Finish': 'Gold Plated (GP)',
+      'Door Type': 'Wooden / Metal',
+      'Usage': 'Residential & Commercial'
+    }
   },
+  // 15. Door Handle AXM-HD 01 GP
   {
     id: 'dha-015',
     name: 'Door Handle AXM-HD 01 GP',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Heavy duty AXM-HD 01 GP door handle with classic gold finish.',
-    description: 'The AXIM AXM-HD 01 GP Heavy Duty Door Handle features classic gold finish with heavy duty construction.',
-    features: ['Classic gold finish', 'Heavy duty', 'Durable construction', 'Timeless design', 'Quality assured'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-HD 01 GP', 'Material': 'Solid Zinc', 'Finish': 'Gold Plated', 'Type': 'Heavy Duty Lever' }
+    image: placeholderImage,
+    shortDescription: 'Premium heavy-duty door handle with gold plating for durability and elegant appearance.',
+    description: 'Door Handle AXM-HD 01 GP offers superior strength and premium aesthetics. Designed for demanding environments, it combines long-lasting performance with a luxurious gold finish.',
+    features: [
+      'Solid heavy-duty construction',
+      'Gold-plated surface finish',
+      'Comfortable ergonomic grip',
+      'Resistant to wear and corrosion',
+      'Manufactured from high-grade metal',
+      'Smooth operation with firm grip',
+      'Scratch and corrosion resistant',
+      'Suitable for heavy-use doors'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle',
+      'Model': 'AXM-HD 01 GP',
+      'Material': 'Heavy-Duty Metal',
+      'Finish': 'Gold Plated',
+      'Application': 'Interior & Exterior Doors',
+      'Installation': 'Screw Fixing'
+    }
   },
+  // 16. Door Handle AXM-HD 01 AC
   {
     id: 'dha-016',
     name: 'Door Handle AXM-HD 01 AC',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Heavy duty AXM-HD 01 AC with antique copper finish.',
-    description: 'The AXIM AXM-HD 01 AC Heavy Duty Door Handle offers a warm antique copper finish for traditional interiors.',
-    features: ['Antique copper finish', 'Heavy duty', 'Traditional look', 'Warm tones', 'Durable coating'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-HD 01 AC', 'Material': 'Solid Zinc', 'Finish': 'Antique Copper', 'Type': 'Heavy Duty Lever' }
+    image: placeholderImage,
+    shortDescription: 'Antique copper finished heavy-duty door handle designed for classic and premium interiors.',
+    description: 'The AXM-HD 01 AC door handle brings a classic appeal with its antique copper finish. Its strong construction ensures durability while complementing traditional and premium interior designs.',
+    features: [
+      'Heavy-duty metal build',
+      'Antique copper finish',
+      'Smooth handling',
+      'Elegant traditional look',
+      'High-strength metal body',
+      'Antique copper coating for vintage style',
+      'Smooth mechanical operation',
+      'Long-lasting surface protection'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle',
+      'Model': 'AXM-HD 01 AC',
+      'Material': 'Metal',
+      'Finish': 'Antique Copper (AC)',
+      'Door Type': 'Wooden / Metal',
+      'Usage Area': 'Residential & Commercial'
+    }
   },
+  // 17. Door Handle AXM-HD 03 AC
   {
     id: 'dha-017',
     name: 'Door Handle AXM-HD 03 AC',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Heavy duty AXM-HD 03 AC with elegant antique copper finish.',
-    description: 'The AXIM AXM-HD 03 AC Heavy Duty Door Handle features elegant antique copper finish with robust build.',
-    features: ['Elegant antique copper', 'Robust build', 'Classic appeal', 'Heavy duty rated', 'Premium quality'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-HD 03 AC', 'Material': 'Solid Zinc', 'Finish': 'Antique Copper', 'Type': 'Heavy Duty Lever' }
+    image: placeholderImage,
+    shortDescription: 'Heavy-duty antique copper door handle offering strength and timeless design.',
+    description: 'Door Handle AXM-HD 03 AC is designed for durability and visual appeal. Its antique copper finish adds a traditional touch while ensuring reliable daily performance.',
+    features: [
+      'Strong metal construction',
+      'Antique copper finish',
+      'Comfortable grip',
+      'Suitable for high-traffic doors',
+      'Durable heavy-duty metal body',
+      'Resistant to corrosion and surface wear',
+      'Smooth rotation mechanism',
+      'Easy installation'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle',
+      'Model': 'AXM-HD 03 AC',
+      'Material': 'Heavy-Duty Metal',
+      'Finish': 'Antique Copper',
+      'Application': 'Wooden / Metal Doors',
+      'Installation Type': 'Screw Fixing'
+    }
   },
+  // 18. Door Handle AXM-HD 02 AC
   {
     id: 'dha-018',
     name: 'Door Handle AXM-HD 02 AC',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Heavy duty AXM-HD 02 AC door handle with antique copper finish.',
-    description: 'The AXIM AXM-HD 02 AC Heavy Duty Door Handle combines strength with the beauty of antique copper.',
-    features: ['Antique copper finish', 'Heavy duty construction', 'Timeless appeal', 'Strong and durable', 'Quality finish'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-HD 02 AC', 'Material': 'Solid Zinc', 'Finish': 'Antique Copper', 'Type': 'Heavy Duty Lever' }
+    image: placeholderImage,
+    shortDescription: 'Premium heavy-duty door handle with antique copper finish for long-lasting performance.',
+    description: 'The AXM-HD 02 AC door handle is built for strength and elegance. Its antique copper finish enhances door aesthetics while the robust construction ensures extended service life.',
+    features: [
+      'Heavy-duty metal structure',
+      'Antique copper surface finish',
+      'Smooth and firm grip',
+      'Durable and reliable',
+      'High-grade metal construction',
+      'Antique copper coating for classic look',
+      'Smooth handling even with frequent use',
+      'Low maintenance'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle',
+      'Model': 'AXM-HD 02 AC',
+      'Material': 'Heavy-Duty Metal',
+      'Finish': 'Antique Copper (AC)',
+      'Usage': 'Residential & Commercial',
+      'Door Compatibility': 'Wooden / Metal'
+    }
   },
+  // 19. Door Handle AXM-AC-06
   {
     id: 'dha-019',
     name: 'Door Handle AXM-AC-06',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'AXM-AC-06 door handle with antique copper finish.',
-    description: 'The AXIM AXM-AC-06 Door Handle features a beautiful antique copper finish for classic interiors.',
-    features: ['Antique copper finish', 'Classic design', 'Quality materials', 'Smooth operation', 'Easy installation'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-AC-06', 'Material': 'Zinc Alloy', 'Finish': 'Antique Copper', 'Type': 'Lever Handle' }
+    image: placeholderImage,
+    shortDescription: 'Modern antique-finish door handle designed for durability and elegant interior styling.',
+    description: 'Door Handle AXM-AC-06 is crafted to deliver reliable functionality with a refined antique look. Suitable for residential and commercial interiors, it enhances door aesthetics while ensuring smooth daily use.',
+    features: [
+      'Strong metal construction',
+      'Antique-finish surface',
+      'Smooth grip and operation',
+      'Long-lasting performance',
+      'High-quality metal body',
+      'Antique coating for classic appearance',
+      'Smooth rotational movement',
+      'Resistant to corrosion and wear'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle',
+      'Model': 'AXM-AC-06',
+      'Material': 'Metal',
+      'Finish': 'Antique (AC)',
+      'Door Type': 'Wooden / Metal',
+      'Installation': 'Screw Fixing'
+    }
   },
+  // 20. Door Handle AXM-AC-03
   {
     id: 'dha-020',
     name: 'Door Handle AXM-AC-03',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'AXM-AC-03 door handle with warm antique copper tones.',
-    description: 'The AXIM AXM-AC-03 Door Handle offers warm antique copper tones for a sophisticated look.',
-    features: ['Warm copper tones', 'Sophisticated look', 'Durable finish', 'Comfortable grip', 'Standard fit'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-AC-03', 'Material': 'Zinc Alloy', 'Finish': 'Antique Copper', 'Type': 'Lever Handle' }
+    image: placeholderImage,
+    shortDescription: 'Durable antique-finish door handle offering strength and stylish appearance.',
+    description: 'The AXM-AC-03 door handle blends durability with timeless design. Its sturdy construction and smooth handling make it suitable for daily use in both homes and commercial spaces.',
+    features: [
+      'Solid metal build',
+      'Antique finish',
+      'Comfortable hand grip',
+      'Easy installation',
+      'Premium-grade metal construction',
+      'Smooth operational mechanism',
+      'Corrosion-resistant surface',
+      'Minimal maintenance'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle',
+      'Model': 'AXM-AC-03',
+      'Material': 'Metal',
+      'Finish': 'Antique',
+      'Application': 'Interior & Exterior Doors',
+      'Mounting': 'Screw Mounted'
+    }
   },
+  // 21. Door Handle AXM-AC-01
   {
     id: 'dha-021',
     name: 'Door Handle AXM-AC-01',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'AXM-AC-01 door handle with premium antique copper finish.',
-    description: 'The AXIM AXM-AC-01 Door Handle features premium antique copper finish with elegant styling.',
-    features: ['Premium antique copper', 'Elegant styling', 'Quality construction', 'Reliable operation', 'Easy maintenance'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-AC-01', 'Material': 'Zinc Alloy', 'Finish': 'Antique Copper', 'Type': 'Lever Handle' }
+    image: placeholderImage,
+    shortDescription: 'Classic antique-style door handle designed for reliable performance and visual appeal.',
+    description: 'Door Handle AXM-AC-01 is designed to suit traditional and modern interiors alike. Its solid build and elegant finish ensure dependable performance with a refined appearance.',
+    features: [
+      'Strong metal structure',
+      'Antique-finish coating',
+      'Smooth grip',
+      'Long service life',
+      'Durable metal body',
+      'Smooth turning action',
+      'Resistant to rust and scratches',
+      'Easy to clean and maintain'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle',
+      'Model': 'AXM-AC-01',
+      'Material': 'Metal',
+      'Finish': 'Antique (AC)',
+      'Usage': 'Residential & Commercial',
+      'Door Compatibility': 'Wooden / Metal'
+    }
   },
+  // 22. Door Handle AXM-AC-08
   {
     id: 'dha-022',
     name: 'Door Handle AXM-AC-08',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'AXM-AC-08 door handle with rich antique copper finish.',
-    description: 'The AXIM AXM-AC-08 Door Handle offers a rich antique copper finish for distinguished interiors.',
-    features: ['Rich copper finish', 'Distinguished look', 'Quality materials', 'Smooth mechanism', 'Universal mounting'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-AC-08', 'Material': 'Zinc Alloy', 'Finish': 'Antique Copper', 'Type': 'Lever Handle' }
+    image: placeholderImage,
+    shortDescription: 'Premium antique-finish door handle offering durability and smooth operation.',
+    description: 'The AXM-AC-08 door handle is engineered for strength and style. Its antique finish enhances door appearance while the sturdy metal body ensures long-term reliability.',
+    features: [
+      'Heavy-quality metal construction',
+      'Antique surface finish',
+      'Ergonomic design',
+      'Reliable daily performance',
+      'High-strength metal material',
+      'Smooth grip and handling',
+      'Corrosion and wear resistant',
+      'Suitable for frequent use'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle',
+      'Model': 'AXM-AC-08',
+      'Material': 'Metal',
+      'Finish': 'Antique',
+      'Door Type': 'Wooden / Metal',
+      'Installation Type': 'Screw Fixing'
+    }
   },
+  // 23. Door Handle AXM-HD 05 AC
   {
     id: 'dha-023',
     name: 'Door Handle AXM-HD 05 AC',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Heavy duty AXM-HD 05 AC with antique copper finish.',
-    description: 'The AXIM AXM-HD 05 AC Heavy Duty Door Handle combines durability with antique copper elegance.',
-    features: ['Heavy duty rated', 'Antique copper finish', 'Extra durable', 'Commercial grade', 'Premium construction'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-HD 05 AC', 'Material': 'Solid Zinc', 'Finish': 'Antique Copper', 'Type': 'Heavy Duty Lever' }
+    image: placeholderImage,
+    shortDescription: 'Heavy-duty antique-finish door handle designed for strength and premium interiors.',
+    description: 'Door Handle AXM-HD 05 AC is built for high-performance applications where durability and classic appearance are required. Its heavy-duty construction ensures long service life even in high-traffic areas.',
+    features: [
+      'Heavy-duty metal body',
+      'Antique copper finish',
+      'Smooth and firm grip',
+      'High durability',
+      'Thick metal structure for added strength',
+      'Antique finish for premium look',
+      'Smooth operational mechanism',
+      'Low maintenance design'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle',
+      'Model': 'AXM-HD 05 AC',
+      'Material': 'Heavy-Duty Metal',
+      'Finish': 'Antique Copper',
+      'Usage Area': 'Residential & Commercial',
+      'Door Compatibility': 'Wooden / Metal'
+    }
   },
+  // 24. Door Handle AXM-L751
   {
     id: 'dha-024',
     name: 'Door Handle AXM-L751',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'AXM-L751 door handle with long lever design.',
-    description: 'The AXIM AXM-L751 Door Handle features an extended lever design for easy operation and modern aesthetics.',
-    features: ['Extended lever design', 'Easy operation', 'Modern aesthetics', 'Quality build', 'Comfortable use'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-L751', 'Material': 'Zinc Alloy', 'Finish': 'Satin Nickel', 'Type': 'Long Lever Handle' }
+    image: placeholderImage,
+    shortDescription: 'Stylish and durable door handle designed for modern and commercial interiors.',
+    description: 'The AXM-L751 door handle is designed for modern spaces that require both aesthetics and durability. Its refined design and reliable performance make it suitable for homes, offices, and commercial buildings.',
+    features: [
+      'Solid metal construction',
+      'Sleek contemporary design',
+      'Comfortable grip',
+      'Long-lasting finish',
+      'Precision-engineered metal body',
+      'Smooth handling experience',
+      'Resistant to corrosion',
+      'Easy installation'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle',
+      'Model': 'AXM-L751',
+      'Material': 'Metal',
+      'Finish': 'Mat Black',
+      'Application': 'Interior & Exterior Doors',
+      'Installation': 'Screw Fixing'
+    }
   },
+  // 25. Door Handle AXM-L595
   {
     id: 'dha-025',
     name: 'Door Handle AXM-L595',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'AXM-L595 door handle with elongated lever style.',
-    description: 'The AXIM AXM-L595 Door Handle offers an elongated lever style for contemporary interiors.',
-    features: ['Elongated lever style', 'Contemporary design', 'Smooth action', 'Quality finish', 'Standard mounting'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-L595', 'Material': 'Zinc Alloy', 'Finish': 'Chrome Plated', 'Type': 'Long Lever Handle' }
+    image: placeholderImage,
+    shortDescription: 'Durable and elegant door handle offering reliable performance for everyday use.',
+    description: 'Door Handle AXM-L595 is crafted for durability and smooth functionality. Its balanced design ensures ease of use while complementing modern and classic door styles.',
+    features: [
+      'High-quality metal build',
+      'Smooth grip design',
+      'Premium surface finish',
+      'Easy maintenance',
+      'Strong metal structure',
+      'Smooth rotation and grip',
+      'Corrosion-resistant finish',
+      'Suitable for residential and commercial use'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle',
+      'Model': 'AXM-L595',
+      'Material': 'Metal',
+      'Finish': 'Mat Black',
+      'Door Type': 'Wooden / Metal',
+      'Usage': 'Residential & Commercial'
+    }
   },
-  // Door Handle Full Sets
+  // 26. Door Handle Full Set AXM-02 GP
   {
     id: 'dha-026',
     name: 'Door Handle Full Set AXM-02 GP',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Complete AXM-02 door handle set with gold plated finish.',
-    description: 'The AXIM AXM-02 GP Full Set includes matching door handles, rozets, and all mounting hardware with gold plated finish.',
-    features: ['Complete set', 'Gold plated finish', 'Matching components', 'All hardware included', 'Easy installation'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-02 GP Full Set', 'Material': 'Zinc Alloy', 'Finish': 'Gold Plated', 'Includes': 'Handles, Rozets, Hardware' }
+    image: placeholderImage,
+    shortDescription: 'Complete gold-plated door handle set designed for premium doors with smooth locking and elegant finish.',
+    description: 'The AXM-02 GP Full Set includes a complete door handle and locking system, offering both functionality and luxury. Designed for easy installation and long-term use, it enhances the appearance of residential and commercial doors.',
+    features: [
+      'Complete handle and lock set',
+      'Gold-plated premium finish',
+      'Strong metal construction',
+      'Smooth locking operation',
+      'High-quality metal components',
+      'Smooth handle movement and locking',
+      'Corrosion-resistant gold plating',
+      'Ideal for premium interiors'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle Full Set',
+      'Model': 'AXM-02 GP',
+      'Material': 'Metal',
+      'Finish': 'Gold Plated (GP)',
+      'Application': 'Wooden / Metal Doors',
+      'Installation': 'Standard Fixing'
+    }
   },
+  // 27. Door Handle Full Set AXM-01 GP
   {
     id: 'dha-027',
     name: 'Door Handle Full Set AXM-01 GP',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Complete AXM-01 door handle set with gold plated finish.',
-    description: 'The AXIM AXM-01 GP Full Set provides a complete door hardware solution with luxurious gold plated finish.',
-    features: ['Complete door set', 'Luxurious gold finish', 'All components included', 'Premium quality', 'Professional grade'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-01 GP Full Set', 'Material': 'Zinc Alloy', 'Finish': 'Gold Plated', 'Includes': 'Handles, Rozets, Hardware' }
+    image: placeholderImage,
+    shortDescription: 'Premium full door handle set with gold plating for durability and elegant appearance.',
+    description: 'The AXM-01 GP Full Set offers a reliable and stylish door hardware solution. Its gold-plated finish adds a luxurious touch while ensuring smooth operation and durability.',
+    features: [
+      'Complete handle and lock system',
+      'Gold-plated surface finish',
+      'Strong and reliable construction',
+      'Easy installation',
+      'High-grade metal construction',
+      'Smooth locking and handling',
+      'Long-lasting finish',
+      'Suitable for residential and commercial use'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle Full Set',
+      'Model': 'AXM-01 GP',
+      'Material': 'Metal',
+      'Finish': 'Gold Plated',
+      'Door Type': 'Wooden / Metal',
+      'Usage': 'Residential & Commercial'
+    }
   },
+  // 28. Door Handle Full Set AXM-02 CP
   {
     id: 'dha-028',
     name: 'Door Handle Full Set AXM-02 CP',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Complete AXM-02 door handle set with chrome plated finish.',
-    description: 'The AXIM AXM-02 CP Full Set includes complete door hardware with polished chrome plated finish.',
-    features: ['Complete set', 'Chrome plated finish', 'Polished appearance', 'All hardware included', 'Easy installation'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-02 CP Full Set', 'Material': 'Zinc Alloy', 'Finish': 'Chrome Plated', 'Includes': 'Handles, Rozets, Hardware' }
+    image: placeholderImage,
+    shortDescription: 'Chrome-plated full door handle set designed for modern and professional door installations.',
+    description: 'The AXM-02 CP Full Set provides a complete door hardware solution with a modern chrome finish. Designed for performance and durability, it is ideal for residential and commercial doors.',
+    features: [
+      'Complete handle and lock set',
+      'Chrome plated finish',
+      'Durable metal body',
+      'Smooth operation',
+      'Premium metal construction',
+      'Smooth and reliable locking mechanism',
+      'Corrosion-resistant chrome coating',
+      'Easy maintenance'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle Full Set',
+      'Model': 'AXM-02 CP',
+      'Material': 'Metal',
+      'Finish': 'Chrome Plated',
+      'Application': 'Interior & Exterior Doors',
+      'Installation': 'Screw Fixing'
+    }
   },
+  // 29. Door Handle Full Set AXM-01 CP
   {
     id: 'dha-029',
     name: 'Door Handle Full Set AXM-01 CP',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Complete AXM-01 door handle set with chrome plated finish.',
-    description: 'The AXIM AXM-01 CP Full Set provides complete door hardware solution with bright chrome plated finish.',
-    features: ['Complete solution', 'Bright chrome finish', 'All components', 'Quality assured', 'Professional installation'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-01 CP Full Set', 'Material': 'Zinc Alloy', 'Finish': 'Chrome Plated', 'Includes': 'Handles, Rozets, Hardware' }
-  },
-  {
-    id: 'dha-030',
-    name: 'Small Iron Door Handle – Lock Set',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Small iron door handle with integrated lock set.',
-    description: 'Compact iron door handle with integrated lock set, perfect for smaller doors and cabinets.',
-    features: ['Compact design', 'Integrated lock', 'Iron construction', 'Traditional style', 'Complete set'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Iron', 'Finish': 'Black', 'Type': 'Lock Set', 'Application': 'Small Doors' }
-  },
-  // Rozets
-  {
-    id: 'dha-031',
-    name: 'Rozet AXM-01',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'AXM-01 rozet for door handle mounting.',
-    description: 'The AXIM AXM-01 Rozet provides a clean, professional finish for door handle installations.',
-    features: ['Clean finish', 'Professional look', 'Easy installation', 'Durable construction', 'Universal fit'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-01', 'Material': 'Zinc Alloy', 'Finish': 'Satin Nickel', 'Type': 'Rozet' }
-  },
-  {
-    id: 'dha-032',
-    name: 'Rozet AXM-02',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'AXM-02 rozet with modern circular design.',
-    description: 'The AXIM AXM-02 Rozet features a modern circular design for contemporary door hardware.',
-    features: ['Modern circular design', 'Contemporary style', 'Quality material', 'Easy fitting', 'Concealed mounting'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-02', 'Material': 'Zinc Alloy', 'Finish': 'Chrome Plated', 'Type': 'Rozet' }
-  },
-  {
-    id: 'dha-033',
-    name: 'Rozet AXM-03',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'AXM-03 rozet with elegant styling.',
-    description: 'The AXIM AXM-03 Rozet offers elegant styling to complement premium door handles.',
-    features: ['Elegant styling', 'Premium quality', 'Perfect fit', 'Durable finish', 'Easy installation'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-03', 'Material': 'Zinc Alloy', 'Finish': 'Satin Nickel', 'Type': 'Rozet' }
-  },
-  {
-    id: 'dha-034',
-    name: 'Rozet AXM-40',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'AXM-40 rozet with square design.',
-    description: 'The AXIM AXM-40 Rozet features a distinctive square design for modern interiors.',
-    features: ['Square design', 'Modern look', 'Quality construction', 'Secure mounting', 'Clean lines'],
-    specifications: { 'Brand': 'AXIM', 'Model': 'AXM-40', 'Material': 'Zinc Alloy', 'Finish': 'Satin Nickel', 'Type': 'Square Rozet' }
-  },
-  {
-    id: 'dha-035',
-    name: 'Rozet R-26',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'R-26 rozet with classic round design.',
-    description: 'The R-26 Rozet offers a classic round design suitable for various door handle styles.',
-    features: ['Classic round design', 'Versatile use', 'Durable material', 'Easy installation', 'Quality finish'],
-    specifications: { 'Brand': 'CASSA', 'Model': 'R-26', 'Material': 'Zinc Alloy', 'Finish': 'Chrome Plated', 'Type': 'Round Rozet' }
-  },
-  {
-    id: 'dha-036',
-    name: 'Rozet R-28',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'R-28 rozet with premium finish.',
-    description: 'The R-28 Rozet provides a premium finish for professional door hardware installations.',
-    features: ['Premium finish', 'Professional quality', 'Secure fit', 'Long lasting', 'Easy to clean'],
-    specifications: { 'Brand': 'CASSA', 'Model': 'R-28', 'Material': 'Zinc Alloy', 'Finish': 'Satin Nickel', 'Type': 'Round Rozet' }
-  },
-  // Cabinet Handles
-  {
-    id: 'dha-037',
-    name: 'Cupboard Cabinet "H" Handle (Hollow / Solid)',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'H-style cabinet handle available in hollow and solid options.',
-    description: 'Cupboard Cabinet "H" Handle available in both hollow and solid construction for various applications.',
-    features: ['H-style design', 'Hollow or solid options', 'Cabinet grade', 'Easy installation', 'Durable finish'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Stainless Steel', 'Finish': 'Satin / Chrome', 'Type': 'H Handle', 'Options': 'Hollow / Solid' }
-  },
-  {
-    id: 'dha-038',
-    name: 'Designer Cabinet Handle',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Designer cabinet handle with unique styling.',
-    description: 'Designer Cabinet Handle featuring unique styling to add character to your furniture.',
-    features: ['Designer styling', 'Unique look', 'Quality materials', 'Multiple finishes', 'Easy mounting'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Zinc Alloy', 'Finish': 'Various', 'Type': 'Designer Handle', 'Application': 'Cabinets' }
-  },
-  {
-    id: 'dha-039',
-    name: 'Solid Metal Cabinet Handle (C & D Type)',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Solid metal cabinet handle available in C and D types.',
-    description: 'Solid Metal Cabinet Handle available in C and D type profiles for different cabinet styles.',
-    features: ['Solid metal construction', 'C & D type options', 'Heavy duty', 'Long lasting', 'Quality finish'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Solid Metal', 'Finish': 'Chrome / Satin', 'Type': 'C & D Type', 'Application': 'Cabinets' }
-  },
-  {
-    id: 'dha-040',
-    name: 'Door Pull Handle',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Door pull handle for main entrance doors.',
-    description: 'Door Pull Handle designed for main entrance doors with sturdy construction and elegant finish.',
-    features: ['Sturdy construction', 'Elegant finish', 'Easy grip', 'Weather resistant', 'Multiple sizes'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Stainless Steel', 'Finish': 'Satin / Polished', 'Type': 'Pull Handle', 'Application': 'Entrance Doors' }
-  },
-  {
-    id: 'dha-041',
-    name: 'Aluminium D Section Handle (White / Silver / Brown)',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Aluminium D section handle available in multiple colors.',
-    description: 'Aluminium D Section Handle available in White, Silver, and Brown finishes for various applications.',
-    features: ['D section profile', 'Multiple colors', 'Lightweight', 'Corrosion resistant', 'Easy installation'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Aluminium', 'Finish': 'White / Silver / Brown', 'Type': 'D Section Handle', 'Application': 'Doors & Cabinets' }
-  },
-  // Window Handles
-  {
-    id: 'dha-042',
-    name: 'Window Handle – Double Hook Type',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Window handle with double hook locking mechanism.',
-    description: 'Window Handle featuring double hook type locking mechanism for secure window operation.',
-    features: ['Double hook mechanism', 'Secure locking', 'Smooth operation', 'Durable construction', 'Easy installation'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Zinc Alloy', 'Finish': 'White / Silver', 'Type': 'Double Hook', 'Application': 'Windows' }
-  },
-  {
-    id: 'dha-043',
-    name: 'Window Handle',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Standard window handle for uPVC and aluminium windows.',
-    description: 'Standard Window Handle suitable for uPVC and aluminium window systems.',
-    features: ['Universal fit', 'Smooth operation', 'Quality construction', 'Multiple positions', 'Easy replacement'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Zinc Alloy', 'Finish': 'White / Silver', 'Type': 'Standard', 'Application': 'uPVC / Aluminium Windows' }
-  },
-  {
-    id: 'dha-044',
-    name: 'Aluminium Door Handle',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Aluminium door handle for aluminium door systems.',
-    description: 'Aluminium Door Handle designed specifically for aluminium door and window systems.',
-    features: ['Aluminium construction', 'Lightweight', 'Corrosion resistant', 'Matching finish', 'Easy installation'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Aluminium', 'Finish': 'Silver / White / Brown', 'Type': 'Door Handle', 'Application': 'Aluminium Doors' }
-  },
-  {
-    id: 'dha-045',
-    name: 'Window Holder (6", 8")',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Window holder available in 6" and 8" sizes.',
-    description: 'Window Holder available in 6" and 8" sizes to keep windows open at desired positions.',
-    features: ['Multiple sizes', 'Holds windows open', 'Easy operation', 'Durable material', 'Simple installation'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Steel', 'Finish': 'Zinc Plated', 'Sizes': '6", 8"', 'Type': 'Window Holder' }
-  },
-  // Door Plates
-  {
-    id: 'dha-046',
-    name: 'Square Plate with Handle (72×55, 85×45)',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Square plate with handle in standard mortise sizes.',
-    description: 'Square Plate with Handle available in 72×55 and 85×45 sizes for standard mortise locks.',
-    features: ['Standard sizes', 'With handle', 'Quality finish', 'Easy installation', 'Durable construction'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Stainless Steel', 'Finish': 'Satin / Chrome', 'Sizes': '72×55, 85×45', 'Type': 'Plate with Handle' }
-  },
-  {
-    id: 'dha-047',
-    name: 'Pull Plate',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Pull plate for commercial doors.',
-    description: 'Pull Plate designed for commercial doors with sturdy construction and professional finish.',
-    features: ['Commercial grade', 'Sturdy construction', 'Professional finish', 'Easy mounting', 'Durable'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Stainless Steel', 'Finish': 'Satin / Polished', 'Type': 'Pull Plate', 'Application': 'Commercial Doors' }
-  },
-  {
-    id: 'dha-048',
-    name: 'Push Plate',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Push plate for commercial and public doors.',
-    description: 'Push Plate for commercial and public doors to protect door surface from wear.',
-    features: ['Protects door surface', 'Commercial grade', 'Easy installation', 'Multiple sizes', 'Quality finish'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Stainless Steel', 'Finish': 'Satin / Polished', 'Type': 'Push Plate', 'Application': 'Commercial Doors' }
-  },
-  // Knobs
-  {
-    id: 'dha-049',
-    name: 'Round Knob Lock Set (SN / CP / GP)',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Round knob lock set in multiple finishes.',
-    description: 'Round Knob Lock Set available in Satin Nickel, Chrome Plated, and Gold Plated finishes.',
-    features: ['Complete lock set', 'Multiple finishes', 'Easy installation', 'Smooth operation', 'Quality mechanism'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Zinc Alloy', 'Finish': 'SN / CP / GP', 'Type': 'Knob Lock Set', 'Application': 'Interior Doors' }
-  },
-  {
-    id: 'dha-050',
-    name: 'Round Knob (SN / CP / GP / Black)',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Round door knob available in four finishes.',
-    description: 'Round Door Knob available in Satin Nickel, Chrome Plated, Gold Plated, and Black finishes.',
-    features: ['Four finish options', 'Classic design', 'Smooth operation', 'Easy installation', 'Durable construction'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Zinc Alloy', 'Finish': 'SN / CP / GP / Black', 'Type': 'Door Knob', 'Application': 'All Doors' }
-  },
-  // Magnetic Catchers
-  {
-    id: 'dha-051',
-    name: 'Magnetic Catcher Push – Single (White & Black)',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Single push magnetic catcher in white and black.',
-    description: 'Single Push Magnetic Catcher available in white and black for cabinet doors with push-to-open function.',
-    features: ['Push to open', 'Strong magnetic hold', 'White & black options', 'Silent operation', 'Easy installation'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Plastic / Metal', 'Color': 'White / Black', 'Type': 'Single Push', 'Application': 'Cabinet Doors' }
-  },
-  {
-    id: 'dha-052',
-    name: 'Magnetic Catcher Push – Double (White & Black)',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Double push magnetic catcher for larger cabinet doors.',
-    description: 'Double Push Magnetic Catcher for larger cabinet doors with enhanced holding power.',
-    features: ['Double magnet design', 'Enhanced holding', 'Push to open', 'White & black options', 'Heavy doors'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Plastic / Metal', 'Color': 'White / Black', 'Type': 'Double Push', 'Application': 'Large Cabinet Doors' }
-  },
-  {
-    id: 'dha-053',
-    name: 'Butterfly Push Magnetic Catcher (Single / Double)',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Butterfly style push magnetic catcher.',
-    description: 'Butterfly Push Magnetic Catcher available in single and double configurations.',
-    features: ['Butterfly design', 'Push to open', 'Single & double options', 'Strong magnet', 'Easy fitting'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Plastic / Metal', 'Type': 'Butterfly Push', 'Options': 'Single / Double', 'Application': 'Cabinet Doors' }
-  },
-  {
-    id: 'dha-054',
-    name: 'Magnetic Catcher (Small / Big)',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Standard magnetic catcher in small and big sizes.',
-    description: 'Standard Magnetic Catcher available in small and big sizes for various cabinet applications.',
-    features: ['Two size options', 'Strong magnetic hold', 'Simple design', 'Easy installation', 'Reliable operation'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Plastic / Metal', 'Sizes': 'Small / Big', 'Type': 'Standard Magnetic', 'Application': 'Cabinets' }
-  },
-  {
-    id: 'dha-055',
-    name: 'PVC Push to Open Catcher',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'PVC push to open catcher for handle-less cabinets.',
-    description: 'PVC Push to Open Catcher enables handle-less cabinet design with touch-open functionality.',
-    features: ['Push to open', 'Handle-less design', 'PVC construction', 'Soft touch', 'Modern cabinets'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'PVC', 'Type': 'Push to Open', 'Application': 'Handle-less Cabinets', 'Operation': 'Touch Open' }
-  },
-  // Decorative Knobs
-  {
-    id: 'dha-056',
-    name: 'Crystal Knob',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Decorative crystal knob for elegant furniture.',
-    description: 'Decorative Crystal Knob adds elegance and sparkle to furniture and cabinet doors.',
-    features: ['Crystal material', 'Elegant design', 'Sparkling finish', 'Decorative accent', 'Easy installation'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Crystal / Metal', 'Finish': 'Clear Crystal', 'Type': 'Decorative Knob', 'Application': 'Furniture & Cabinets' }
-  },
-  {
-    id: 'dha-057',
-    name: 'Plastic Knob',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Economical plastic knob for various applications.',
-    description: 'Economical Plastic Knob suitable for various furniture and cabinet applications.',
-    features: ['Economical option', 'Multiple colors', 'Lightweight', 'Easy installation', 'Durable plastic'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Plastic', 'Finish': 'Various Colors', 'Type': 'Standard Knob', 'Application': 'General Use' }
-  },
-  {
-    id: 'dha-058',
-    name: 'Chrome Gold Plated Knob',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Premium chrome gold plated knob for luxury furniture.',
-    description: 'Premium Chrome Gold Plated Knob adds luxury touch to high-end furniture and cabinets.',
-    features: ['Gold plated finish', 'Premium quality', 'Luxury appearance', 'Durable coating', 'Elegant design'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Metal', 'Finish': 'Chrome Gold Plated', 'Type': 'Premium Knob', 'Application': 'Luxury Furniture' }
-  },
-  // Door Closers & Stoppers
-  {
-    id: 'dha-059',
-    name: 'Door Closer',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Hydraulic door closer for controlled door closing.',
-    description: 'Hydraulic Door Closer provides controlled, smooth door closing with adjustable speed.',
-    features: ['Hydraulic mechanism', 'Adjustable speed', 'Smooth closing', 'Commercial grade', 'Multiple sizes'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Aluminium', 'Finish': 'Silver / Brown', 'Type': 'Hydraulic', 'Application': 'All Doors' }
-  },
-  {
-    id: 'dha-060',
-    name: 'Stud S.S. Door Stopper',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Stainless steel stud door stopper.',
-    description: 'Stainless Steel Stud Door Stopper provides reliable door stopping with elegant design.',
-    features: ['Stainless steel', 'Floor mounted', 'Elegant design', 'Durable construction', 'Easy installation'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Stainless Steel', 'Finish': 'Satin / Polished', 'Type': 'Stud Stopper', 'Mounting': 'Floor' }
-  },
-  {
-    id: 'dha-061',
-    name: 'Round Rubber Door Stopper',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Round rubber door stopper for wall protection.',
-    description: 'Round Rubber Door Stopper protects walls from door handle damage.',
-    features: ['Rubber tip', 'Wall protection', 'Round design', 'Easy installation', 'Various colors'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Metal / Rubber', 'Finish': 'Various', 'Type': 'Wall Mounted', 'Application': 'Wall Protection' }
-  },
-  {
-    id: 'dha-062',
-    name: 'Mountain Door Stopper',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Mountain style door stopper with unique design.',
-    description: 'Mountain Door Stopper featuring unique mountain-inspired design for decorative appeal.',
-    features: ['Unique design', 'Decorative', 'Solid construction', 'Floor mounted', 'Modern style'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Zinc Alloy', 'Finish': 'Various', 'Type': 'Floor Mounted', 'Design': 'Mountain Style' }
-  },
-  {
-    id: 'dha-063',
-    name: 'Falling Door Stopper (SN / CP / AC)',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Falling door stopper in multiple finishes.',
-    description: 'Falling Door Stopper available in Satin Nickel, Chrome Plated, and Antique Copper finishes.',
-    features: ['Falling mechanism', 'Multiple finishes', 'Foot operated', 'Holds door open', 'Easy release'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Zinc Alloy', 'Finish': 'SN / CP / AC', 'Type': 'Falling Stopper', 'Operation': 'Foot Operated' }
-  },
-  {
-    id: 'dha-064',
-    name: 'Half Round Door Stopper',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'Half round door stopper for low profile stopping.',
-    description: 'Half Round Door Stopper provides low profile door stopping solution.',
-    features: ['Low profile', 'Half round design', 'Floor mounted', 'Minimal obstruction', 'Easy installation'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Rubber / Metal', 'Finish': 'Various', 'Type': 'Half Round', 'Mounting': 'Floor' }
-  },
-  {
-    id: 'dha-065',
-    name: 'H Glass Door Handle (Sizes 32×450, 32×600)',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    shortDescription: 'H-style glass door handle in standard sizes.',
-    description: 'H Glass Door Handle available in 32×450 and 32×600 sizes for glass door applications.',
-    features: ['H-style design', 'Glass door compatible', 'Stainless steel', 'Two size options', 'Professional finish'],
-    specifications: { 'Brand': 'CASSA', 'Material': 'Stainless Steel', 'Finish': 'Satin / Polished', 'Sizes': '32×450, 32×600', 'Application': 'Glass Doors' }
+    image: placeholderImage,
+    shortDescription: 'Complete chrome-finished door handle set offering strength, style, and smooth functionality.',
+    description: 'Door Handle Full Set AXM-01 CP is designed for consistent performance and modern aesthetics. Its sturdy build ensures durability while the chrome finish enhances door appearance.',
+    features: [
+      'Full handle and lock assembly',
+      'Chrome-plated surface',
+      'Strong metal construction',
+      'Long service life',
+      'High-strength metal components',
+      'Smooth locking and unlocking',
+      'Resistant to corrosion',
+      'Suitable for daily use'
+    ],
+    specifications: {
+      'Product Type': 'Door Handle Full Set',
+      'Model': 'AXM-01 CP',
+      'Material': 'Metal',
+      'Finish': 'CP',
+      'Door Compatibility': 'Wooden / Metal',
+      'Usage Area': 'Residential & Commercial'
+    }
   }
 ];
