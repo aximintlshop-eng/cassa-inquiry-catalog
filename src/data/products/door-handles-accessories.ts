@@ -456,7 +456,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Door Handle AXM-HD 01 AC',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: placeholderImage,
+    image: doorHandleAxmHd01Ac,
     shortDescription: 'Antique copper finished heavy-duty door handle designed for classic and premium interiors.',
     description: 'The AXM-HD 01 AC door handle brings a classic appeal with its antique copper finish. Its strong construction ensures durability while complementing traditional and premium interior designs.',
     features: [
@@ -484,7 +484,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Door Handle AXM-HD 03 AC',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: placeholderImage,
+    image: doorHandleAxmHd03Ac,
     shortDescription: 'Heavy-duty antique copper door handle offering strength and timeless design.',
     description: 'Door Handle AXM-HD 03 AC is designed for durability and visual appeal. Its antique copper finish adds a traditional touch while ensuring reliable daily performance.',
     features: [
@@ -512,7 +512,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Door Handle AXM-HD 02 AC',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: placeholderImage,
+    image: doorHandleAxmHd02Ac,
     shortDescription: 'Premium heavy-duty door handle with antique copper finish for long-lasting performance.',
     description: 'The AXM-HD 02 AC door handle is built for strength and elegance. Its antique copper finish enhances door aesthetics while the robust construction ensures extended service life.',
     features: [
@@ -540,7 +540,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Door Handle AXM-AC-06',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: placeholderImage,
+    image: doorHandleAxmAc06,
     shortDescription: 'Modern antique-finish door handle designed for durability and elegant interior styling.',
     description: 'Door Handle AXM-AC-06 is crafted to deliver reliable functionality with a refined antique look. Suitable for residential and commercial interiors, it enhances door aesthetics while ensuring smooth daily use.',
     features: [
