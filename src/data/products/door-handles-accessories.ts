@@ -568,7 +568,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Door Handle AXM-AC-03',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: placeholderImage,
+    image: doorHandleAxmAc03,
     shortDescription: 'Durable antique-finish door handle offering strength and stylish appearance.',
     description: 'The AXM-AC-03 door handle blends durability with timeless design. Its sturdy construction and smooth handling make it suitable for daily use in both homes and commercial spaces.',
     features: [
