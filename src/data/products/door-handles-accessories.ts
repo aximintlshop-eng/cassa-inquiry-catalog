@@ -11,6 +11,16 @@ import doorHandleAxm23Gp from '@/assets/products/door-handle-axm-23-gp.png';
 import doorHandleAxm19Cp from '@/assets/products/door-handle-axm-19-cp.png';
 import doorHandleAxm20Cp from '@/assets/products/door-handle-axm-20-cp.png';
 import doorHandleAxm22Cp from '@/assets/products/door-handle-axm-22-cp.png';
+import doorHandleAxm23Cp from '@/assets/products/door-handle-axm-23-cp.png';
+import doorHandleAxmHd02Gp from '@/assets/products/door-handle-axm-hd02-gp.png';
+import doorHandleSlim from '@/assets/products/door-handle-slim.png';
+import doorHandleAxmHd03Gp from '@/assets/products/door-handle-axm-hd03-gp.png';
+import doorHandleAxmHd01Gp from '@/assets/products/door-handle-axm-hd01-gp.png';
+import doorHandleAxmHd01Ac from '@/assets/products/door-handle-axm-hd01-ac.png';
+import doorHandleAxmHd03Ac from '@/assets/products/door-handle-axm-hd03-ac.png';
+import doorHandleAxmHd02Ac from '@/assets/products/door-handle-axm-hd02-ac.png';
+import doorHandleAxmAc06 from '@/assets/products/door-handle-axm-ac06.png';
+import doorHandleAxmAc03 from '@/assets/products/door-handle-axm-ac03.png';
 
 // Placeholder for products without images yet
 const placeholderImage = 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80';
