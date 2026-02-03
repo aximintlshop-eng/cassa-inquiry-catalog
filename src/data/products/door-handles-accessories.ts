@@ -318,7 +318,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Door Handle AXM-23 CP',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: placeholderImage,
+    image: doorHandleAxm23Cp,
     shortDescription: 'Premium chrome-plated door handle offering durability, comfort, and modern style.',
     description: 'AXM-23 CP door handle delivers dependable performance with a polished appearance. It is suitable for both residential and commercial installations.',
     features: [
@@ -344,7 +344,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Door Handle AXM-HD 02 GP',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: placeholderImage,
+    image: doorHandleAxmHd02Gp,
     shortDescription: 'Heavy-duty gold-plated door handle designed for premium and high-traffic applications.',
     description: 'Door Handle AXM-HD 02 GP is engineered for strength and elegance. Its heavy-duty build makes it suitable for high-usage areas, while the gold-plated finish adds a luxurious touch.',
     features: [
@@ -372,7 +372,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Door Handle Slim',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: placeholderImage,
+    image: doorHandleSlim,
     shortDescription: 'Slim-profile door handle designed for modern interiors with minimalistic styling.',
     description: 'The Door Handle Slim model is ideal for contemporary spaces where clean lines and minimal design are preferred. Despite its slim profile, it offers excellent strength and smooth operation.',
     features: [
@@ -400,7 +400,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Door Handle AXM-HD 03 GP',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: placeholderImage,
+    image: doorHandleAxmHd03Gp,
     shortDescription: 'Heavy-duty gold-plated door handle designed for premium doors and high-usage environments.',
     description: 'The AXM-HD 03 GP door handle is built for strength, durability, and luxury. Its heavy-duty metal body ensures reliable performance, while the gold-plated finish adds an elegant touch to high-end residential and commercial interiors.',
     features: [
@@ -428,7 +428,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Door Handle AXM-HD 01 GP',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: placeholderImage,
+    image: doorHandleAxmHd01Gp,
     shortDescription: 'Premium heavy-duty door handle with gold plating for durability and elegant appearance.',
     description: 'Door Handle AXM-HD 01 GP offers superior strength and premium aesthetics. Designed for demanding environments, it combines long-lasting performance with a luxurious gold finish.',
     features: [
