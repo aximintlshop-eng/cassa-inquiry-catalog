@@ -11,6 +11,16 @@ import doorHandleAxm23Gp from '@/assets/products/door-handle-axm-23-gp.png';
 import doorHandleAxm19Cp from '@/assets/products/door-handle-axm-19-cp.png';
 import doorHandleAxm20Cp from '@/assets/products/door-handle-axm-20-cp.png';
 import doorHandleAxm22Cp from '@/assets/products/door-handle-axm-22-cp.png';
+import doorHandleAxm23Cp from '@/assets/products/door-handle-axm-23-cp.png';
+import doorHandleAxmHd02Gp from '@/assets/products/door-handle-axm-hd02-gp.png';
+import doorHandleSlim from '@/assets/products/door-handle-slim.png';
+import doorHandleAxmHd03Gp from '@/assets/products/door-handle-axm-hd03-gp.png';
+import doorHandleAxmHd01Gp from '@/assets/products/door-handle-axm-hd01-gp.png';
+import doorHandleAxmHd01Ac from '@/assets/products/door-handle-axm-hd01-ac.png';
+import doorHandleAxmHd03Ac from '@/assets/products/door-handle-axm-hd03-ac.png';
+import doorHandleAxmHd02Ac from '@/assets/products/door-handle-axm-hd02-ac.png';
+import doorHandleAxmAc06 from '@/assets/products/door-handle-axm-ac06.png';
+import doorHandleAxmAc03 from '@/assets/products/door-handle-axm-ac03.png';
 
 // Placeholder for products without images yet
 const placeholderImage = 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80';
@@ -308,7 +318,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Door Handle AXM-23 CP',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: placeholderImage,
+    image: doorHandleAxm23Cp,
     shortDescription: 'Premium chrome-plated door handle offering durability, comfort, and modern style.',
     description: 'AXM-23 CP door handle delivers dependable performance with a polished appearance. It is suitable for both residential and commercial installations.',
     features: [
@@ -334,7 +344,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Door Handle AXM-HD 02 GP',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: placeholderImage,
+    image: doorHandleAxmHd02Gp,
     shortDescription: 'Heavy-duty gold-plated door handle designed for premium and high-traffic applications.',
     description: 'Door Handle AXM-HD 02 GP is engineered for strength and elegance. Its heavy-duty build makes it suitable for high-usage areas, while the gold-plated finish adds a luxurious touch.',
     features: [
@@ -362,7 +372,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Door Handle Slim',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: placeholderImage,
+    image: doorHandleSlim,
     shortDescription: 'Slim-profile door handle designed for modern interiors with minimalistic styling.',
     description: 'The Door Handle Slim model is ideal for contemporary spaces where clean lines and minimal design are preferred. Despite its slim profile, it offers excellent strength and smooth operation.',
     features: [
@@ -390,7 +400,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Door Handle AXM-HD 03 GP',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: placeholderImage,
+    image: doorHandleAxmHd03Gp,
     shortDescription: 'Heavy-duty gold-plated door handle designed for premium doors and high-usage environments.',
     description: 'The AXM-HD 03 GP door handle is built for strength, durability, and luxury. Its heavy-duty metal body ensures reliable performance, while the gold-plated finish adds an elegant touch to high-end residential and commercial interiors.',
     features: [
@@ -418,7 +428,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Door Handle AXM-HD 01 GP',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: placeholderImage,
+    image: doorHandleAxmHd01Gp,
     shortDescription: 'Premium heavy-duty door handle with gold plating for durability and elegant appearance.',
     description: 'Door Handle AXM-HD 01 GP offers superior strength and premium aesthetics. Designed for demanding environments, it combines long-lasting performance with a luxurious gold finish.',
     features: [
@@ -446,7 +456,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Door Handle AXM-HD 01 AC',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: placeholderImage,
+    image: doorHandleAxmHd01Ac,
     shortDescription: 'Antique copper finished heavy-duty door handle designed for classic and premium interiors.',
     description: 'The AXM-HD 01 AC door handle brings a classic appeal with its antique copper finish. Its strong construction ensures durability while complementing traditional and premium interior designs.',
     features: [
@@ -474,7 +484,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Door Handle AXM-HD 03 AC',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: placeholderImage,
+    image: doorHandleAxmHd03Ac,
     shortDescription: 'Heavy-duty antique copper door handle offering strength and timeless design.',
     description: 'Door Handle AXM-HD 03 AC is designed for durability and visual appeal. Its antique copper finish adds a traditional touch while ensuring reliable daily performance.',
     features: [
@@ -502,7 +512,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Door Handle AXM-HD 02 AC',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: placeholderImage,
+    image: doorHandleAxmHd02Ac,
     shortDescription: 'Premium heavy-duty door handle with antique copper finish for long-lasting performance.',
     description: 'The AXM-HD 02 AC door handle is built for strength and elegance. Its antique copper finish enhances door aesthetics while the robust construction ensures extended service life.',
     features: [
@@ -530,7 +540,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Door Handle AXM-AC-06',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: placeholderImage,
+    image: doorHandleAxmAc06,
     shortDescription: 'Modern antique-finish door handle designed for durability and elegant interior styling.',
     description: 'Door Handle AXM-AC-06 is crafted to deliver reliable functionality with a refined antique look. Suitable for residential and commercial interiors, it enhances door aesthetics while ensuring smooth daily use.',
     features: [
@@ -558,7 +568,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Door Handle AXM-AC-03',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: placeholderImage,
+    image: doorHandleAxmAc03,
     shortDescription: 'Durable antique-finish door handle offering strength and stylish appearance.',
     description: 'The AXM-AC-03 door handle blends durability with timeless design. Its sturdy construction and smooth handling make it suitable for daily use in both homes and commercial spaces.',
     features: [

@@ -14,11 +14,11 @@ const ProductCard = ({ id, name, image, category, shortDescription }: ProductCar
   return (
     <div className="bg-white rounded-lg overflow-hidden shadow-md card-hover h-full flex flex-col">
       <Link to={`/product/${id}`} className="block overflow-hidden">
-        <div className="h-48 overflow-hidden relative">
+        <div className="h-48 overflow-hidden relative bg-gray-50 flex items-center justify-center p-2">
           <img 
             src={image} 
             alt={name} 
-            className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+            className="w-full h-full object-contain transition-transform duration-500 hover:scale-105"
           />
           <div className="absolute top-2 left-2">
             <span className="bg-cassa-blue text-white text-xs px-2 py-1 rounded">
