@@ -42,6 +42,16 @@ import rozetR28 from '@/assets/products/rozet-r-28.png';
 import cabinetHHandle from '@/assets/products/cabinet-h-handle.png';
 import designerCabinetHandle from '@/assets/products/designer-cabinet-handle.png';
 import doorPullHandle from '@/assets/products/door-pull-handle.png';
+import solidMetalCabinetHandle from '@/assets/products/solid-metal-cabinet-handle.png';
+import windowHandleDoubleHook from '@/assets/products/window-handle-double-hook.png';
+import windowHandle from '@/assets/products/window-handle.png';
+import aluminiumDoorHandle from '@/assets/products/aluminium-door-handle.png';
+import windowHolder from '@/assets/products/window-holder.png';
+import squarePlateHandle from '@/assets/products/square-plate-handle.png';
+import pullPlate from '@/assets/products/pull-plate.png';
+import pushPlate from '@/assets/products/push-plate.png';
+import roundKnobLockSet from '@/assets/products/round-knob-lock-set.png';
+import roundKnob from '@/assets/products/round-knob.png';
 export const doorHandlesAccessoriesProducts: Product[] = [
   // 1. Door Handle AXM-01
   {
@@ -1084,7 +1094,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Solid Metal Cabinet Handle (C & D Type)',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: '/placeholder.svg',
+    image: solidMetalCabinetHandle,
     shortDescription: 'Heavy-quality cabinet handle available in C and D design profiles.',
     description: 'This solid metal cabinet handle is designed for strength and style, making it suitable for high-use furniture applications.',
     features: [
@@ -1153,7 +1163,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Window Handle – Double Hook Type',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: '/placeholder.svg',
+    image: windowHandleDoubleHook,
     shortDescription: 'Durable window handle with double hook locking mechanism.',
     description: 'The double hook window handle ensures enhanced grip and security, making it ideal for residential and commercial window systems.',
     features: [
@@ -1176,7 +1186,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Window Handle',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: '/placeholder.svg',
+    image: windowHandle,
     shortDescription: 'Standard window handle designed for smooth opening and closing.',
     description: 'This window handle provides reliable functionality for various window types, ensuring ease of use and durability.',
     features: [
@@ -1198,7 +1208,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Aluminium Door Handle',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: '/placeholder.svg',
+    image: aluminiumDoorHandle,
     shortDescription: 'Lightweight aluminium door handle suitable for modern interiors.',
     description: 'Aluminium Door Handle offers a balance of strength and light weight, making it ideal for interior doors and contemporary spaces.',
     features: [
@@ -1221,7 +1231,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Window Holder (6", 8")',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: '/placeholder.svg',
+    image: windowHolder,
     shortDescription: 'Metal window holder designed to secure windows in open position.',
     description: 'Window Holder is used to keep windows fixed at desired positions. Suitable for homes and commercial buildings, ensuring safety and ventilation control.',
     features: [
@@ -1244,7 +1254,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Square Plate with Handle',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: '/placeholder.svg',
+    image: squarePlateHandle,
     shortDescription: 'Modern square plate handle set designed for durability and smooth daily operation on interior and exterior doors.',
     description: 'The Square Plate with Handle is engineered to provide both strength and style. Its minimal square design complements modern interiors while offering reliable grip and long-term performance. Ideal for residential and commercial doors.',
     features: [
@@ -1268,7 +1278,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Pull Plate',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: '/placeholder.svg',
+    image: pullPlate,
     shortDescription: 'Heavy-duty pull plate for manual opening of doors in high-traffic areas.',
     description: 'Pull Plates are widely used in commercial and industrial environments where frequent door operation is required. Designed to protect door surfaces while offering a firm pulling grip.',
     features: [
@@ -1292,7 +1302,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Push Plate',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: '/placeholder.svg',
+    image: pushPlate,
     shortDescription: 'Durable push plate designed for effortless door operation and surface protection.',
     description: 'Push Plates provide convenient door operation while protecting doors from wear. Suitable for offices, hospitals, and public buildings.',
     features: [
@@ -1316,7 +1326,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Round Knob Lock Set',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: '/placeholder.svg',
+    image: roundKnobLockSet,
     shortDescription: 'Complete round knob lock set offering security and smooth locking action.',
     description: 'This Round Knob Lock Set combines locking functionality with classic styling. Ideal for bedroom, office, and interior doors.',
     features: [
@@ -1339,7 +1349,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Round Knob',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: '/placeholder.svg',
+    image: roundKnob,
     shortDescription: 'Stylish standalone round knob for doors and cabinets.',
     description: 'Designed for versatility, this round knob fits both modern and classic interiors. Suitable for light-duty door and cabinet applications.',
     features: [
