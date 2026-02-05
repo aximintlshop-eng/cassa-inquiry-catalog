@@ -52,6 +52,19 @@ import pullPlate from '@/assets/products/pull-plate.png';
 import pushPlate from '@/assets/products/push-plate.png';
 import roundKnobLockSet from '@/assets/products/round-knob-lock-set.png';
 import roundKnob from '@/assets/products/round-knob.png';
+
+// Import magnetic catchers and other accessories images
+import magneticCatcherPushSingle from '@/assets/products/magnetic-catcher-push-single.png';
+import magneticCatcherPushDouble from '@/assets/products/magnetic-catcher-push-double.png';
+import butterflyPushMagneticCatcher from '@/assets/products/butterfly-push-magnetic-catcher.png';
+import magneticCatcher from '@/assets/products/magnetic-catcher.png';
+import pvcPushToOpenCatcher from '@/assets/products/pvc-push-to-open-catcher.png';
+import crystalKnob from '@/assets/products/crystal-knob.png';
+import plasticKnob from '@/assets/products/plastic-knob.png';
+import chromeGoldPlatedKnob from '@/assets/products/chrome-gold-plated-knob.png';
+import doorCloser from '@/assets/products/door-closer.png';
+import studSsDoorStopper from '@/assets/products/stud-ss-door-stopper.png';
+
 export const doorHandlesAccessoriesProducts: Product[] = [
   // 1. Door Handle AXM-01
   {
@@ -59,8 +72,8 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Door Handle AXM-01',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: doorHandleAxm01,
-    gallery: [doorHandleAxm01],
+    image: doorHandleAxm25,
+    gallery: [doorHandleAxm25],
     shortDescription: 'Premium quality door handle designed for modern residential and commercial interiors, offering durability, smooth operation, and an elegant finish.',
     description: 'The Door Handle AXM-01 is crafted to meet both functional and aesthetic requirements of modern door hardware. Designed with precision, it offers a comfortable grip and smooth operation, making it ideal for daily use in homes, offices, hotels, and commercial spaces. Its durable metal body ensures reliability and resistance against wear and tear, while the premium surface finish enhances the overall appearance of the door. The AXM-01 model blends seamlessly with contemporary and classic interiors alike.',
     features: [
@@ -92,8 +105,8 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Door Handle AXM-25',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: doorHandleAxm25,
-    gallery: [doorHandleAxm25],
+    image: doorHandleAxm02,
+    gallery: [doorHandleAxm02],
     shortDescription: 'Modern metal door handle designed for durability, smooth operation, and a refined architectural look.',
     description: 'Door Handle AXM-25 is engineered for long-term performance and visual appeal. Its sturdy build and smooth mechanism make it ideal for frequent use in homes, offices, and commercial buildings. The sleek design complements both modern and classic interiors.',
     features: [
@@ -122,8 +135,8 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Door Handle AXM-18',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: doorHandleAxm18,
-    gallery: [doorHandleAxm18],
+    image: doorHandleAxm24,
+    gallery: [doorHandleAxm24],
     shortDescription: 'Elegant and durable door handle offering reliable performance and a premium finish.',
     description: 'The AXM-18 door handle is designed to provide smooth handling and dependable functionality. Its refined design enhances the appearance of doors while ensuring ease of use for daily operations in both residential and commercial environments.',
     features: [
@@ -151,8 +164,8 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Door Handle AXM-24',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: doorHandleAxm24,
-    gallery: [doorHandleAxm24],
+    image: doorHandleAxm01,
+    gallery: [doorHandleAxm01],
     shortDescription: 'Premium door handle built for durability, comfort, and modern interior styling.',
     description: 'Door Handle AXM-24 delivers both strength and elegance. Designed for frequent use, it ensures smooth door operation while maintaining its finish and performance over time.',
     features: [
@@ -179,8 +192,8 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Door Handle AXM-02',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: doorHandleAxm02,
-    gallery: [doorHandleAxm02],
+    image: doorHandleAxm18,
+    gallery: [doorHandleAxm18],
     shortDescription: 'Classic design door handle suitable for various interior and exterior door applications.',
     description: 'AXM-02 door handle combines practicality with durability. It is designed to withstand regular use while maintaining a neat and professional look suitable for homes and offices.',
     features: [
@@ -1094,7 +1107,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Solid Metal Cabinet Handle (C & D Type)',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: solidMetalCabinetHandle,
+    image: aluminiumDoorHandle,
     shortDescription: 'Heavy-quality cabinet handle available in C and D design profiles.',
     description: 'This solid metal cabinet handle is designed for strength and style, making it suitable for high-use furniture applications.',
     features: [
@@ -1111,36 +1124,13 @@ export const doorHandlesAccessoriesProducts: Product[] = [
       'Usage': 'Cabinets & Drawers'
     }
   },
-  // 40. Door Pull Handle
+  // 40. Aluminium D Section Handle (White / Silver / Brown)
   {
     id: 'dha-040',
-    name: 'Door Pull Handle',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: doorPullHandle,
-    shortDescription: 'Strong pull handle designed for push-pull door applications.',
-    description: 'Door Pull Handle is ideal for glass, wooden, and metal doors requiring manual pull operation. Suitable for commercial and residential use.',
-    features: [
-      'Heavy metal body',
-      'Comfortable pulling grip',
-      'Smooth surface finish',
-      'High durability',
-      'Available in curved and straight designs'
-    ],
-    specifications: {
-      'Product Type': 'Pull Handle',
-      'Material': 'Metal',
-      'Application': 'Push-Pull Doors',
-      'Installation': 'Screw Fixing'
-    }
-  },
-  // 41. Aluminium D Section Handle (White / Silver / Brown)
-  {
-    id: 'dha-041',
     name: 'Aluminium D Section Handle',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: '/placeholder.svg',
+    image: solidMetalCabinetHandle,
     shortDescription: 'Lightweight aluminium handle with D-section profile for doors and furniture.',
     description: 'This aluminium D-section handle offers a clean and modern look while remaining lightweight and durable. Suitable for interior doors and cabinets.',
     features: [
@@ -1157,9 +1147,9 @@ export const doorHandlesAccessoriesProducts: Product[] = [
       'Colors': 'White / Silver / Brown'
     }
   },
-  // 42. Window Handle – Double Hook Type
+  // 41. Window Handle – Double Hook Type
   {
-    id: 'dha-042',
+    id: 'dha-041',
     name: 'Window Handle – Double Hook Type',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
@@ -1180,9 +1170,9 @@ export const doorHandlesAccessoriesProducts: Product[] = [
       'Application': 'Windows'
     }
   },
-  // 43. Window Handle
+  // 42. Window Handle
   {
-    id: 'dha-043',
+    id: 'dha-042',
     name: 'Window Handle',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
@@ -1202,13 +1192,13 @@ export const doorHandlesAccessoriesProducts: Product[] = [
       'Usage': 'Residential & Commercial'
     }
   },
-  // 44. Aluminium Door Handle
+  // 43. Aluminium Door Handle
   {
-    id: 'dha-044',
+    id: 'dha-043',
     name: 'Aluminium Door Handle',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: aluminiumDoorHandle,
+    image: doorPullHandle,
     shortDescription: 'Lightweight aluminium door handle suitable for modern interiors.',
     description: 'Aluminium Door Handle offers a balance of strength and light weight, making it ideal for interior doors and contemporary spaces.',
     features: [
@@ -1225,9 +1215,9 @@ export const doorHandlesAccessoriesProducts: Product[] = [
       'Application': 'Interior Doors'
     }
   },
-  // 45. Window Holder (6", 8")
+  // 44. Window Holder (6", 8")
   {
-    id: 'dha-045',
+    id: 'dha-044',
     name: 'Window Holder (6", 8")',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
@@ -1248,9 +1238,9 @@ export const doorHandlesAccessoriesProducts: Product[] = [
       'Application': 'Windows'
     }
   },
-  // 46. Square Plate with Handle (72×55, 85×45)
+  // 45. Square Plate with Handle (72×55, 85×45)
   {
-    id: 'dha-046',
+    id: 'dha-045',
     name: 'Square Plate with Handle',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
@@ -1272,33 +1262,9 @@ export const doorHandlesAccessoriesProducts: Product[] = [
       'Installation': 'Screw fixing'
     }
   },
-  // 47. Pull Plate
+  // 46. Push Plate
   {
-    id: 'dha-047',
-    name: 'Pull Plate',
-    categoryId: 'door-handles-accessories',
-    category: 'Door Handles & Accessories',
-    image: pullPlate,
-    shortDescription: 'Heavy-duty pull plate for manual opening of doors in high-traffic areas.',
-    description: 'Pull Plates are widely used in commercial and industrial environments where frequent door operation is required. Designed to protect door surfaces while offering a firm pulling grip.',
-    features: [
-      'Flat ergonomic surface',
-      'Scratch-resistant finish',
-      'Strong mounting support',
-      'Easy maintenance',
-      'Professional finish'
-    ],
-    specifications: {
-      'Product Type': 'Pull Plate',
-      'Material': 'Metal',
-      'Finish': 'SN / CP / GP (as available)',
-      'Mounting': 'Screw fixed',
-      'Usage': 'Commercial & residential'
-    }
-  },
-  // 48. Push Plate
-  {
-    id: 'dha-048',
+    id: 'dha-046',
     name: 'Push Plate',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
@@ -1310,7 +1276,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
       'Long-lasting metal body',
       'Corrosion-resistant',
       'Simple installation',
-      'Professional appearance'
+      'Professional finish'
     ],
     specifications: {
       'Product Type': 'Push Plate',
@@ -1320,9 +1286,9 @@ export const doorHandlesAccessoriesProducts: Product[] = [
       'Installation': 'Screw fixing'
     }
   },
-  // 49. Round Knob Lock Set (SN / CP / GP)
+  // 47. Round Knob Lock Set (SN / CP / GP)
   {
-    id: 'dha-049',
+    id: 'dha-047',
     name: 'Round Knob Lock Set',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
@@ -1343,9 +1309,9 @@ export const doorHandlesAccessoriesProducts: Product[] = [
       'Installation': 'Standard bore fitting'
     }
   },
-  // 50. Round Knob (SN / CP / GP / Black)
+  // 48. Round Knob (SN / CP / GP / Black)
   {
-    id: 'dha-050',
+    id: 'dha-048',
     name: 'Round Knob',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
@@ -1366,13 +1332,13 @@ export const doorHandlesAccessoriesProducts: Product[] = [
       'Installation': 'Screw fixing'
     }
   },
-  // 51. Magnetic Catcher Push – Single (White & Black)
+  // 49. Magnetic Catcher Push – Single (White & Black)
   {
-    id: 'dha-051',
+    id: 'dha-049',
     name: 'Magnetic Catcher Push – Single',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: '/placeholder.svg',
+    image: magneticCatcherPushSingle,
     shortDescription: 'Single push-type magnetic catcher for handle-less cabinet doors.',
     description: 'This push magnetic catcher allows doors to open with a simple press, creating a clean and modern cabinet appearance.',
     features: [
@@ -1389,13 +1355,13 @@ export const doorHandlesAccessoriesProducts: Product[] = [
       'Application': 'Cabinets / wardrobes'
     }
   },
-  // 52. Magnetic Catcher Push – Double (White & Black)
+  // 50. Magnetic Catcher Push – Double (White & Black)
   {
-    id: 'dha-052',
+    id: 'dha-050',
     name: 'Magnetic Catcher Push – Double',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: '/placeholder.svg',
+    image: magneticCatcherPushDouble,
     shortDescription: 'Double push magnetic catcher for stronger door holding capacity.',
     description: 'Designed for wider or heavier cabinet doors, the double push magnetic catcher ensures firm closure with smooth opening.',
     features: [
@@ -1411,13 +1377,13 @@ export const doorHandlesAccessoriesProducts: Product[] = [
       'Usage': 'Heavy cabinet doors'
     }
   },
-  // 53. Butterfly Push Magnetic Catcher (Single / Double)
+  // 51. Butterfly Push Magnetic Catcher (Single / Double)
   {
-    id: 'dha-053',
+    id: 'dha-051',
     name: 'Butterfly Push Magnetic Catcher',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: '/placeholder.svg',
+    image: butterflyPushMagneticCatcher,
     shortDescription: 'Butterfly-style magnetic catcher offering enhanced holding power.',
     description: 'This catcher provides superior stability and is ideal for frequently used cabinets and storage units.',
     features: [
@@ -1433,13 +1399,13 @@ export const doorHandlesAccessoriesProducts: Product[] = [
       'Application': 'Furniture doors'
     }
   },
-  // 54. Magnetic Catcher (Small / Big)
+  // 52. Magnetic Catcher (Small / Big)
   {
-    id: 'dha-054',
+    id: 'dha-052',
     name: 'Magnetic Catcher',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: '/placeholder.svg',
+    image: magneticCatcher,
     shortDescription: 'Standard magnetic door catcher for secure cabinet closure.',
     description: 'A practical solution for keeping cabinet doors securely closed in residential and commercial furniture.',
     features: [
@@ -1455,13 +1421,13 @@ export const doorHandlesAccessoriesProducts: Product[] = [
       'Application': 'Cabinets'
     }
   },
-  // 55. PVC Push to Open Catcher
+  // 53. PVC Push to Open Catcher
   {
-    id: 'dha-055',
+    id: 'dha-053',
     name: 'PVC Push to Open Catcher',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: '/placeholder.svg',
+    image: pvcPushToOpenCatcher,
     shortDescription: 'PVC push-to-open catcher for modern furniture systems.',
     description: 'Ideal for modular furniture, this catcher eliminates the need for handles and supports clean design aesthetics.',
     features: [
@@ -1477,13 +1443,13 @@ export const doorHandlesAccessoriesProducts: Product[] = [
       'Application': 'Cabinet doors'
     }
   },
-  // 56. Crystal Knob
+  // 54. Crystal Knob
   {
-    id: 'dha-056',
+    id: 'dha-054',
     name: 'Crystal Knob',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: '/placeholder.svg',
+    image: crystalKnob,
     shortDescription: 'Decorative crystal knob adding elegance to furniture and cabinets.',
     description: 'Perfect for luxury furniture, crystal knobs enhance visual appeal while offering functional usability.',
     features: [
@@ -1498,13 +1464,13 @@ export const doorHandlesAccessoriesProducts: Product[] = [
       'Usage': 'Cabinets / drawers'
     }
   },
-  // 57. Plastic Knob
+  // 55. Plastic Knob
   {
-    id: 'dha-057',
+    id: 'dha-055',
     name: 'Plastic Knob',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: '/placeholder.svg',
+    image: plasticKnob,
     shortDescription: 'Lightweight and economical plastic knob for general use.',
     description: 'Plastic knobs are ideal for budget furniture and utility cabinets.',
     features: [
@@ -1519,13 +1485,13 @@ export const doorHandlesAccessoriesProducts: Product[] = [
       'Application': 'Cabinets / drawers'
     }
   },
-  // 58. Chrome Gold Plated Knob
+  // 56. Chrome Gold Plated Knob
   {
-    id: 'dha-058',
+    id: 'dha-056',
     name: 'Chrome Gold Plated Knob',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: '/placeholder.svg',
+    image: chromeGoldPlatedKnob,
     shortDescription: 'Premium plated knob with chrome-gold finish.',
     description: 'Designed for luxury interiors, this knob offers durability with a high-end look.',
     features: [
@@ -1541,13 +1507,13 @@ export const doorHandlesAccessoriesProducts: Product[] = [
       'Installation': 'Screw fixing'
     }
   },
-  // 59. Door Closer
+  // 57. Door Closer
   {
-    id: 'dha-059',
+    id: 'dha-057',
     name: 'Door Closer',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: '/placeholder.svg',
+    image: doorCloser,
     shortDescription: 'Automatic hydraulic door closer for controlled door closing.',
     description: 'Door closers improve safety and durability of doors in commercial and residential spaces.',
     features: [
@@ -1563,13 +1529,13 @@ export const doorHandlesAccessoriesProducts: Product[] = [
       'Application': 'Wooden / metal doors'
     }
   },
-  // 60. Stud S.S. Door Stopper
+  // 58. Stud S.S. Door Stopper
   {
-    id: 'dha-060',
+    id: 'dha-058',
     name: 'Stud S.S. Door Stopper',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: '/placeholder.svg',
+    image: studSsDoorStopper,
     shortDescription: 'Stainless steel stud stopper to prevent wall and door damage.',
     description: 'A solid stainless steel door stopper that provides reliable stopping power and rust-proof performance.',
     features: [
@@ -1584,9 +1550,9 @@ export const doorHandlesAccessoriesProducts: Product[] = [
       'Mounting': 'Floor'
     }
   },
-  // 61. Round Rubber Door Stopper
+  // 59. Round Rubber Door Stopper
   {
-    id: 'dha-061',
+    id: 'dha-059',
     name: 'Round Rubber Door Stopper',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
@@ -1605,9 +1571,9 @@ export const doorHandlesAccessoriesProducts: Product[] = [
       'Mounting': 'Floor'
     }
   },
-  // 62. Mountain Door Stopper
+  // 60. Mountain Door Stopper
   {
-    id: 'dha-062',
+    id: 'dha-060',
     name: 'Mountain Door Stopper',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
@@ -1626,9 +1592,9 @@ export const doorHandlesAccessoriesProducts: Product[] = [
       'Finish': 'As available'
     }
   },
-  // 63. Falling Door Stopper (SN / CP / AC)
+  // 61. Falling Door Stopper (SN / CP / AC)
   {
-    id: 'dha-063',
+    id: 'dha-061',
     name: 'Falling Door Stopper',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
@@ -1647,9 +1613,9 @@ export const doorHandlesAccessoriesProducts: Product[] = [
       'Mounting': 'Door bottom'
     }
   },
-  // 64. Half Round Door Stopper
+  // 62. Half Round Door Stopper
   {
-    id: 'dha-064',
+    id: 'dha-062',
     name: 'Half Round Door Stopper',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
@@ -1668,9 +1634,9 @@ export const doorHandlesAccessoriesProducts: Product[] = [
       'Material': 'Metal'
     }
   },
-  // 65. H Glass Door Handle (32×450, 32×600)
+  // 63. H Glass Door Handle (32×450, 32×600)
   {
-    id: 'dha-065',
+    id: 'dha-063',
     name: 'H Glass Door Handle',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
