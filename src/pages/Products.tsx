@@ -11,23 +11,38 @@ const Products = () => {
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
   const categoryParam = queryParams.get('category');
+  const searchParam = queryParams.get('search');
   
   const [selectedCategory, setSelectedCategory] = useState<string | null>(categoryParam);
   const [filteredProducts, setFilteredProducts] = useState(products);
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchTerm, setSearchTerm] = useState(searchParam || '');
+  
+  // Update search term when URL changes
+  useEffect(() => {
+    if (searchParam) {
+      setSearchTerm(searchParam);
+      setSelectedCategory(null);
+    }
+  }, [searchParam]);
   
   useEffect(() => {
+    let result = products;
+    
     if (selectedCategory) {
-      setFilteredProducts(getProductsByCategoryId(selectedCategory));
-    } else if (searchTerm) {
-      const searched = products.filter(product => 
-        product.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        product.description.toLowerCase().includes(searchTerm.toLowerCase())
-      );
-      setFilteredProducts(searched);
-    } else {
-      setFilteredProducts(products);
+      result = getProductsByCategoryId(selectedCategory);
     }
+    
+    if (searchTerm.trim()) {
+      const term = searchTerm.toLowerCase().trim();
+      result = result.filter(product => 
+        product.name.toLowerCase().includes(term) ||
+        product.description.toLowerCase().includes(term) ||
+        product.shortDescription.toLowerCase().includes(term) ||
+        product.category.toLowerCase().includes(term)
+      );
+    }
+    
+    setFilteredProducts(result);
   }, [selectedCategory, searchTerm]);
   
   const handleCategoryChange = (categoryId: string | null) => {
