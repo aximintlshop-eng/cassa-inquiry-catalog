@@ -11,7 +11,16 @@ import padLockAllSizesImg from '@/assets/products/pad-lock-all-sizes.png';
 import cassaRimLockImg from '@/assets/products/cassa-rim-lock.png';
 import cassaBathCylinderImg from '@/assets/products/cassa-bath-cylinder.png';
 import cassa45mmShortCylinderImg from '@/assets/products/cassa-45mm-short-cylinder.png';
-
+import cassaDoorCylinder70mmImg from '@/assets/products/cassa-door-cylinder-70mm.png';
+import cassaDoorCylinderAllSizesImg from '@/assets/products/cassa-door-cylinder-all-sizes.png';
+import drawerLockImg from '@/assets/products/drawer-lock.png';
+import centerLockImg from '@/assets/products/center-lock.png';
+import camLockImg from '@/assets/products/cam-lock.png';
+import doorViewerImg from '@/assets/products/door-viewer.png';
+import doorChainGuardImg from '@/assets/products/door-chain-guard.png';
+import steelCupboardLockBlackImg from '@/assets/products/steel-cupboard-lock-black.png';
+import cabinetLockImg from '@/assets/products/cabinet-lock.png';
+import cycleLockImg from '@/assets/products/cycle-lock.png';
 export const locksCylindersProducts: Product[] = [
   {
     id: 'lc-001',
@@ -128,7 +137,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'CASSA Door Cylinder (70 mm – SN / CP / GP / AC / Black)',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: cassaDoorCylinder70mmImg,
     shortDescription: 'Full-size door cylinder with multiple finishes for residential and commercial doors.',
     description: 'CASSA 70 mm Door Cylinder is engineered for high-performance and durability. Designed to integrate with various door locks, it offers consistent security while matching your interior design aesthetics.',
     features: ['Compatible with mortise locks and handle sets', 'Multiple finish options (SN / CP / GP / AC / Black)', 'High-security brass core', 'Smooth key operation', 'Precision engineering'],
@@ -139,7 +148,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'CASSA Door Cylinder (54 / 60 / 68 / 70 / 80 / 90 / 100 mm)',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: cassaDoorCylinderAllSizesImg,
     shortDescription: 'Variety of cylinder sizes for different door thicknesses and security needs.',
     description: 'CASSA Door Cylinders in a wide range of sizes allow flexibility for doors of varying thickness. Their smooth key operation and secure design make them ideal for high-traffic and sensitive areas.',
     features: ['Durable brass construction', 'Precision-engineered for smooth operation', 'Compatible with standard locks', 'Multiple size options', 'Full size range'],
@@ -150,7 +159,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'Drawer Lock (16 / 22 / 32 / 38 mm)',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: drawerLockImg,
     shortDescription: 'Compact lock for drawers, cabinets, and small storage units.',
     description: 'CASSA Drawer Locks provide reliable security for drawers in offices, homes, and commercial furniture. The cam mechanism ensures easy installation and smooth operation.',
     features: ['Secure drawer locking', 'Smooth cam mechanism', 'Multiple size options', 'Durable metal body', 'Easy installation'],
@@ -161,7 +170,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'Center Lock (16 / 19 mm)',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: centerLockImg,
     shortDescription: 'Small, efficient center lock for cabinets and display units.',
     description: 'CASSA Center Locks are perfect for light-duty applications such as display cabinets, mailboxes, or small storage compartments. Offers easy installation and reliable locking.',
     features: ['Precise locking', 'Smooth key action', 'Compact design', 'Light-duty application', 'Easy to install'],
@@ -172,7 +181,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'Cam Lock (16 / 20 / 25 / 30 mm)',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: camLockImg,
     shortDescription: 'Rotary cam lock for cabinets, lockers, and small doors.',
     description: 'The CASSA Cam Lock is widely used for furniture, cabinets, lockers, and equipment boxes. Its compact design and efficient cam mechanism ensure security and smooth operation.',
     features: ['Easy rotational locking', 'Multiple size options', 'Robust metal body', 'Smooth key operation', 'Versatile application'],
@@ -183,7 +192,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'Door Viewer (CP / GP)',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: doorViewerImg,
     shortDescription: 'Peephole for doors to safely view visitors.',
     description: 'The CASSA Door Viewer allows safe identification of visitors without opening the door. Suitable for residential apartments and offices, it features a high-definition lens for clear viewing.',
     features: ['Wide-angle lens', 'Easy installation', 'High-quality polished finish (Chrome / Gold)', 'Provides privacy and security', 'Clear optics'],
@@ -194,7 +203,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'Door Chain Guard',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: doorChainGuardImg,
     shortDescription: 'A robust door safety accessory designed to provide controlled door opening while maintaining security and privacy.',
     description: 'The Door Chain Guard is an essential safety fitting for residential and commercial doors. It allows the door to be opened slightly so occupants can verify visitors before granting full access. Built with a heavy-duty steel chain and reinforced mounting plates, it offers reliable protection against forced entry.',
     features: ['High-strength steel chain construction', 'Allows partial door opening for safety', 'Prevents forced entry', 'Smooth sliding locking plate', 'Long-lasting corrosion-resistant finish'],
@@ -205,7 +214,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'Steel Cupboard Lock – Black',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: steelCupboardLockBlackImg,
     shortDescription: 'A heavy-duty steel cupboard lock with black finish for secure storage solutions.',
     description: 'The Steel Cupboard Lock – Black is engineered for durability and security. Manufactured from solid steel, it provides dependable protection for cupboards, wardrobes, tool cabinets, and storage units. The black powder-coated finish enhances corrosion resistance while giving a modern appearance.',
     features: ['Strong steel body', 'Anti-rust black powder coating', 'Smooth key operation', 'Suitable for cupboards, lockers, and cabinets', 'Easy installation'],
@@ -216,7 +225,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'Cabinet Lock',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: cabinetLockImg,
     shortDescription: 'A versatile locking solution for cabinets and drawers.',
     description: 'This Cabinet Lock is suitable for wooden, MDF, and metal cabinets. It ensures secure storage for residential kitchens, office furniture, and commercial fixtures. The internal mechanism is designed for smooth and reliable operation, providing long service life with minimal maintenance.',
     features: ['Compact and strong construction', 'Smooth key rotation', 'Multi-purpose application', 'Easy to install', 'Long service life'],
@@ -227,7 +236,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'Cycle Lock',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: cycleLockImg,
     shortDescription: 'A heavy-duty locking solution for bicycles and two-wheelers.',
     description: 'The Cycle Lock is designed to provide effective theft protection for bicycles. Featuring a hardened steel core and protective outer coating, it resists cutting and environmental damage. Suitable for daily commuters, residential parking, and public areas.',
     features: ['Hardened steel cable or chain', 'Weather-resistant protective coating', 'High-security key cylinder', 'Easy to carry and store', 'Durable construction'],

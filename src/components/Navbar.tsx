@@ -1,15 +1,28 @@
 
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { Menu, X, Phone, Mail } from 'lucide-react';
+import { Link, useNavigate } from 'react-router-dom';
+import { Menu, X, Phone, Mail, Search } from 'lucide-react';
 import cassaLogo from '@/assets/cassa-logo.png';
 import aximLogo from '@/assets/axim-logo.png';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
+  const navigate = useNavigate();
   
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+  
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      navigate(`/products?search=${encodeURIComponent(searchQuery.trim())}`);
+      setSearchQuery('');
+      setIsSearchOpen(false);
+      setIsMenuOpen(false);
+    }
   };
   
   return (
@@ -47,11 +60,47 @@ const Navbar = () => {
           </Link>
           
           {/* Desktop menu */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6">
             <Link to="/" className="font-medium hover:text-cassa-yellow transition-colors">Home</Link>
             <Link to="/products" className="font-medium hover:text-cassa-yellow transition-colors">Products</Link>
             <Link to="/about" className="font-medium hover:text-cassa-yellow transition-colors">About Us</Link>
             <Link to="/contact" className="font-medium hover:text-cassa-yellow transition-colors">Contact</Link>
+            
+            {/* Desktop Search */}
+            <div className="relative">
+              {isSearchOpen ? (
+                <form onSubmit={handleSearch} className="flex items-center">
+                  <input
+                    type="text"
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    placeholder="Search products..."
+                    className="w-48 px-3 py-1.5 text-sm border border-gray-300 rounded-l-md focus:outline-none focus:ring-1 focus:ring-cassa-yellow"
+                    autoFocus
+                  />
+                  <button
+                    type="submit"
+                    className="bg-cassa-blue text-white p-1.5 rounded-r-md hover:bg-cassa-blue/90"
+                  >
+                    <Search size={18} />
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setIsSearchOpen(false)}
+                    className="ml-2 text-gray-500 hover:text-gray-700"
+                  >
+                    <X size={18} />
+                  </button>
+                </form>
+              ) : (
+                <button
+                  onClick={() => setIsSearchOpen(true)}
+                  className="text-cassa-blue hover:text-cassa-yellow transition-colors"
+                >
+                  <Search size={20} />
+                </button>
+              )}
+            </div>
           </div>
           
           {/* Axim logo on right - Desktop */}
@@ -73,6 +122,23 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="md:hidden bg-white border-t">
           <div className="container-custom py-4 flex flex-col space-y-4">
+            {/* Mobile Search */}
+            <form onSubmit={handleSearch} className="relative">
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder="Search products..."
+                className="w-full px-4 py-2 pr-10 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-cassa-yellow"
+              />
+              <button
+                type="submit"
+                className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-cassa-blue text-white p-1.5 rounded-md"
+              >
+                <Search size={16} />
+              </button>
+            </form>
+            
             <Link to="/" className="font-medium hover:text-cassa-yellow transition-colors" onClick={toggleMenu}>Home</Link>
             <Link to="/products" className="font-medium hover:text-cassa-yellow transition-colors" onClick={toggleMenu}>Products</Link>
             <Link to="/about" className="font-medium hover:text-cassa-yellow transition-colors" onClick={toggleMenu}>About Us</Link>
