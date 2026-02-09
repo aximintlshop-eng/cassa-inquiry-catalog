@@ -335,7 +335,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'CASSA Glass Patch Lock – 3 Brass Keys',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: glassPatchLockImg,
     shortDescription: 'A premium-quality glass patch lock designed for frameless glass doors, supplied with 3 durable brass keys for enhanced security.',
     description: 'The CASSA Glass Patch Lock – 3 Brass Keys is engineered to provide reliable security for frameless glass doors used in offices, showrooms, retail outlets, and commercial spaces. The lock is designed to clamp securely onto the glass panel without the need for glass cutting or drilling, ensuring safety and easy installation.',
     features: ['Heavy-duty patch lock construction', 'High-quality brass key cylinder', 'Suitable for frameless glass doors', 'Secure locking without drilling glass', 'Smooth key operation and long service life'],
