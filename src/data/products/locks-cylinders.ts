@@ -21,6 +21,17 @@ import doorChainGuardImg from '@/assets/products/door-chain-guard.png';
 import steelCupboardLockBlackImg from '@/assets/products/steel-cupboard-lock-black.png';
 import cabinetLockImg from '@/assets/products/cabinet-lock.png';
 import cycleLockImg from '@/assets/products/cycle-lock.png';
+import slidingKlickLockImg from '@/assets/products/sliding-klick-lock.png';
+import slidingPushLockImg from '@/assets/products/sliding-push-lock.png';
+import aluminiumLockBodyImg from '@/assets/products/aluminium-lock-body.png';
+import aluminiumLockBodyRollerImg from '@/assets/products/aluminium-lock-body-roller.png';
+import doorLockBody85x45Img from '@/assets/products/door-lock-body-85x45.png';
+import doorLockBody72x55Img from '@/assets/products/door-lock-body-72x55.png';
+import glassCenterLockImg from '@/assets/products/glass-center-lock.png';
+import glassPatchLockImg from '@/assets/products/glass-patch-lock.png';
+import glassLPatchMaleImg from '@/assets/products/glass-l-patch-male.png';
+import glassLPatchFemaleImg from '@/assets/products/glass-l-patch-female.png';
+
 export const locksCylindersProducts: Product[] = [
   {
     id: 'lc-001',
