@@ -313,7 +313,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'CASSA Door Lock Body 72×55',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: doorLockBody72x55Img,
     shortDescription: 'Compact lock body for lighter door applications.',
     description: 'Perfect for smaller doors, cabinets, and partitions where compact locking solutions are required.',
     features: ['Space-saving design', 'Strong internal construction', 'Reliable locking', 'European style', 'Smooth operation'],
