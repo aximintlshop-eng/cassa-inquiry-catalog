@@ -269,7 +269,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'Sliding Push Lock (Black / White)',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: slidingPushLockImg,
     shortDescription: 'Push-to-lock sliding door mechanism with concealed design.',
     description: 'The Sliding Push Lock is designed for users seeking a clean, handle-less appearance. Locking and unlocking is achieved with a simple push, making it ideal for modern furniture and sliding panels.',
     features: ['Push-to-lock and push-to-release', 'Minimal visible hardware', 'Smooth and silent operation', 'Dual color availability', 'Modern design'],
