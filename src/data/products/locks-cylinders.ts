@@ -302,7 +302,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'CASSA Door Lock Body 85×45',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: doorLockBody85x45Img,
     shortDescription: 'Standard-size lock body for internal and external doors.',
     description: 'Designed for high-usage doors, this lock body ensures consistent performance and compatibility with standard door fittings.',
     features: ['Durable internal mechanism', 'Standard size compatibility', 'Smooth latch and bolt action', 'Multiple functions', 'Reliable performance'],
