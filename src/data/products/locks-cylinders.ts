@@ -381,7 +381,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'CASSA Glass Patch – Bottom',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: glassLPatchFemaleImg,
+    image: glassPatchBottomImg,
     shortDescription: 'Heavy-duty bottom glass patch fitting designed to support pivot and load-bearing functions.',
     description: 'The CASSA Glass Patch – Bottom plays a critical role in frameless glass door systems by supporting the door\'s weight and enabling smooth pivot movement. It is engineered for high load capacity and stability, making it suitable for commercial installations such as offices, showrooms, and retail entrances.',
     features: ['Load-bearing design', 'Strong grip on glass panel', 'Smooth pivot support', 'Long-lasting performance', 'Heavy-duty application'],

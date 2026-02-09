@@ -1206,7 +1206,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Aluminium Door Handle',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: solidMetalCabinetHandle,
+    image: aluminiumDoorHandle,
     shortDescription: 'Lightweight aluminium door handle suitable for modern interiors.',
     description: 'Aluminium Door Handle offers a balance of strength and light weight, making it ideal for interior doors and contemporary spaces.',
     features: [
