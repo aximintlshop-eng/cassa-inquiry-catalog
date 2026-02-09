@@ -28,6 +28,8 @@ import aluminiumLockBodyRollerImg from '@/assets/products/aluminium-lock-body-ro
 import doorLockBody85x45Img from '@/assets/products/door-lock-body-85x45.png';
 import doorLockBody72x55Img from '@/assets/products/door-lock-body-72x55.png';
 import glassCenterLockImg from '@/assets/products/glass-center-lock.png';
+import glassPatchTopImg from '@/assets/products/glass-patch-top.png';
+import glassPatchBottomImg from '@/assets/products/glass-patch-bottom.png';
 import glassPatchLockImg from '@/assets/products/glass-patch-lock.png';
 import glassLPatchMaleImg from '@/assets/products/glass-l-patch-male.png';
 import glassLPatchFemaleImg from '@/assets/products/glass-l-patch-female.png';
