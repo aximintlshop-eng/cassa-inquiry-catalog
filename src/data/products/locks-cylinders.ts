@@ -280,7 +280,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'CASSA Aluminium Lock Body (20 / 25 / 30 / 35 mm)',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: aluminiumLockBodyImg,
     shortDescription: 'Lightweight aluminium lock body for multiple door applications.',
     description: 'CASSA Aluminium Lock Bodies are designed for aluminium doors, wardrobes, and partitions. They offer reliable locking with reduced weight, making them ideal for modern aluminium systems.',
     features: ['Strong aluminium alloy construction', 'Multiple size options', 'Corrosion-resistant finish', 'Smooth key movement', 'Lightweight design'],
