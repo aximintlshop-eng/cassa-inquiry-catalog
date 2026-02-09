@@ -1138,7 +1138,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Aluminium D Section Handle',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: aluminiumDoorHandle,
+    image: solidMetalCabinetHandle,
     shortDescription: 'Lightweight aluminium handle with D-section profile for doors and furniture.',
     description: 'This aluminium D-section handle offers a clean and modern look while remaining lightweight and durable. Suitable for interior doors and cabinets.',
     features: [
@@ -1206,7 +1206,7 @@ export const doorHandlesAccessoriesProducts: Product[] = [
     name: 'Aluminium Door Handle',
     categoryId: 'door-handles-accessories',
     category: 'Door Handles & Accessories',
-    image: solidMetalCabinetHandle,
+    image: aluminiumDoorHandle,
     shortDescription: 'Lightweight aluminium door handle suitable for modern interiors.',
     description: 'Aluminium Door Handle offers a balance of strength and light weight, making it ideal for interior doors and contemporary spaces.',
     features: [

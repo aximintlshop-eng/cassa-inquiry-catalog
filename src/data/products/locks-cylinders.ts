@@ -28,6 +28,8 @@ import aluminiumLockBodyRollerImg from '@/assets/products/aluminium-lock-body-ro
 import doorLockBody85x45Img from '@/assets/products/door-lock-body-85x45.png';
 import doorLockBody72x55Img from '@/assets/products/door-lock-body-72x55.png';
 import glassCenterLockImg from '@/assets/products/glass-center-lock.png';
+import glassPatchTopImg from '@/assets/products/glass-patch-top.png';
+import glassPatchBottomImg from '@/assets/products/glass-patch-bottom.png';
 import glassPatchLockImg from '@/assets/products/glass-patch-lock.png';
 import glassLPatchMaleImg from '@/assets/products/glass-l-patch-male.png';
 import glassLPatchFemaleImg from '@/assets/products/glass-l-patch-female.png';
@@ -368,7 +370,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'CASSA Glass Patch – Top',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: glassLPatchMaleImg,
+    image: glassPatchTopImg,
     shortDescription: 'Top-mounted glass patch fitting for frameless glass door assemblies.',
     description: 'The CASSA Glass Patch – Top is used at the top edge of frameless glass doors to support pivot or hinge mechanisms. It ensures smooth door movement while maintaining precise alignment. Built for durability and stability, this patch fitting is ideal for commercial glass doors that require frequent operation.',
     features: ['Strong metal housing', 'Provides upper support and alignment', 'Smooth pivot or hinge integration', 'Easy and secure installation', 'Professional grade'],
@@ -379,7 +381,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'CASSA Glass Patch – Bottom',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: glassLPatchFemaleImg,
+    image: glassPatchBottomImg,
     shortDescription: 'Heavy-duty bottom glass patch fitting designed to support pivot and load-bearing functions.',
     description: 'The CASSA Glass Patch – Bottom plays a critical role in frameless glass door systems by supporting the door\'s weight and enabling smooth pivot movement. It is engineered for high load capacity and stability, making it suitable for commercial installations such as offices, showrooms, and retail entrances.',
     features: ['Load-bearing design', 'Strong grip on glass panel', 'Smooth pivot support', 'Long-lasting performance', 'Heavy-duty application'],
