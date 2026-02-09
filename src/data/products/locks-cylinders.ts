@@ -258,7 +258,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'CASSA Sliding Klick Lock (With / Without Key – Black / White)',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: slidingKlickLockImg,
     shortDescription: 'A modern sliding lock with quick klik locking action.',
     description: 'The CASSA Sliding Klick Lock is designed for sliding doors, wardrobes, cabinets, and partitions. Its klik locking mechanism allows quick engagement, while optional key functionality adds an extra layer of security. The minimal design blends seamlessly with modern interiors.',
     features: ['Fast klik-type locking system', 'Available with or without key', 'Black and white color options', 'Compact and elegant design', 'Easy operation'],
