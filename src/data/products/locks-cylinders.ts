@@ -368,7 +368,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'CASSA Glass Patch – Top',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: glassLPatchMaleImg,
     shortDescription: 'Top-mounted glass patch fitting for frameless glass door assemblies.',
     description: 'The CASSA Glass Patch – Top is used at the top edge of frameless glass doors to support pivot or hinge mechanisms. It ensures smooth door movement while maintaining precise alignment. Built for durability and stability, this patch fitting is ideal for commercial glass doors that require frequent operation.',
     features: ['Strong metal housing', 'Provides upper support and alignment', 'Smooth pivot or hinge integration', 'Easy and secure installation', 'Professional grade'],
