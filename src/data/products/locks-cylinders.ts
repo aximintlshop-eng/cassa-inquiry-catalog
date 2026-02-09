@@ -291,7 +291,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'CASSA Aluminium Lock Body – 20 mm Roller',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: aluminiumLockBodyRollerImg,
     shortDescription: 'Aluminium lock body with roller latch for smooth door closing.',
     description: 'This 20 mm aluminium lock body features a roller latch that ensures smooth and silent door closing without slamming. Ideal for wardrobes and internal doors.',
     features: ['Built-in roller mechanism', 'Smooth door engagement', 'Lightweight yet strong', 'Easy installation', 'Silent operation'],
