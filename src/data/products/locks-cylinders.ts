@@ -324,7 +324,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'CASSA Glass Center Lock – 3 Keys with Knob',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: glassCenterLockImg,
     shortDescription: 'Center locking solution for frameless glass doors.',
     description: 'This lock is designed for glass-to-glass or glass-to-frame applications, offering secure center locking with elegant aesthetics.',
     features: ['Integrated knob', 'Brass cylinder keys', 'Strong glass grip', 'Elegant design', 'Secure locking'],
