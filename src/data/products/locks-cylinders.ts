@@ -346,7 +346,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'CASSA Glass L Patch – Male',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: glassLPatchMaleImg,
     shortDescription: 'Male connector L patch fitting used for joining and supporting frameless glass panels.',
     description: 'The CASSA Glass L Patch – Male is designed as part of an L-shaped patch fitting system used in frameless glass installations. It provides firm support and alignment when joining glass panels or connecting glass to frames. Manufactured from high-quality metal alloy, it ensures structural stability while maintaining a sleek, minimal visual profile.',
     features: ['Precision-machined metal body', 'Strong grip on glass panels', 'Compatible with female L patch', 'Clean architectural appearance', 'Corrosion-resistant finish'],
