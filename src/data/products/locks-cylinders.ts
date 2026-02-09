@@ -357,7 +357,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'CASSA Glass L Patch – Female',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: glassLPatchFemaleImg,
     shortDescription: 'Female L patch fitting designed to pair with the male L patch for frameless glass connections.',
     description: 'The CASSA Glass L Patch – Female completes the L patch assembly, working together with the male component to create a secure and stable glass joint. It is designed to distribute load evenly across the glass surface, reducing stress and enhancing safety. Commonly used in office partitions, glass doors, and display systems.',
     features: ['Heavy-duty construction', 'Precise fit with male L patch', 'Smooth edges to protect glass', 'Elegant modern finish', 'Even load distribution'],
