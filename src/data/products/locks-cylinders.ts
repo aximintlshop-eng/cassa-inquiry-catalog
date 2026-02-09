@@ -21,6 +21,17 @@ import doorChainGuardImg from '@/assets/products/door-chain-guard.png';
 import steelCupboardLockBlackImg from '@/assets/products/steel-cupboard-lock-black.png';
 import cabinetLockImg from '@/assets/products/cabinet-lock.png';
 import cycleLockImg from '@/assets/products/cycle-lock.png';
+import slidingKlickLockImg from '@/assets/products/sliding-klick-lock.png';
+import slidingPushLockImg from '@/assets/products/sliding-push-lock.png';
+import aluminiumLockBodyImg from '@/assets/products/aluminium-lock-body.png';
+import aluminiumLockBodyRollerImg from '@/assets/products/aluminium-lock-body-roller.png';
+import doorLockBody85x45Img from '@/assets/products/door-lock-body-85x45.png';
+import doorLockBody72x55Img from '@/assets/products/door-lock-body-72x55.png';
+import glassCenterLockImg from '@/assets/products/glass-center-lock.png';
+import glassPatchLockImg from '@/assets/products/glass-patch-lock.png';
+import glassLPatchMaleImg from '@/assets/products/glass-l-patch-male.png';
+import glassLPatchFemaleImg from '@/assets/products/glass-l-patch-female.png';
+
 export const locksCylindersProducts: Product[] = [
   {
     id: 'lc-001',
@@ -247,7 +258,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'CASSA Sliding Klick Lock (With / Without Key – Black / White)',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: slidingKlickLockImg,
     shortDescription: 'A modern sliding lock with quick klik locking action.',
     description: 'The CASSA Sliding Klick Lock is designed for sliding doors, wardrobes, cabinets, and partitions. Its klik locking mechanism allows quick engagement, while optional key functionality adds an extra layer of security. The minimal design blends seamlessly with modern interiors.',
     features: ['Fast klik-type locking system', 'Available with or without key', 'Black and white color options', 'Compact and elegant design', 'Easy operation'],
@@ -258,7 +269,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'Sliding Push Lock (Black / White)',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: slidingPushLockImg,
     shortDescription: 'Push-to-lock sliding door mechanism with concealed design.',
     description: 'The Sliding Push Lock is designed for users seeking a clean, handle-less appearance. Locking and unlocking is achieved with a simple push, making it ideal for modern furniture and sliding panels.',
     features: ['Push-to-lock and push-to-release', 'Minimal visible hardware', 'Smooth and silent operation', 'Dual color availability', 'Modern design'],
@@ -269,7 +280,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'CASSA Aluminium Lock Body (20 / 25 / 30 / 35 mm)',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: aluminiumLockBodyImg,
     shortDescription: 'Lightweight aluminium lock body for multiple door applications.',
     description: 'CASSA Aluminium Lock Bodies are designed for aluminium doors, wardrobes, and partitions. They offer reliable locking with reduced weight, making them ideal for modern aluminium systems.',
     features: ['Strong aluminium alloy construction', 'Multiple size options', 'Corrosion-resistant finish', 'Smooth key movement', 'Lightweight design'],
@@ -280,7 +291,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'CASSA Aluminium Lock Body – 20 mm Roller',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: aluminiumLockBodyRollerImg,
     shortDescription: 'Aluminium lock body with roller latch for smooth door closing.',
     description: 'This 20 mm aluminium lock body features a roller latch that ensures smooth and silent door closing without slamming. Ideal for wardrobes and internal doors.',
     features: ['Built-in roller mechanism', 'Smooth door engagement', 'Lightweight yet strong', 'Easy installation', 'Silent operation'],
@@ -291,7 +302,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'CASSA Door Lock Body 85×45',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: doorLockBody85x45Img,
     shortDescription: 'Standard-size lock body for internal and external doors.',
     description: 'Designed for high-usage doors, this lock body ensures consistent performance and compatibility with standard door fittings.',
     features: ['Durable internal mechanism', 'Standard size compatibility', 'Smooth latch and bolt action', 'Multiple functions', 'Reliable performance'],
@@ -302,7 +313,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'CASSA Door Lock Body 72×55',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: doorLockBody72x55Img,
     shortDescription: 'Compact lock body for lighter door applications.',
     description: 'Perfect for smaller doors, cabinets, and partitions where compact locking solutions are required.',
     features: ['Space-saving design', 'Strong internal construction', 'Reliable locking', 'European style', 'Smooth operation'],
@@ -313,7 +324,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'CASSA Glass Center Lock – 3 Keys with Knob',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: glassCenterLockImg,
     shortDescription: 'Center locking solution for frameless glass doors.',
     description: 'This lock is designed for glass-to-glass or glass-to-frame applications, offering secure center locking with elegant aesthetics.',
     features: ['Integrated knob', 'Brass cylinder keys', 'Strong glass grip', 'Elegant design', 'Secure locking'],
@@ -324,7 +335,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'CASSA Glass Patch Lock – 3 Brass Keys',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: glassPatchLockImg,
     shortDescription: 'A premium-quality glass patch lock designed for frameless glass doors, supplied with 3 durable brass keys for enhanced security.',
     description: 'The CASSA Glass Patch Lock – 3 Brass Keys is engineered to provide reliable security for frameless glass doors used in offices, showrooms, retail outlets, and commercial spaces. The lock is designed to clamp securely onto the glass panel without the need for glass cutting or drilling, ensuring safety and easy installation.',
     features: ['Heavy-duty patch lock construction', 'High-quality brass key cylinder', 'Suitable for frameless glass doors', 'Secure locking without drilling glass', 'Smooth key operation and long service life'],
@@ -335,7 +346,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'CASSA Glass L Patch – Male',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: glassLPatchMaleImg,
     shortDescription: 'Male connector L patch fitting used for joining and supporting frameless glass panels.',
     description: 'The CASSA Glass L Patch – Male is designed as part of an L-shaped patch fitting system used in frameless glass installations. It provides firm support and alignment when joining glass panels or connecting glass to frames. Manufactured from high-quality metal alloy, it ensures structural stability while maintaining a sleek, minimal visual profile.',
     features: ['Precision-machined metal body', 'Strong grip on glass panels', 'Compatible with female L patch', 'Clean architectural appearance', 'Corrosion-resistant finish'],
@@ -346,7 +357,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'CASSA Glass L Patch – Female',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: glassLPatchFemaleImg,
     shortDescription: 'Female L patch fitting designed to pair with the male L patch for frameless glass connections.',
     description: 'The CASSA Glass L Patch – Female completes the L patch assembly, working together with the male component to create a secure and stable glass joint. It is designed to distribute load evenly across the glass surface, reducing stress and enhancing safety. Commonly used in office partitions, glass doors, and display systems.',
     features: ['Heavy-duty construction', 'Precise fit with male L patch', 'Smooth edges to protect glass', 'Elegant modern finish', 'Even load distribution'],
@@ -357,7 +368,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'CASSA Glass Patch – Top',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: glassLPatchMaleImg,
     shortDescription: 'Top-mounted glass patch fitting for frameless glass door assemblies.',
     description: 'The CASSA Glass Patch – Top is used at the top edge of frameless glass doors to support pivot or hinge mechanisms. It ensures smooth door movement while maintaining precise alignment. Built for durability and stability, this patch fitting is ideal for commercial glass doors that require frequent operation.',
     features: ['Strong metal housing', 'Provides upper support and alignment', 'Smooth pivot or hinge integration', 'Easy and secure installation', 'Professional grade'],
@@ -368,7 +379,7 @@ export const locksCylindersProducts: Product[] = [
     name: 'CASSA Glass Patch – Bottom',
     categoryId: 'locks-cylinders',
     category: 'Locks & Cylinders',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: glassLPatchFemaleImg,
     shortDescription: 'Heavy-duty bottom glass patch fitting designed to support pivot and load-bearing functions.',
     description: 'The CASSA Glass Patch – Bottom plays a critical role in frameless glass door systems by supporting the door\'s weight and enabling smooth pivot movement. It is engineered for high load capacity and stability, making it suitable for commercial installations such as offices, showrooms, and retail entrances.',
     features: ['Load-bearing design', 'Strong grip on glass panel', 'Smooth pivot support', 'Long-lasting performance', 'Heavy-duty application'],
