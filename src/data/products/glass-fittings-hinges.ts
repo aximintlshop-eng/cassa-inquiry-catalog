@@ -189,7 +189,7 @@ export const glassFittingsHingesProducts: Product[] = [
     name: 'Glass Spacer – All Sizes',
     categoryId: 'glass-fittings-hinges',
     category: 'Glass Fittings & Hinges',
-    image: glassToGlassHingeImg,
+    image: glassSpacerImg,
     shortDescription: 'Glass spacers in all sizes for glass installation.',
     description: 'Glass Spacers available in all sizes for proper glass panel spacing and installation.',
     features: ['All sizes available', 'For glass installation', 'Precision spacing', 'Various thicknesses', 'Easy to use'],
