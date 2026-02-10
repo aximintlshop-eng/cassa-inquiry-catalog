@@ -11,6 +11,11 @@ import concealedHinges3dImg from '@/assets/products/3d-concealed-hinges.png';
 import aluminiumFlagHingesImg from '@/assets/products/aluminium-flag-hinges.png';
 import concealedHingeAImg from '@/assets/products/concealed-hinge-a-type.png';
 import concealedHingeBImg from '@/assets/products/concealed-hinge-b-type.png';
+import concealedHingeCImg from '@/assets/products/concealed-hinge-c-type.png';
+import butterflyHingesSoftCloseImg from '@/assets/products/butterfly-hinges-soft-close.png';
+import degree165HingesImg from '@/assets/products/165-degree-hinges.png';
+import doubleActionHingesImg from '@/assets/products/double-action-hinges.png';
+import glassSpacerImg from '@/assets/products/glass-spacer.png';
 
 export const glassFittingsHingesProducts: Product[] = [
   {
