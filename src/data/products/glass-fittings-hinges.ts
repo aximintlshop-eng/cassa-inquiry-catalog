@@ -133,7 +133,7 @@ export const glassFittingsHingesProducts: Product[] = [
     name: 'Concealed Hinges "C" Type – Soft Closing / Normal',
     categoryId: 'glass-fittings-hinges',
     category: 'Glass Fittings & Hinges',
-    image: concealedHingeBImg,
+    image: concealedHingeCImg,
     shortDescription: 'C-type concealed hinges with soft close option.',
     description: 'Concealed Hinges C-Type available in soft closing and normal versions for inset doors.',
     features: ['C-type design', 'Soft close option', 'For inset doors', 'Precision fit', 'Quality construction'],
