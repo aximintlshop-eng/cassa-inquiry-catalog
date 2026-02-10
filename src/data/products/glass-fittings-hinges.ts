@@ -144,7 +144,7 @@ export const glassFittingsHingesProducts: Product[] = [
     name: 'Butterfly Hinges – Soft Closing / Normal',
     categoryId: 'glass-fittings-hinges',
     category: 'Glass Fittings & Hinges',
-    image: ssButterflyHingesImg,
+    image: butterflyHingesSoftCloseImg,
     shortDescription: 'Butterfly hinges with soft close option.',
     description: 'Butterfly Hinges available in soft closing and normal versions for cabinet and furniture applications.',
     features: ['Butterfly design', 'Soft close option', 'Decorative', 'For furniture', 'Easy installation'],
