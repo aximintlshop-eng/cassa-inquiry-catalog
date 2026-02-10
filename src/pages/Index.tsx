@@ -32,15 +32,20 @@ const Index = () => {
             </div>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {getFeaturedCategories().map((category) => (
-                <CategoryCard 
-                  key={category.id}
-                  id={category.id}
-                  name={category.name}
-                  image={category.image}
-                  productCount={category.productCount}
-                />
-              ))}
+              {getFeaturedCategories().map((category) => {
+                const catProducts = getProductsByCategoryId(category.id);
+                const productImages = catProducts.map(p => p.image);
+                return (
+                  <CategoryCard 
+                    key={category.id}
+                    id={category.id}
+                    name={category.name}
+                    image={category.image}
+                    productCount={category.productCount}
+                    productImages={productImages}
+                  />
+                );
+              })}
             </div>
             
             <div className="text-center mt-10">
