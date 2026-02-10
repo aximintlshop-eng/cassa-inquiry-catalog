@@ -1,12 +1,18 @@
 import { Product } from '../products';
 
+import doorSlidingWheelSetImg from '@/assets/products/door-sliding-wheel-set.png';
+import slidingWheelOpen25mmImg from '@/assets/products/sliding-wheel-open-25mm.png';
+import slidingWheelDoubleCapImg from '@/assets/products/sliding-wheel-double-cap.png';
+import doorSlidingWheel1925mmImg from '@/assets/products/door-sliding-wheel-19-25mm.png';
+import slidingWheelGreenOrangeImg from '@/assets/products/sliding-wheel-green-orange.png';
+
 export const slidesDrawerSystemsProducts: Product[] = [
   {
     id: 'sds-001',
     name: 'Door Sliding Wheel Set',
     categoryId: 'slides-drawer-systems',
     category: 'Slides & Drawer Systems',
-    image: 'https://images.unsplash.com/photo-1530119458221-cf266ca1273c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: doorSlidingWheelSetImg,
     shortDescription: 'Complete sliding wheel set for sliding doors.',
     description: 'Complete Door Sliding Wheel Set including wheels, track, and mounting hardware for sliding door installations.',
     features: ['Complete set', 'Includes track', 'Smooth rolling', 'Easy installation', 'Heavy duty wheels'],
@@ -17,7 +23,7 @@ export const slidesDrawerSystemsProducts: Product[] = [
     name: 'Sliding Wheel – Open Type (25 mm)',
     categoryId: 'slides-drawer-systems',
     category: 'Slides & Drawer Systems',
-    image: 'https://images.unsplash.com/photo-1530119458221-cf266ca1273c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: slidingWheelOpen25mmImg,
     shortDescription: '25mm open type sliding wheel for doors.',
     description: '25mm Open Type Sliding Wheel for sliding doors and cabinets with exposed wheel design.',
     features: ['Open type design', '25mm diameter', 'Smooth rolling', 'For sliding doors', 'Easy replacement'],
@@ -28,7 +34,7 @@ export const slidesDrawerSystemsProducts: Product[] = [
     name: 'Sliding Wheel – Double Cap (120 kg)',
     categoryId: 'slides-drawer-systems',
     category: 'Slides & Drawer Systems',
-    image: 'https://images.unsplash.com/photo-1530119458221-cf266ca1273c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: slidingWheelDoubleCapImg,
     shortDescription: 'Heavy duty double cap sliding wheel rated 120kg.',
     description: 'Heavy Duty Double Cap Sliding Wheel with 120kg load capacity for heavy sliding doors.',
     features: ['120kg capacity', 'Double cap design', 'Heavy duty', 'Ball bearing', 'Quiet operation'],
@@ -39,7 +45,7 @@ export const slidesDrawerSystemsProducts: Product[] = [
     name: 'Door Sliding Wheel (Sizes 19 mm, 25 mm)',
     categoryId: 'slides-drawer-systems',
     category: 'Slides & Drawer Systems',
-    image: 'https://images.unsplash.com/photo-1530119458221-cf266ca1273c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: doorSlidingWheel1925mmImg,
     shortDescription: 'Door sliding wheels in 19mm and 25mm sizes.',
     description: 'Door Sliding Wheels available in 19mm and 25mm sizes for various sliding door applications.',
     features: ['Two size options', 'Standard design', 'Smooth operation', 'Replaceable', 'Quality bearings'],
@@ -50,7 +56,7 @@ export const slidesDrawerSystemsProducts: Product[] = [
     name: 'Sliding Wheel – Green / Orange (25 mm)',
     categoryId: 'slides-drawer-systems',
     category: 'Slides & Drawer Systems',
-    image: 'https://images.unsplash.com/photo-1530119458221-cf266ca1273c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: slidingWheelGreenOrangeImg,
     shortDescription: '25mm colored sliding wheels in green and orange.',
     description: '25mm Sliding Wheels in Green and Orange colors for easy identification and specific applications.',
     features: ['Color coded', '25mm diameter', 'Green & orange options', 'Easy identification', 'Quality material'],
@@ -61,7 +67,7 @@ export const slidesDrawerSystemsProducts: Product[] = [
     name: 'Soft Closing & Push-to-Open Drawer Slides (Sizes 10" to 24")',
     categoryId: 'slides-drawer-systems',
     category: 'Slides & Drawer Systems',
-    image: 'https://images.unsplash.com/photo-1530119458221-cf266ca1273c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: slidingWheelDoubleCapImg,
     shortDescription: 'Premium drawer slides with soft close and push-to-open.',
     description: 'Premium Drawer Slides featuring both soft closing and push-to-open mechanisms, available in sizes from 10" to 24".',
     features: ['Soft close mechanism', 'Push-to-open', 'Full extension', 'Size range 10"-24"', 'Ball bearing'],
@@ -72,7 +78,7 @@ export const slidesDrawerSystemsProducts: Product[] = [
     name: 'Full Extension Drawer Slides (Sizes 10" to 24")',
     categoryId: 'slides-drawer-systems',
     category: 'Slides & Drawer Systems',
-    image: 'https://images.unsplash.com/photo-1530119458221-cf266ca1273c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: slidingWheelDoubleCapImg,
     shortDescription: 'Full extension drawer slides in all standard sizes.',
     description: 'Full Extension Drawer Slides providing 100% drawer access, available in sizes from 10" to 24".',
     features: ['Full extension', '100% access', 'Ball bearing', 'Size range 10"-24"', 'Smooth operation'],
@@ -83,7 +89,7 @@ export const slidesDrawerSystemsProducts: Product[] = [
     name: 'White Drawer Slides (Sizes 10" to 24")',
     categoryId: 'slides-drawer-systems',
     category: 'Slides & Drawer Systems',
-    image: 'https://images.unsplash.com/photo-1530119458221-cf266ca1273c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: slidingWheelDoubleCapImg,
     shortDescription: 'White epoxy coated drawer slides in all sizes.',
     description: 'White Epoxy Coated Drawer Slides for light colored furniture, available in sizes from 10" to 24".',
     features: ['White epoxy coating', 'Full extension', 'For light furniture', 'Size range 10"-24"', 'Corrosion resistant'],

@@ -11,6 +11,11 @@ import concealedHinges3dImg from '@/assets/products/3d-concealed-hinges.png';
 import aluminiumFlagHingesImg from '@/assets/products/aluminium-flag-hinges.png';
 import concealedHingeAImg from '@/assets/products/concealed-hinge-a-type.png';
 import concealedHingeBImg from '@/assets/products/concealed-hinge-b-type.png';
+import concealedHingeCImg from '@/assets/products/concealed-hinge-c-type.png';
+import butterflyHingesSoftCloseImg from '@/assets/products/butterfly-hinges-soft-close.png';
+import degree165HingesImg from '@/assets/products/165-degree-hinges.png';
+import doubleActionHingesImg from '@/assets/products/double-action-hinges.png';
+import glassSpacerImg from '@/assets/products/glass-spacer.png';
 
 export const glassFittingsHingesProducts: Product[] = [
   {
@@ -128,7 +133,7 @@ export const glassFittingsHingesProducts: Product[] = [
     name: 'Concealed Hinges "C" Type – Soft Closing / Normal',
     categoryId: 'glass-fittings-hinges',
     category: 'Glass Fittings & Hinges',
-    image: concealedHingeBImg,
+    image: concealedHingeCImg,
     shortDescription: 'C-type concealed hinges with soft close option.',
     description: 'Concealed Hinges C-Type available in soft closing and normal versions for inset doors.',
     features: ['C-type design', 'Soft close option', 'For inset doors', 'Precision fit', 'Quality construction'],
@@ -139,7 +144,7 @@ export const glassFittingsHingesProducts: Product[] = [
     name: 'Butterfly Hinges – Soft Closing / Normal',
     categoryId: 'glass-fittings-hinges',
     category: 'Glass Fittings & Hinges',
-    image: ssButterflyHingesImg,
+    image: butterflyHingesSoftCloseImg,
     shortDescription: 'Butterfly hinges with soft close option.',
     description: 'Butterfly Hinges available in soft closing and normal versions for cabinet and furniture applications.',
     features: ['Butterfly design', 'Soft close option', 'Decorative', 'For furniture', 'Easy installation'],
@@ -152,6 +157,7 @@ export const glassFittingsHingesProducts: Product[] = [
     category: 'Glass Fittings & Hinges',
     image: bearingHingesImg,
     shortDescription: 'Heavy duty magnum hinges for main doors.',
+
     description: 'Heavy Duty Magnum Hinges designed for main doors and heavy wooden doors.',
     features: ['Heavy duty', 'For main doors', 'High load capacity', 'Durable construction', 'Professional grade'],
     specifications: { 'Brand': 'CASSA', 'Material': 'Steel / Brass', 'Finish': 'Various', 'Type': 'Magnum Hinge', 'Application': 'Heavy Doors' }
@@ -161,7 +167,7 @@ export const glassFittingsHingesProducts: Product[] = [
     name: '165 Degree Hinges – Soft Closing',
     categoryId: 'glass-fittings-hinges',
     category: 'Glass Fittings & Hinges',
-    image: concealedHingeAImg,
+    image: degree165HingesImg,
     shortDescription: '165 degree opening hinges with soft close.',
     description: '165 Degree Hinges with soft closing mechanism for corner cabinets and wide opening applications.',
     features: ['165 degree opening', 'Soft closing', 'For corner cabinets', 'Wide angle', 'Smooth operation'],
@@ -172,7 +178,7 @@ export const glassFittingsHingesProducts: Product[] = [
     name: 'Double Action Hinges',
     categoryId: 'glass-fittings-hinges',
     category: 'Glass Fittings & Hinges',
-    image: msHingesImg,
+    image: doubleActionHingesImg,
     shortDescription: 'Double action hinges for swing doors.',
     description: 'Double Action Hinges allowing doors to swing both ways with self-closing mechanism.',
     features: ['Swings both ways', 'Self closing', 'For swing doors', 'Spring loaded', 'Commercial grade'],
@@ -183,7 +189,7 @@ export const glassFittingsHingesProducts: Product[] = [
     name: 'Glass Spacer – All Sizes',
     categoryId: 'glass-fittings-hinges',
     category: 'Glass Fittings & Hinges',
-    image: glassToGlassHingeImg,
+    image: glassSpacerImg,
     shortDescription: 'Glass spacers in all sizes for glass installation.',
     description: 'Glass Spacers available in all sizes for proper glass panel spacing and installation.',
     features: ['All sizes available', 'For glass installation', 'Precision spacing', 'Various thicknesses', 'Easy to use'],
