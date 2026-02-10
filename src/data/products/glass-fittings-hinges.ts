@@ -157,6 +157,7 @@ export const glassFittingsHingesProducts: Product[] = [
     category: 'Glass Fittings & Hinges',
     image: bearingHingesImg,
     shortDescription: 'Heavy duty magnum hinges for main doors.',
+
     description: 'Heavy Duty Magnum Hinges designed for main doors and heavy wooden doors.',
     features: ['Heavy duty', 'For main doors', 'High load capacity', 'Durable construction', 'Professional grade'],
     specifications: { 'Brand': 'CASSA', 'Material': 'Steel / Brass', 'Finish': 'Various', 'Type': 'Magnum Hinge', 'Application': 'Heavy Doors' }
