@@ -167,7 +167,7 @@ export const glassFittingsHingesProducts: Product[] = [
     name: '165 Degree Hinges – Soft Closing',
     categoryId: 'glass-fittings-hinges',
     category: 'Glass Fittings & Hinges',
-    image: concealedHingeAImg,
+    image: degree165HingesImg,
     shortDescription: '165 degree opening hinges with soft close.',
     description: '165 Degree Hinges with soft closing mechanism for corner cabinets and wide opening applications.',
     features: ['165 degree opening', 'Soft closing', 'For corner cabinets', 'Wide angle', 'Smooth operation'],
