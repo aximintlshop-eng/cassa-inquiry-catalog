@@ -1,12 +1,24 @@
 import { Product } from '../products';
 
+// Import images
+import glassToGlassHingeImg from '@/assets/products/glass-to-glass-hinge.png';
+import wallToGlassHingeImg from '@/assets/products/wall-to-glass-hinge.png';
+import glassBottomMachineImg from '@/assets/products/glass-bottom-machine.png';
+import msHingesImg from '@/assets/products/ms-hinges.png';
+import bearingHingesImg from '@/assets/products/bearing-hinges.png';
+import ssButterflyHingesImg from '@/assets/products/ss-butterfly-hinges.png';
+import concealedHinges3dImg from '@/assets/products/3d-concealed-hinges.png';
+import aluminiumFlagHingesImg from '@/assets/products/aluminium-flag-hinges.png';
+import concealedHingeAImg from '@/assets/products/concealed-hinge-a-type.png';
+import concealedHingeBImg from '@/assets/products/concealed-hinge-b-type.png';
+
 export const glassFittingsHingesProducts: Product[] = [
   {
     id: 'gfh-001',
     name: 'CASSA Glass to Glass Hinge – 90 Degree',
     categoryId: 'glass-fittings-hinges',
     category: 'Glass Fittings & Hinges',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: glassToGlassHingeImg,
     shortDescription: '90 degree glass to glass hinge for shower enclosures.',
     description: 'CASSA Glass to Glass Hinge with 90 degree opening for frameless shower enclosures and glass partitions.',
     features: ['90 degree opening', 'Glass to glass connection', 'Stainless steel', 'Shower compatible', 'Heavy duty'],
@@ -17,7 +29,7 @@ export const glassFittingsHingesProducts: Product[] = [
     name: 'CASSA Wall to Glass Hinge – 90 Degree',
     categoryId: 'glass-fittings-hinges',
     category: 'Glass Fittings & Hinges',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: wallToGlassHingeImg,
     shortDescription: '90 degree wall to glass hinge for glass doors.',
     description: 'CASSA Wall to Glass Hinge with 90 degree opening for mounting frameless glass doors to walls.',
     features: ['90 degree opening', 'Wall to glass mount', 'Stainless steel', 'Heavy load capacity', 'Professional grade'],
@@ -28,7 +40,7 @@ export const glassFittingsHingesProducts: Product[] = [
     name: 'Glass Bottom Machine / Full Set (90 kg, 120 kg)',
     categoryId: 'glass-fittings-hinges',
     category: 'Glass Fittings & Hinges',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: glassBottomMachineImg,
     shortDescription: 'Glass bottom fitting machine in 90kg and 120kg capacities.',
     description: 'Glass Bottom Machine full set available in 90kg and 120kg capacities for floor spring installations.',
     features: ['Two capacity options', 'Floor spring system', 'Smooth operation', 'Adjustable', 'Professional installation'],
@@ -39,7 +51,7 @@ export const glassFittingsHingesProducts: Product[] = [
     name: 'MS Hinges – All Sizes',
     categoryId: 'glass-fittings-hinges',
     category: 'Glass Fittings & Hinges',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: msHingesImg,
     shortDescription: 'Mild steel hinges in all standard sizes.',
     description: 'Mild Steel Hinges available in all standard sizes for doors, gates, and general applications.',
     features: ['All sizes available', 'MS construction', 'Heavy duty', 'General purpose', 'Paintable finish'],
@@ -50,7 +62,7 @@ export const glassFittingsHingesProducts: Product[] = [
     name: 'Bearing Hinges 4×3×3 (SN / CP / GP / Black)',
     categoryId: 'glass-fittings-hinges',
     category: 'Glass Fittings & Hinges',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: bearingHingesImg,
     shortDescription: 'Ball bearing hinges 4×3×3 in four finishes.',
     description: 'Ball Bearing Hinges 4×3×3 inch with smooth operation, available in SN, CP, GP, and Black finishes.',
     features: ['Ball bearing design', 'Smooth operation', 'Four finish options', 'Heavy duty rated', 'Long lasting'],
@@ -61,7 +73,7 @@ export const glassFittingsHingesProducts: Product[] = [
     name: 'Stainless Steel Butterfly Wooden Door Hinges',
     categoryId: 'glass-fittings-hinges',
     category: 'Glass Fittings & Hinges',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: ssButterflyHingesImg,
     shortDescription: 'Stainless steel butterfly hinges for wooden doors.',
     description: 'Stainless Steel Butterfly Hinges designed specifically for wooden door applications.',
     features: ['Butterfly design', 'Stainless steel', 'For wooden doors', 'Decorative look', 'Corrosion resistant'],
@@ -72,7 +84,7 @@ export const glassFittingsHingesProducts: Product[] = [
     name: '3D Concealed Hinges – All Sizes',
     categoryId: 'glass-fittings-hinges',
     category: 'Glass Fittings & Hinges',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: concealedHinges3dImg,
     shortDescription: '3D adjustable concealed hinges in all sizes.',
     description: '3D Concealed Hinges with three-way adjustment for perfect door alignment, available in all sizes.',
     features: ['3D adjustment', 'Concealed design', 'All sizes available', 'Perfect alignment', 'Modern doors'],
@@ -83,7 +95,7 @@ export const glassFittingsHingesProducts: Product[] = [
     name: 'Aluminium Flag Hinges',
     categoryId: 'glass-fittings-hinges',
     category: 'Glass Fittings & Hinges',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: aluminiumFlagHingesImg,
     shortDescription: 'Aluminium flag hinges for aluminium doors and windows.',
     description: 'Aluminium Flag Hinges designed for aluminium doors and windows with easy installation.',
     features: ['Flag design', 'Aluminium construction', 'Lightweight', 'For Al doors/windows', 'Easy installation'],
@@ -94,7 +106,7 @@ export const glassFittingsHingesProducts: Product[] = [
     name: 'Concealed Hinges "A" Type – Soft Closing / Normal',
     categoryId: 'glass-fittings-hinges',
     category: 'Glass Fittings & Hinges',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: concealedHingeAImg,
     shortDescription: 'A-type concealed hinges with soft close option.',
     description: 'Concealed Hinges A-Type available in soft closing and normal versions for cabinet doors.',
     features: ['A-type design', 'Soft close option', 'Concealed mounting', 'Cabinet grade', 'Smooth operation'],
@@ -105,7 +117,7 @@ export const glassFittingsHingesProducts: Product[] = [
     name: 'Concealed Hinges "B" Type – Soft Closing / Normal',
     categoryId: 'glass-fittings-hinges',
     category: 'Glass Fittings & Hinges',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: concealedHingeBImg,
     shortDescription: 'B-type concealed hinges with soft close option.',
     description: 'Concealed Hinges B-Type available in soft closing and normal versions for overlay doors.',
     features: ['B-type design', 'Soft close option', 'For overlay doors', 'Quality mechanism', 'Easy adjustment'],
@@ -116,7 +128,7 @@ export const glassFittingsHingesProducts: Product[] = [
     name: 'Concealed Hinges "C" Type – Soft Closing / Normal',
     categoryId: 'glass-fittings-hinges',
     category: 'Glass Fittings & Hinges',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: concealedHingeBImg,
     shortDescription: 'C-type concealed hinges with soft close option.',
     description: 'Concealed Hinges C-Type available in soft closing and normal versions for inset doors.',
     features: ['C-type design', 'Soft close option', 'For inset doors', 'Precision fit', 'Quality construction'],
@@ -127,7 +139,7 @@ export const glassFittingsHingesProducts: Product[] = [
     name: 'Butterfly Hinges – Soft Closing / Normal',
     categoryId: 'glass-fittings-hinges',
     category: 'Glass Fittings & Hinges',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: ssButterflyHingesImg,
     shortDescription: 'Butterfly hinges with soft close option.',
     description: 'Butterfly Hinges available in soft closing and normal versions for cabinet and furniture applications.',
     features: ['Butterfly design', 'Soft close option', 'Decorative', 'For furniture', 'Easy installation'],
@@ -138,7 +150,7 @@ export const glassFittingsHingesProducts: Product[] = [
     name: 'Magnum Hinges',
     categoryId: 'glass-fittings-hinges',
     category: 'Glass Fittings & Hinges',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: bearingHingesImg,
     shortDescription: 'Heavy duty magnum hinges for main doors.',
     description: 'Heavy Duty Magnum Hinges designed for main doors and heavy wooden doors.',
     features: ['Heavy duty', 'For main doors', 'High load capacity', 'Durable construction', 'Professional grade'],
@@ -149,7 +161,7 @@ export const glassFittingsHingesProducts: Product[] = [
     name: '165 Degree Hinges – Soft Closing',
     categoryId: 'glass-fittings-hinges',
     category: 'Glass Fittings & Hinges',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: concealedHingeAImg,
     shortDescription: '165 degree opening hinges with soft close.',
     description: '165 Degree Hinges with soft closing mechanism for corner cabinets and wide opening applications.',
     features: ['165 degree opening', 'Soft closing', 'For corner cabinets', 'Wide angle', 'Smooth operation'],
@@ -160,7 +172,7 @@ export const glassFittingsHingesProducts: Product[] = [
     name: 'Double Action Hinges',
     categoryId: 'glass-fittings-hinges',
     category: 'Glass Fittings & Hinges',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: msHingesImg,
     shortDescription: 'Double action hinges for swing doors.',
     description: 'Double Action Hinges allowing doors to swing both ways with self-closing mechanism.',
     features: ['Swings both ways', 'Self closing', 'For swing doors', 'Spring loaded', 'Commercial grade'],
@@ -171,7 +183,7 @@ export const glassFittingsHingesProducts: Product[] = [
     name: 'Glass Spacer – All Sizes',
     categoryId: 'glass-fittings-hinges',
     category: 'Glass Fittings & Hinges',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: glassToGlassHingeImg,
     shortDescription: 'Glass spacers in all sizes for glass installation.',
     description: 'Glass Spacers available in all sizes for proper glass panel spacing and installation.',
     features: ['All sizes available', 'For glass installation', 'Precision spacing', 'Various thicknesses', 'Easy to use'],
