@@ -178,7 +178,7 @@ export const glassFittingsHingesProducts: Product[] = [
     name: 'Double Action Hinges',
     categoryId: 'glass-fittings-hinges',
     category: 'Glass Fittings & Hinges',
-    image: msHingesImg,
+    image: doubleActionHingesImg,
     shortDescription: 'Double action hinges for swing doors.',
     description: 'Double Action Hinges allowing doors to swing both ways with self-closing mechanism.',
     features: ['Swings both ways', 'Self closing', 'For swing doors', 'Spring loaded', 'Commercial grade'],
