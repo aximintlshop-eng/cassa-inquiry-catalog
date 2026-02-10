@@ -7,7 +7,7 @@ import HeroSection from '@/components/HeroSection';
 import CategoryCard from '@/components/CategoryCard';
 import ProductCard from '@/components/ProductCard';
 import { getFeaturedCategories } from '@/data/categories';
-import { products } from '@/data/products';
+import { products, getProductsByCategoryId } from '@/data/products';
 
 const Index = () => {
   // Get a subset of featured products (first 3)
