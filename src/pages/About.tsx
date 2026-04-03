@@ -23,7 +23,7 @@ const About = () => {
         </div>
         
         {/* AXIM International Overview */}
-        <section className="section-padding bg-white">
+        <section className="section-padding bg-gradient-to-r from-blue-50 to-yellow-50">
           <div className="container-custom">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="flex justify-center">
