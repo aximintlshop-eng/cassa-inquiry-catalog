@@ -66,41 +66,22 @@ const Navbar = () => {
             <Link to="/about" className="font-medium hover:text-cassa-yellow transition-colors">About Us</Link>
             <Link to="/contact" className="font-medium hover:text-cassa-yellow transition-colors">Contact</Link>
             
-            {/* Desktop Search */}
-            <div className="relative">
-              {isSearchOpen ? (
-                <form onSubmit={handleSearch} className="flex items-center">
-                  <input
-                    type="text"
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    placeholder="Search products..."
-                    className="w-48 px-3 py-1.5 text-sm border border-gray-300 rounded-l-md focus:outline-none focus:ring-1 focus:ring-cassa-yellow"
-                    autoFocus
-                  />
-                  <button
-                    type="submit"
-                    className="bg-cassa-blue text-white p-1.5 rounded-r-md hover:bg-cassa-blue/90"
-                  >
-                    <Search size={18} />
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => setIsSearchOpen(false)}
-                    className="ml-2 text-gray-500 hover:text-gray-700"
-                  >
-                    <X size={18} />
-                  </button>
-                </form>
-              ) : (
-                <button
-                  onClick={() => setIsSearchOpen(true)}
-                  className="text-cassa-blue hover:text-cassa-yellow transition-colors"
-                >
-                  <Search size={20} />
-                </button>
-              )}
-            </div>
+            {/* Desktop Search - Always visible */}
+            <form onSubmit={handleSearch} className="flex items-center">
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder="Search products..."
+                className="w-48 px-3 py-1.5 text-sm border border-gray-300 rounded-l-md focus:outline-none focus:ring-1 focus:ring-cassa-yellow"
+              />
+              <button
+                type="submit"
+                className="bg-cassa-blue text-white p-1.5 rounded-r-md hover:bg-cassa-blue/90"
+              >
+                <Search size={18} />
+              </button>
+            </form>
           </div>
           
           {/* Axim logo on right - Desktop */}
