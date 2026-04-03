@@ -7,7 +7,7 @@ import aximLogo from '@/assets/axim-logo.png';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
   const [searchQuery, setSearchQuery] = useState('');
   const navigate = useNavigate();
   
