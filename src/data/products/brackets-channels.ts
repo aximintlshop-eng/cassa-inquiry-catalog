@@ -156,7 +156,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Pipe Connector CP Tee (Sizes 3/4", 1")',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: pipeConnectorTeeImg,
     shortDescription: 'Chrome plated pipe tee connectors.',
     description: 'Chrome Plated Pipe Tee Connectors in 3/4" and 1" sizes for T-junction connections.',
     features: ['T-junction', 'Chrome plated', 'Two sizes', 'For pipe rails', 'Secure fit'],
