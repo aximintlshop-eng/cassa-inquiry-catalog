@@ -178,7 +178,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Pipe Connector Joint Pipe (Sizes 3/4", 1")',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: pipeJointConnectorImg,
     shortDescription: 'Pipe joint connectors for extending pipes.',
     description: 'Pipe Joint Connectors in 3/4" and 1" sizes for extending pipe rail lengths.',
     features: ['Straight joint', 'Extends pipes', 'Two sizes', 'Chrome finish', 'Secure connection'],
