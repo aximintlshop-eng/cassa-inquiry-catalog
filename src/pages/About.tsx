@@ -13,17 +13,17 @@ const About = () => {
       
       <main className="flex-grow">
         {/* Page Header */}
-        <div className="bg-gray-100 py-12">
+        <div className="bg-gradient-to-r from-blue-100 to-yellow-100 py-12">
           <div className="container-custom text-center">
-            <h1 className="text-4xl font-bold mb-4">About Us</h1>
-            <p className="text-gray-600 max-w-2xl mx-auto">
+            <h1 className="text-4xl font-bold mb-4 text-blue-900" style={{ fontFamily: 'Poppins, sans-serif' }}>About Us</h1>
+            <p className="text-blue-700 max-w-2xl mx-auto" style={{ fontFamily: 'Poppins, sans-serif' }}>
               Your one-stop trusted partner
             </p>
           </div>
         </div>
         
         {/* AXIM International Overview */}
-        <section className="section-padding bg-white">
+        <section className="section-padding bg-gradient-to-r from-blue-50 to-yellow-50">
           <div className="container-custom">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="flex justify-center">
@@ -54,7 +54,7 @@ const About = () => {
         </section>
 
         {/* Cassa Brand Section */}
-        <section className="section-padding bg-gray-50">
+        <section className="section-padding bg-gradient-to-r from-yellow-50 to-blue-50">
           <div className="container-custom">
             <div className="text-center mb-8">
               <h2 className="text-3xl font-bold mb-2">Our Brand</h2>
@@ -86,7 +86,7 @@ const About = () => {
         </section>
         
         {/* Our Values */}
-        <section className="section-padding bg-white">
+        <section className="section-padding bg-gradient-to-r from-blue-50 to-yellow-50">
           <div className="container-custom">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">Our Values</h2>
@@ -130,7 +130,7 @@ const About = () => {
         </section>
 
         {/* Location Map */}
-        <section className="section-padding bg-gray-50">
+        <section className="section-padding bg-gradient-to-r from-yellow-50 to-blue-50">
           <div className="container-custom">
             <div className="text-center mb-8">
               <h2 className="text-3xl font-bold mb-4">Our Location</h2>

@@ -7,6 +7,16 @@ import lCornerAllSizesImg from '@/assets/products/l-corner-all-sizes.png';
 import flatCornerImg from '@/assets/products/flat-corner.png';
 import sBracketBlackImg from '@/assets/products/s-bracket-black.png';
 import shelfBracketImg from '@/assets/products/shelf-bracket.png';
+import sBracketWhiteImg from '@/assets/products/s-bracket-white.png';
+import shelfBracketWhiteImg from '@/assets/products/shelf-bracket-white.png';
+import pipeConnectorElbowImg from '@/assets/products/pipe-connector-elbow.png';
+import pipeConnectorCrossImg from '@/assets/products/pipe-connector-cross.png';
+import pipeConnector3wayImg from '@/assets/products/pipe-connector-3way.png';
+import pipeConnectorTeeImg from '@/assets/products/pipe-connector-tee.png';
+import pipeConnectorKTypeImg from '@/assets/products/pipe-connector-k-type.png';
+import pipeJointConnectorImg from '@/assets/products/pipe-joint-connector.png';
+import towelBracketOpenImg from '@/assets/products/towel-bracket-open.png';
+import towelBracketCloseImg from '@/assets/products/towel-bracket-close.png';
 
 export const bracketsChannelsProducts: Product[] = [
   {
@@ -91,7 +101,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Heavy Duty "S" Bracket – White (Sizes 5×6, 6×8, 8×10, 10×12, 12×14)',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: shelfBracketImg,
+    image: sBracketWhiteImg,
     shortDescription: 'Heavy duty S bracket in white, multiple sizes.',
     description: 'Heavy Duty S Bracket in white finish, available in sizes from 5×6 to 12×14 inches.',
     features: ['Heavy duty', 'S-shape design', 'White finish', 'Multiple sizes', 'Clean look'],
@@ -102,7 +112,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Shelf Bracket – White (Sizes 5×6, 6×8, 8×10, 10×12, 12×14)',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: shelfBracketImg,
+    image: shelfBracketWhiteImg,
     shortDescription: 'Standard shelf brackets in white, multiple sizes.',
     description: 'Standard Shelf Brackets in white finish, available in sizes from 5×6 to 12×14 inches.',
     features: ['Standard duty', 'White finish', 'Multiple sizes', 'Easy installation', 'Clean appearance'],
@@ -113,7 +123,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Pipe Connector CP Elbow (Sizes 3/4", 1")',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: pipeConnectorElbowImg,
     shortDescription: 'Chrome plated pipe elbow connectors.',
     description: 'Chrome Plated Pipe Elbow Connectors in 3/4" and 1" sizes for wardrobe rail systems.',
     features: ['90 degree elbow', 'Chrome plated', 'Two sizes', 'For pipe rails', 'Secure connection'],
@@ -124,7 +134,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Pipe Connector CP Cross (Sizes 3/4", 1")',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: pipeConnectorCrossImg,
     shortDescription: 'Chrome plated pipe cross connectors.',
     description: 'Chrome Plated Pipe Cross Connectors in 3/4" and 1" sizes for 4-way pipe connections.',
     features: ['4-way connection', 'Chrome plated', 'Two sizes', 'For pipe systems', 'Strong joint'],
@@ -135,7 +145,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Pipe Connector CP 3-Way (Sizes 3/4", 1")',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: pipeConnector3wayImg,
     shortDescription: 'Chrome plated 3-way pipe connectors.',
     description: 'Chrome Plated 3-Way Pipe Connectors in 3/4" and 1" sizes for corner connections.',
     features: ['3-way connection', 'Chrome plated', 'Two sizes', 'Corner fitting', 'Quality finish'],
@@ -146,7 +156,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Pipe Connector CP Tee (Sizes 3/4", 1")',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: pipeConnectorTeeImg,
     shortDescription: 'Chrome plated pipe tee connectors.',
     description: 'Chrome Plated Pipe Tee Connectors in 3/4" and 1" sizes for T-junction connections.',
     features: ['T-junction', 'Chrome plated', 'Two sizes', 'For pipe rails', 'Secure fit'],
@@ -157,7 +167,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Pipe Connector CP "K" Type (Sizes 3/4", 1")',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: pipeConnectorKTypeImg,
     shortDescription: 'Chrome plated K-type pipe connectors.',
     description: 'Chrome Plated K-Type Pipe Connectors in 3/4" and 1" sizes for angular connections.',
     features: ['K-type design', 'Chrome plated', 'Two sizes', 'Angular joint', 'Quality construction'],
@@ -168,7 +178,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Pipe Connector Joint Pipe (Sizes 3/4", 1")',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: pipeJointConnectorImg,
     shortDescription: 'Pipe joint connectors for extending pipes.',
     description: 'Pipe Joint Connectors in 3/4" and 1" sizes for extending pipe rail lengths.',
     features: ['Straight joint', 'Extends pipes', 'Two sizes', 'Chrome finish', 'Secure connection'],
@@ -179,7 +189,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Towel Bracket – Open Type (Sizes 3/4", 1")',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: towelBracketOpenImg,
     shortDescription: 'Open type towel bracket for pipe rails.',
     description: 'Open Type Towel Bracket for mounting pipe rails on walls, available in 3/4" and 1" sizes.',
     features: ['Open design', 'Wall mounting', 'Two sizes', 'Chrome finish', 'Easy pipe insertion'],
@@ -190,7 +200,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Towel Bracket – Close Type (Sizes 3/4", 1")',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: towelBracketCloseImg,
     shortDescription: 'Closed type towel bracket for secure mounting.',
     description: 'Closed Type Towel Bracket for secure pipe rail mounting, available in 3/4" and 1" sizes.',
     features: ['Closed design', 'Secure mounting', 'Two sizes', 'Chrome finish', 'Firm grip'],
