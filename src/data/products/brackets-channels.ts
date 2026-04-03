@@ -145,7 +145,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Pipe Connector CP 3-Way (Sizes 3/4", 1")',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: pipeConnector3wayImg,
     shortDescription: 'Chrome plated 3-way pipe connectors.',
     description: 'Chrome Plated 3-Way Pipe Connectors in 3/4" and 1" sizes for corner connections.',
     features: ['3-way connection', 'Chrome plated', 'Two sizes', 'Corner fitting', 'Quality finish'],
