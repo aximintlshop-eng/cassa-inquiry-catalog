@@ -22,11 +22,11 @@ const Index = () => {
         <HeroSection />
         
         {/* Featured Categories */}
-        <section className="section-padding bg-white">
+        <section className="section-padding bg-gradient-to-r from-blue-100 to-yellow-100">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">Featured Categories</h2>
-              <p className="text-gray-600 max-w-2xl mx-auto">
+              <h2 className="text-3xl font-medium text-blue-900 mb-4 hover:text-yellow-600 transition" style={{ fontFamily: "Poppins, sans-serif" }}>Featured Categories</h2>
+              <p className="text-sm text-blue-700 max-w-2xl mx-auto" style={{ fontFamily: "Poppins, sans-serif" }}>
                 Explore our comprehensive range of door hardware, furniture fittings, tools, and fasteners for professionals and contractors.
               </p>
             </div>
@@ -58,11 +58,11 @@ const Index = () => {
         </section>
         
         {/* Featured Products */}
-        <section className="section-padding bg-gray-50">
+        <section className="section-padding bg-gradient-to-r from-yellow-100 to-blue-100">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">Featured Products</h2>
-              <p className="text-gray-600 max-w-2xl mx-auto">
+              <h2 className="text-3xl font-medium text-blue-900 mb-4 hover:text-yellow-600 transition" style={{ fontFamily: "Poppins, sans-serif" }}>Featured Products</h2>
+              <p className="text-sm text-blue-700 max-w-2xl mx-auto" style={{ fontFamily: "Poppins, sans-serif" }}>
                 Discover our most popular products, crafted with precision and built to last.
               </p>
             </div>
@@ -90,11 +90,11 @@ const Index = () => {
         </section>
         
         {/* About the Brand */}
-        <section className="section-padding bg-white">
+        <section className="section-padding bg-gradient-to-r from-blue-100 to-yellow-100">
           <div className="container-custom">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-                <h2 className="text-3xl font-bold mb-4">About CASSA<sup>®</sup></h2>
+                <h2 className="text-3xl font-medium text-blue-900 mb-4" style={{ fontFamily: "Poppins, sans-serif" }}>About CASSA<sup>®</sup></h2>
                 <p className="text-gray-600 mb-4">
                   CASSA® is a premium brand under Axim International, your trusted partner for high-quality furniture hardware, furniture fittings, screws & fasteners, and professional tools.
                 </p>
@@ -137,11 +137,11 @@ const Index = () => {
         </section>
         
         {/* Contact Info & Map */}
-        <section className="section-padding bg-gray-50">
+        <section className="section-padding bg-gradient-to-r from-yellow-100 to-blue-100">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
-              <p className="text-gray-600 max-w-2xl mx-auto">
+              <h2 className="text-3xl font-medium text-blue-900 mb-4 hover:text-yellow-600 transition" style={{ fontFamily: "Poppins, sans-serif" }}>Contact Us</h2>
+              <p className="text-sm text-blue-700 max-w-2xl mx-auto" style={{ fontFamily: "Poppins, sans-serif" }}>
                 Have questions or need more information? We're here to help. Reach out to our team using any of the contact methods below.
               </p>
             </div>
