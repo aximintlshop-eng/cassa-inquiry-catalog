@@ -90,11 +90,11 @@ const Index = () => {
         </section>
         
         {/* About the Brand */}
-        <section className="section-padding bg-white">
+        <section className="section-padding bg-gradient-to-r from-blue-100 to-yellow-100">
           <div className="container-custom">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-                <h2 className="text-3xl font-bold mb-4">About CASSA<sup>®</sup></h2>
+                <h2 className="text-3xl font-medium text-blue-900 mb-4" style={{ fontFamily: "Poppins, sans-serif" }}>About CASSA<sup>®</sup></h2>
                 <p className="text-gray-600 mb-4">
                   CASSA® is a premium brand under Axim International, your trusted partner for high-quality furniture hardware, furniture fittings, screws & fasteners, and professional tools.
                 </p>
