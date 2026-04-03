@@ -86,7 +86,7 @@ const About = () => {
         </section>
         
         {/* Our Values */}
-        <section className="section-padding bg-white">
+        <section className="section-padding bg-gradient-to-r from-blue-50 to-yellow-50">
           <div className="container-custom">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">Our Values</h2>
