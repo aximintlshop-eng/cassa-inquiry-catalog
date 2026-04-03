@@ -137,11 +137,11 @@ const Index = () => {
         </section>
         
         {/* Contact Info & Map */}
-        <section className="section-padding bg-gray-50">
+        <section className="section-padding bg-gradient-to-r from-yellow-100 to-blue-100">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
-              <p className="text-gray-600 max-w-2xl mx-auto">
+              <h2 className="text-3xl font-medium text-blue-900 mb-4 hover:text-yellow-600 transition" style={{ fontFamily: "Poppins, sans-serif" }}>Contact Us</h2>
+              <p className="text-sm text-blue-700 max-w-2xl mx-auto" style={{ fontFamily: "Poppins, sans-serif" }}>
                 Have questions or need more information? We're here to help. Reach out to our team using any of the contact methods below.
               </p>
             </div>

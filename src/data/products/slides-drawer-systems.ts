@@ -5,6 +5,9 @@ import slidingWheelOpen25mmImg from '@/assets/products/sliding-wheel-open-25mm.p
 import slidingWheelDoubleCapImg from '@/assets/products/sliding-wheel-double-cap.png';
 import doorSlidingWheel1925mmImg from '@/assets/products/door-sliding-wheel-19-25mm.png';
 import slidingWheelGreenOrangeImg from '@/assets/products/sliding-wheel-green-orange.png';
+import softCloseDrawerSlidesImg from '@/assets/products/soft-close-drawer-slides.png';
+import fullExtensionDrawerSlidesImg from '@/assets/products/full-extension-drawer-slides.png';
+import whiteDrawerSlidesImg from '@/assets/products/white-drawer-slides.jpg';
 
 export const slidesDrawerSystemsProducts: Product[] = [
   {
@@ -67,7 +70,7 @@ export const slidesDrawerSystemsProducts: Product[] = [
     name: 'Soft Closing & Push-to-Open Drawer Slides (Sizes 10" to 24")',
     categoryId: 'slides-drawer-systems',
     category: 'Slides & Drawer Systems',
-    image: slidingWheelDoubleCapImg,
+    image: softCloseDrawerSlidesImg,
     shortDescription: 'Premium drawer slides with soft close and push-to-open.',
     description: 'Premium Drawer Slides featuring both soft closing and push-to-open mechanisms, available in sizes from 10" to 24".',
     features: ['Soft close mechanism', 'Push-to-open', 'Full extension', 'Size range 10"-24"', 'Ball bearing'],
@@ -78,7 +81,7 @@ export const slidesDrawerSystemsProducts: Product[] = [
     name: 'Full Extension Drawer Slides (Sizes 10" to 24")',
     categoryId: 'slides-drawer-systems',
     category: 'Slides & Drawer Systems',
-    image: slidingWheelDoubleCapImg,
+    image: fullExtensionDrawerSlidesImg,
     shortDescription: 'Full extension drawer slides in all standard sizes.',
     description: 'Full Extension Drawer Slides providing 100% drawer access, available in sizes from 10" to 24".',
     features: ['Full extension', '100% access', 'Ball bearing', 'Size range 10"-24"', 'Smooth operation'],
@@ -89,7 +92,7 @@ export const slidesDrawerSystemsProducts: Product[] = [
     name: 'White Drawer Slides (Sizes 10" to 24")',
     categoryId: 'slides-drawer-systems',
     category: 'Slides & Drawer Systems',
-    image: slidingWheelDoubleCapImg,
+    image: whiteDrawerSlidesImg,
     shortDescription: 'White epoxy coated drawer slides in all sizes.',
     description: 'White Epoxy Coated Drawer Slides for light colored furniture, available in sizes from 10" to 24".',
     features: ['White epoxy coating', 'Full extension', 'For light furniture', 'Size range 10"-24"', 'Corrosion resistant'],
