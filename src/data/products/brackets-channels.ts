@@ -123,7 +123,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Pipe Connector CP Elbow (Sizes 3/4", 1")',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: pipeConnectorElbowImg,
     shortDescription: 'Chrome plated pipe elbow connectors.',
     description: 'Chrome Plated Pipe Elbow Connectors in 3/4" and 1" sizes for wardrobe rail systems.',
     features: ['90 degree elbow', 'Chrome plated', 'Two sizes', 'For pipe rails', 'Secure connection'],
