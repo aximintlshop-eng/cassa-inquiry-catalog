@@ -101,7 +101,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Heavy Duty "S" Bracket – White (Sizes 5×6, 6×8, 8×10, 10×12, 12×14)',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: shelfBracketImg,
+    image: sBracketWhiteImg,
     shortDescription: 'Heavy duty S bracket in white, multiple sizes.',
     description: 'Heavy Duty S Bracket in white finish, available in sizes from 5×6 to 12×14 inches.',
     features: ['Heavy duty', 'S-shape design', 'White finish', 'Multiple sizes', 'Clean look'],
