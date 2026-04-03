@@ -7,6 +7,16 @@ import lCornerAllSizesImg from '@/assets/products/l-corner-all-sizes.png';
 import flatCornerImg from '@/assets/products/flat-corner.png';
 import sBracketBlackImg from '@/assets/products/s-bracket-black.png';
 import shelfBracketImg from '@/assets/products/shelf-bracket.png';
+import sBracketWhiteImg from '@/assets/products/s-bracket-white.png';
+import shelfBracketWhiteImg from '@/assets/products/shelf-bracket-white.png';
+import pipeConnectorElbowImg from '@/assets/products/pipe-connector-elbow.png';
+import pipeConnectorCrossImg from '@/assets/products/pipe-connector-cross.png';
+import pipeConnector3wayImg from '@/assets/products/pipe-connector-3way.png';
+import pipeConnectorTeeImg from '@/assets/products/pipe-connector-tee.png';
+import pipeConnectorKTypeImg from '@/assets/products/pipe-connector-k-type.png';
+import pipeJointConnectorImg from '@/assets/products/pipe-joint-connector.png';
+import towelBracketOpenImg from '@/assets/products/towel-bracket-open.png';
+import towelBracketCloseImg from '@/assets/products/towel-bracket-close.png';
 
 export const bracketsChannelsProducts: Product[] = [
   {
