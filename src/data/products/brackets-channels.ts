@@ -112,7 +112,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Shelf Bracket – White (Sizes 5×6, 6×8, 8×10, 10×12, 12×14)',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: shelfBracketImg,
+    image: shelfBracketWhiteImg,
     shortDescription: 'Standard shelf brackets in white, multiple sizes.',
     description: 'Standard Shelf Brackets in white finish, available in sizes from 5×6 to 12×14 inches.',
     features: ['Standard duty', 'White finish', 'Multiple sizes', 'Easy installation', 'Clean appearance'],
