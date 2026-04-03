@@ -22,11 +22,11 @@ const Index = () => {
         <HeroSection />
         
         {/* Featured Categories */}
-        <section className="section-padding bg-white">
+        <section className="section-padding bg-gradient-to-r from-blue-100 to-yellow-100">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">Featured Categories</h2>
-              <p className="text-gray-600 max-w-2xl mx-auto">
+              <h2 className="text-3xl font-medium text-blue-900 mb-4 hover:text-yellow-600 transition" style={{ fontFamily: "Poppins, sans-serif" }}>Featured Categories</h2>
+              <p className="text-sm text-blue-700 max-w-2xl mx-auto" style={{ fontFamily: "Poppins, sans-serif" }}>
                 Explore our comprehensive range of door hardware, furniture fittings, tools, and fasteners for professionals and contractors.
               </p>
             </div>
