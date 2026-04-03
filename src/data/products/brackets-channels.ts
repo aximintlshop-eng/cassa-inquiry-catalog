@@ -200,7 +200,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Towel Bracket – Close Type (Sizes 3/4", 1")',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: towelBracketCloseImg,
     shortDescription: 'Closed type towel bracket for secure mounting.',
     description: 'Closed Type Towel Bracket for secure pipe rail mounting, available in 3/4" and 1" sizes.',
     features: ['Closed design', 'Secure mounting', 'Two sizes', 'Chrome finish', 'Firm grip'],
