@@ -59,7 +59,7 @@ const Contact = () => {
         </div>
         
         {/* Contact Information */}
-        <section className="section-padding bg-white">
+        <section className="section-padding bg-gradient-to-r from-blue-50 to-yellow-50">
           <div className="container-custom">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
               <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center">
