@@ -167,7 +167,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Pipe Connector CP "K" Type (Sizes 3/4", 1")',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: pipeConnectorKTypeImg,
     shortDescription: 'Chrome plated K-type pipe connectors.',
     description: 'Chrome Plated K-Type Pipe Connectors in 3/4" and 1" sizes for angular connections.',
     features: ['K-type design', 'Chrome plated', 'Two sizes', 'Angular joint', 'Quality construction'],
