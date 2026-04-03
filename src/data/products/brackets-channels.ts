@@ -134,7 +134,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Pipe Connector CP Cross (Sizes 3/4", 1")',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: pipeConnectorCrossImg,
     shortDescription: 'Chrome plated pipe cross connectors.',
     description: 'Chrome Plated Pipe Cross Connectors in 3/4" and 1" sizes for 4-way pipe connections.',
     features: ['4-way connection', 'Chrome plated', 'Two sizes', 'For pipe systems', 'Strong joint'],
