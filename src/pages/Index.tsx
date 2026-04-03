@@ -58,11 +58,11 @@ const Index = () => {
         </section>
         
         {/* Featured Products */}
-        <section className="section-padding bg-gray-50">
+        <section className="section-padding bg-gradient-to-r from-yellow-100 to-blue-100">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">Featured Products</h2>
-              <p className="text-gray-600 max-w-2xl mx-auto">
+              <h2 className="text-3xl font-medium text-blue-900 mb-4 hover:text-yellow-600 transition" style={{ fontFamily: "Poppins, sans-serif" }}>Featured Products</h2>
+              <p className="text-sm text-blue-700 max-w-2xl mx-auto" style={{ fontFamily: "Poppins, sans-serif" }}>
                 Discover our most popular products, crafted with precision and built to last.
               </p>
             </div>
