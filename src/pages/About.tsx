@@ -13,10 +13,10 @@ const About = () => {
       
       <main className="flex-grow">
         {/* Page Header */}
-        <div className="bg-gray-100 py-12">
+        <div className="bg-gradient-to-r from-blue-100 to-yellow-100 py-12">
           <div className="container-custom text-center">
-            <h1 className="text-4xl font-bold mb-4">About Us</h1>
-            <p className="text-gray-600 max-w-2xl mx-auto">
+            <h1 className="text-4xl font-bold mb-4 text-blue-900" style={{ fontFamily: 'Poppins, sans-serif' }}>About Us</h1>
+            <p className="text-blue-700 max-w-2xl mx-auto" style={{ fontFamily: 'Poppins, sans-serif' }}>
               Your one-stop trusted partner
             </p>
           </div>
