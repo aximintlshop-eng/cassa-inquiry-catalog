@@ -189,7 +189,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Towel Bracket – Open Type (Sizes 3/4", 1")',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: towelBracketOpenImg,
     shortDescription: 'Open type towel bracket for pipe rails.',
     description: 'Open Type Towel Bracket for mounting pipe rails on walls, available in 3/4" and 1" sizes.',
     features: ['Open design', 'Wall mounting', 'Two sizes', 'Chrome finish', 'Easy pipe insertion'],
