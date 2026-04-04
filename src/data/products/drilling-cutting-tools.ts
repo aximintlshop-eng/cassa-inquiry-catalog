@@ -190,7 +190,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Wood Cutting Disc – All Sizes',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: woodCuttingDiscImg,
     shortDescription: 'TCT wood cutting discs in all sizes.',
     description: 'TCT Wood Cutting Discs for cutting wood, plywood, and MDF, available in all sizes.',
     features: ['TCT teeth', 'For wood', 'All sizes', 'Clean cuts', 'Long lasting'],
