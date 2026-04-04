@@ -59,7 +59,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Screwdriver Bit – All Sizes',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: screwdriverBitsImg,
     shortDescription: 'Screwdriver bits in all types and sizes.',
     description: 'Screwdriver Bits available in all types (Phillips, Flat, Torx, Hex) and sizes.',
     features: ['All types available', 'All sizes', 'Impact rated', 'Quality steel', 'Long lasting'],
