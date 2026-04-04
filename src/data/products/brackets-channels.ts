@@ -276,7 +276,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'U Clamp – All Sizes',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: uClampImg,
     shortDescription: 'U clamps in all sizes for pipe mounting.',
     description: 'U Clamps available in all sizes for securing pipes to walls and surfaces.',
     features: ['All sizes available', 'U-shape design', 'Pipe securing', 'Easy installation', 'Strong grip'],
