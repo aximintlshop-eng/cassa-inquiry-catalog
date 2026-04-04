@@ -1,5 +1,14 @@
 import { Product } from '../products';
 
+import holeSawAdaptorSmallImg from '@/assets/products/hole-saw-adaptor-small.png';
+import holeSawAdaptorLargeImg from '@/assets/products/hole-saw-adaptor-large.png';
+import drillChuckSetImg from '@/assets/products/drill-chuck-set.png';
+import drillChuckKeyImg from '@/assets/products/drill-chuck-key.png';
+import screwdriverBitsImg from '@/assets/products/screwdriver-bits.png';
+import multiPurposeDrillBitsImg from '@/assets/products/multi-purpose-drill-bits.png';
+import hssDrillBitsImg from '@/assets/products/hss-drill-bits.png';
+import sdsPlusDrillBitsImg from '@/assets/products/sds-plus-drill-bits.png';
+
 export const drillingCuttingToolsProducts: Product[] = [
   {
     id: 'dct-001',

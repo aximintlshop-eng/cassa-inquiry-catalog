@@ -344,7 +344,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Display Hook (Sizes 2", 4", 6", 8", 10")',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: displayHookImg,
     shortDescription: 'Display hooks in multiple sizes for retail.',
     description: 'Display Hooks in 2", 4", 6", 8", and 10" sizes for retail slat board displays.',
     features: ['Multiple sizes', 'For slat boards', 'Retail displays', 'Chrome finish', 'Easy insertion'],
