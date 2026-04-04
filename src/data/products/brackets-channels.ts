@@ -265,7 +265,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Pipe Socket Straight (Sizes 3/4", 1")',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: pipeSocketStraightImg,
     shortDescription: 'Straight pipe sockets for extending pipes.',
     description: 'Straight Pipe Sockets in 3/4" and 1" sizes for joining pipes in a straight line.',
     features: ['Straight connection', 'Two sizes', 'Chrome finish', 'Socket type', 'Easy joining'],
