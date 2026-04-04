@@ -221,7 +221,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'CP Flange (Sizes 3/4", 1")',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: cpFlangeImg,
     shortDescription: 'Chrome plated flanges for pipe ends.',
     description: 'Chrome Plated Flanges for covering pipe ends and wall connections, in 3/4" and 1" sizes.',
     features: ['Decorative cover', 'Chrome plated', 'Two sizes', 'Wall finishing', 'Professional look'],
