@@ -37,7 +37,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Drill Chuck Key with Adaptor (Sizes 13 mm, 16 mm)',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: drillChuckSetImg,
     shortDescription: 'Drill chuck key with adaptor in two sizes.',
     description: 'Drill Chuck Key with Adaptor available in 13mm and 16mm sizes for drill chuck operation.',
     features: ['With adaptor', 'Two sizes', 'Quality steel', 'Easy grip', 'Durable'],
