@@ -243,7 +243,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Curtain Pipe Bracket – Heavy Duty (CP / GP)',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: curtainPipeBracketImg,
     shortDescription: 'Heavy duty curtain pipe brackets.',
     description: 'Heavy Duty Curtain Pipe Brackets in Chrome Plated and Gold Plated finishes.',
     features: ['Heavy duty', 'For curtain rails', 'CP & GP finishes', 'Strong support', 'Professional grade'],
