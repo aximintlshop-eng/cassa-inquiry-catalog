@@ -26,7 +26,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'A4 Arbor',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: holeSawAdaptorLargeImg,
     shortDescription: 'A4 arbor for large hole saws.',
     description: 'A4 Arbor for mounting large hole saws, suitable for heavy duty drilling applications.',
     features: ['For large hole saws', 'Heavy duty', 'Pilot drill included', 'Secure mounting', 'Professional grade'],
