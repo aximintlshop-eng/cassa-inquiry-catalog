@@ -15,7 +15,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'A2 Arbor',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: holeSawAdaptorSmallImg,
     shortDescription: 'A2 arbor for hole saw mounting.',
     description: 'A2 Arbor for mounting hole saws on drills, compatible with standard hole saw sizes.',
     features: ['For hole saws', 'Pilot drill included', 'Quick change', 'Standard fitting', 'Durable construction'],
