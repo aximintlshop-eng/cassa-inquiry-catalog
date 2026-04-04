@@ -320,7 +320,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'PVC Tile Trim – 10 mm (All Colours)',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: pvcTileTrimImg,
     shortDescription: 'PVC tile trims in 10mm, all colors available.',
     description: 'PVC Tile Trims in 10mm size available in all colors for finishing tile edges.',
     features: ['10mm size', 'All colors available', 'Edge finishing', 'PVC material', 'Easy installation'],
