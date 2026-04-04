@@ -201,7 +201,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Multi Cutting Disc – All Sizes',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: multiCuttingDiscImg,
     shortDescription: 'Multi-purpose cutting discs.',
     description: 'Multi-Purpose Cutting Discs for cutting various materials including metal, wood, and plastic.',
     features: ['Multi-material', 'All sizes', 'Versatile', 'Quality material', 'Good performance'],
