@@ -48,7 +48,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Drill Chuck Key – All Sizes',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: drillChuckKeyImg,
     shortDescription: 'Drill chuck keys in all standard sizes.',
     description: 'Drill Chuck Keys available in all standard sizes for tightening and loosening drill chucks.',
     features: ['All sizes available', 'Standard design', 'Quality steel', 'Easy operation', 'Durable'],
