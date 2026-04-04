@@ -17,6 +17,16 @@ import pipeConnectorKTypeImg from '@/assets/products/pipe-connector-k-type.png';
 import pipeJointConnectorImg from '@/assets/products/pipe-joint-connector.png';
 import towelBracketOpenImg from '@/assets/products/towel-bracket-open.png';
 import towelBracketCloseImg from '@/assets/products/towel-bracket-close.png';
+import cpFlangeImg from '@/assets/products/cp-flange.png';
+import ovalPipeBracketImg from '@/assets/products/oval-pipe-bracket.png';
+import curtainPipeBracketImg from '@/assets/products/curtain-pipe-bracket.png';
+import pipeSocketBendImg from '@/assets/products/pipe-socket-bend.png';
+import pipeSocketStraightImg from '@/assets/products/pipe-socket-straight.png';
+import uClampImg from '@/assets/products/u-clamp.png';
+import ovalPipeImg from '@/assets/products/oval-pipe.png';
+import chromePipesImg from '@/assets/products/chrome-pipes.png';
+import slatBoardChannelImg from '@/assets/products/slat-board-channel.png';
+import pvcTileTrimImg from '@/assets/products/pvc-tile-trim.png';
 
 export const bracketsChannelsProducts: Product[] = [
   {
