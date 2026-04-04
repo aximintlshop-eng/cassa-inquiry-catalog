@@ -8,6 +8,16 @@ import screwdriverBitsImg from '@/assets/products/screwdriver-bits.png';
 import multiPurposeDrillBitsImg from '@/assets/products/multi-purpose-drill-bits.png';
 import hssDrillBitsImg from '@/assets/products/hss-drill-bits.png';
 import sdsPlusDrillBitsImg from '@/assets/products/sds-plus-drill-bits.png';
+import glassDrillBitImg from '@/assets/products/glass-drill-bit.png';
+import woodFlatBitImg from '@/assets/products/wood-flat-bit.webp';
+import hingeHoleCutterImg from '@/assets/products/hinge-hole-cutter.png';
+import tileCuttingDiscImg from '@/assets/products/tile-cutting-disc.png';
+import metalCuttingDiscImg from '@/assets/products/metal-cutting-disc.png';
+import concreteCuttingDiscImg from '@/assets/products/concrete-cutting-disc.png';
+import marbleCuttingDiscImg from '@/assets/products/marble-cutting-disc.png';
+import woodCuttingDiscImg from '@/assets/products/wood-cutting-disc.png';
+import multiCuttingDiscImg from '@/assets/products/multi-cutting-disc.png';
+import flapGrindingDiscImg from '@/assets/products/flap-grinding-disc.png';
 
 export const drillingCuttingToolsProducts: Product[] = [
   {
@@ -103,7 +113,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Glass Drill Bit (Sizes 6, 8, 10 mm)',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: glassDrillBitImg,
     shortDescription: 'Spear point glass drill bits in three sizes.',
     description: 'Glass Drill Bits with spear point tip in 6mm, 8mm, and 10mm sizes for glass and tile.',
     features: ['Spear point tip', 'For glass & tile', 'Three sizes', 'Precision drilling', 'Carbide tip'],
@@ -114,7 +124,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Wood Flat Bit – All Sizes',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: woodFlatBitImg,
     shortDescription: 'Flat wood bits for large diameter holes.',
     description: 'Wood Flat Bits for drilling large diameter holes in wood, available in all sizes.',
     features: ['Flat design', 'For wood', 'All sizes', 'Fast drilling', 'Clean holes'],
@@ -125,7 +135,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Hinge Hole Cutter – 35 mm',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: hingeHoleCutterImg,
     shortDescription: '35mm hinge hole cutter for concealed hinges.',
     description: '35mm Hinge Hole Cutter for creating precise holes for European concealed hinges.',
     features: ['35mm diameter', 'For concealed hinges', 'Precision cut', 'Carbide teeth', 'Clean holes'],
@@ -136,7 +146,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Tile Cutting Disc – 4.5"',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: tileCuttingDiscImg,
     shortDescription: '4.5 inch diamond tile cutting disc.',
     description: '4.5 inch Diamond Tile Cutting Disc for cutting ceramic tiles and porcelain.',
     features: ['Diamond edge', '4.5 inch size', 'For tiles', 'Clean cuts', 'Long lasting'],
@@ -147,7 +157,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Metal Cutting Disc – All Sizes',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: metalCuttingDiscImg,
     shortDescription: 'Metal cutting discs in all sizes.',
     description: 'Metal Cutting Discs available in all sizes for cutting steel, iron, and other metals.',
     features: ['All sizes available', 'For metal', 'Fast cutting', 'Thin profile', 'Safe use'],
@@ -158,7 +168,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Concrete Cutting Disc',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: concreteCuttingDiscImg,
     shortDescription: 'Diamond disc for cutting concrete.',
     description: 'Diamond Concrete Cutting Disc for cutting concrete, block, and masonry materials.',
     features: ['Diamond segment', 'For concrete', 'Fast cutting', 'Dry or wet use', 'Long life'],
@@ -169,7 +179,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Marble Cutting Disc – All Sizes',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: marbleCuttingDiscImg,
     shortDescription: 'Diamond discs for cutting marble.',
     description: 'Diamond Marble Cutting Discs for clean, chip-free cutting of marble and granite.',
     features: ['Continuous rim', 'For marble/granite', 'All sizes', 'Chip-free cuts', 'Wet cutting'],
@@ -180,7 +190,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Wood Cutting Disc – All Sizes',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: woodCuttingDiscImg,
     shortDescription: 'TCT wood cutting discs in all sizes.',
     description: 'TCT Wood Cutting Discs for cutting wood, plywood, and MDF, available in all sizes.',
     features: ['TCT teeth', 'For wood', 'All sizes', 'Clean cuts', 'Long lasting'],
@@ -191,7 +201,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Multi Cutting Disc – All Sizes',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: multiCuttingDiscImg,
     shortDescription: 'Multi-purpose cutting discs.',
     description: 'Multi-Purpose Cutting Discs for cutting various materials including metal, wood, and plastic.',
     features: ['Multi-material', 'All sizes', 'Versatile', 'Quality material', 'Good performance'],
@@ -202,7 +212,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Flap Grinding Disc (60 / 80 Grit)',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: flapGrindingDiscImg,
     shortDescription: 'Flap discs for grinding in 60 and 80 grit.',
     description: 'Flap Grinding Discs in 60 and 80 grit for surface preparation and finishing.',
     features: ['60 & 80 grit options', 'For grinding', 'Surface finishing', 'Flexible flaps', 'Long lasting'],
