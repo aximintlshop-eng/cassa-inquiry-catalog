@@ -168,7 +168,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Concrete Cutting Disc',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: concreteCuttingDiscImg,
     shortDescription: 'Diamond disc for cutting concrete.',
     description: 'Diamond Concrete Cutting Disc for cutting concrete, block, and masonry materials.',
     features: ['Diamond segment', 'For concrete', 'Fast cutting', 'Dry or wet use', 'Long life'],
