@@ -157,7 +157,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Metal Cutting Disc – All Sizes',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: metalCuttingDiscImg,
     shortDescription: 'Metal cutting discs in all sizes.',
     description: 'Metal Cutting Discs available in all sizes for cutting steel, iron, and other metals.',
     features: ['All sizes available', 'For metal', 'Fast cutting', 'Thin profile', 'Safe use'],
