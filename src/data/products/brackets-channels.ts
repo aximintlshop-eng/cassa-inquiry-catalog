@@ -17,6 +17,16 @@ import pipeConnectorKTypeImg from '@/assets/products/pipe-connector-k-type.png';
 import pipeJointConnectorImg from '@/assets/products/pipe-joint-connector.png';
 import towelBracketOpenImg from '@/assets/products/towel-bracket-open.png';
 import towelBracketCloseImg from '@/assets/products/towel-bracket-close.png';
+import cpFlangeImg from '@/assets/products/cp-flange.png';
+import ovalPipeBracketImg from '@/assets/products/oval-pipe-bracket.png';
+import curtainPipeBracketImg from '@/assets/products/curtain-pipe-bracket.png';
+import pipeSocketBendImg from '@/assets/products/pipe-socket-bend.png';
+import pipeSocketStraightImg from '@/assets/products/pipe-socket-straight.png';
+import uClampImg from '@/assets/products/u-clamp.png';
+import ovalPipeImg from '@/assets/products/oval-pipe.png';
+import chromePipesImg from '@/assets/products/chrome-pipes.png';
+import slatBoardChannelImg from '@/assets/products/slat-board-channel.png';
+import pvcTileTrimImg from '@/assets/products/pvc-tile-trim.png';
 
 export const bracketsChannelsProducts: Product[] = [
   {
@@ -211,7 +221,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'CP Flange (Sizes 3/4", 1")',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: cpFlangeImg,
     shortDescription: 'Chrome plated flanges for pipe ends.',
     description: 'Chrome Plated Flanges for covering pipe ends and wall connections, in 3/4" and 1" sizes.',
     features: ['Decorative cover', 'Chrome plated', 'Two sizes', 'Wall finishing', 'Professional look'],
@@ -222,7 +232,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Oval Pipe Bracket (Small / Big)',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: ovalPipeBracketImg,
     shortDescription: 'Brackets for oval wardrobe pipes.',
     description: 'Oval Pipe Brackets in small and big sizes for supporting oval wardrobe hanging rails.',
     features: ['For oval pipes', 'Two sizes', 'Chrome finish', 'Secure support', 'Easy installation'],
@@ -233,7 +243,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Curtain Pipe Bracket – Heavy Duty (CP / GP)',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: curtainPipeBracketImg,
     shortDescription: 'Heavy duty curtain pipe brackets.',
     description: 'Heavy Duty Curtain Pipe Brackets in Chrome Plated and Gold Plated finishes.',
     features: ['Heavy duty', 'For curtain rails', 'CP & GP finishes', 'Strong support', 'Professional grade'],
@@ -244,7 +254,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Pipe Socket Bend (Sizes 3/4", 1")',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: pipeSocketBendImg,
     shortDescription: 'Pipe socket bends for angled connections.',
     description: 'Pipe Socket Bends in 3/4" and 1" sizes for creating angled pipe connections.',
     features: ['Angled connection', 'Two sizes', 'Chrome finish', 'Socket type', 'Secure fit'],
@@ -255,7 +265,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Pipe Socket Straight (Sizes 3/4", 1")',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: pipeSocketStraightImg,
     shortDescription: 'Straight pipe sockets for extending pipes.',
     description: 'Straight Pipe Sockets in 3/4" and 1" sizes for joining pipes in a straight line.',
     features: ['Straight connection', 'Two sizes', 'Chrome finish', 'Socket type', 'Easy joining'],
@@ -266,7 +276,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'U Clamp – All Sizes',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: uClampImg,
     shortDescription: 'U clamps in all sizes for pipe mounting.',
     description: 'U Clamps available in all sizes for securing pipes to walls and surfaces.',
     features: ['All sizes available', 'U-shape design', 'Pipe securing', 'Easy installation', 'Strong grip'],
@@ -277,7 +287,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Chrome Plated Oval Pipes',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: ovalPipeImg,
     shortDescription: 'Chrome plated oval pipes for wardrobes.',
     description: 'Chrome Plated Oval Pipes for wardrobe hanging rails with elegant finish.',
     features: ['Oval profile', 'Chrome plated', 'For wardrobes', 'Hanging clothes', 'Cut to length'],
@@ -288,7 +298,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Chrome Plated Pipes (Sizes 1/2", 1", 3/4" – Length 3 Mtr)',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: chromePipesImg,
     shortDescription: 'Chrome plated round pipes in 3 meter lengths.',
     description: 'Chrome Plated Round Pipes in 1/2", 3/4", and 1" sizes, available in 3 meter lengths.',
     features: ['Round profile', 'Chrome plated', 'Three sizes', '3 meter length', 'Cut to size'],
@@ -299,7 +309,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Aluminium Slat Board Channel',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: slatBoardChannelImg,
     shortDescription: 'Aluminium slat board channels for retail displays.',
     description: 'Aluminium Slat Board Channels for retail display systems and shop fittings.',
     features: ['For retail displays', 'Aluminium construction', 'Modular system', 'Easy installation', 'Professional look'],
@@ -310,7 +320,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'PVC Tile Trim – 10 mm (All Colours)',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: pvcTileTrimImg,
     shortDescription: 'PVC tile trims in 10mm, all colors available.',
     description: 'PVC Tile Trims in 10mm size available in all colors for finishing tile edges.',
     features: ['10mm size', 'All colors available', 'Edge finishing', 'PVC material', 'Easy installation'],
