@@ -333,7 +333,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: '4 Pcs Mirror Clip Set',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: mirrorClipSetImg,
     shortDescription: '4 piece mirror clip set for mirror mounting.',
     description: '4 Piece Mirror Clip Set for securely mounting mirrors on walls.',
     features: ['4 clips included', 'For mirrors', 'Easy mounting', 'Secure hold', 'Chrome finish'],
