@@ -70,7 +70,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Masonry Drill Bit Set – All Sizes',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: multiPurposeDrillBitsImg,
     shortDescription: 'Masonry drill bits for concrete and brick.',
     description: 'Masonry Drill Bit Set for drilling into concrete, brick, and stone materials.',
     features: ['Carbide tipped', 'For masonry', 'All sizes', 'Hammer drill compatible', 'Long lasting'],
