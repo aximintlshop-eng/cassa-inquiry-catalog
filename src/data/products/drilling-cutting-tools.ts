@@ -135,7 +135,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Hinge Hole Cutter – 35 mm',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: hingeHoleCutterImg,
     shortDescription: '35mm hinge hole cutter for concealed hinges.',
     description: '35mm Hinge Hole Cutter for creating precise holes for European concealed hinges.',
     features: ['35mm diameter', 'For concealed hinges', 'Precision cut', 'Carbide teeth', 'Clean holes'],
