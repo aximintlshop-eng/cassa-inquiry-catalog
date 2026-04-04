@@ -1,12 +1,21 @@
 import { Product } from '../products';
 
+import holeSawAdaptorSmallImg from '@/assets/products/hole-saw-adaptor-small.png';
+import holeSawAdaptorLargeImg from '@/assets/products/hole-saw-adaptor-large.png';
+import drillChuckSetImg from '@/assets/products/drill-chuck-set.png';
+import drillChuckKeyImg from '@/assets/products/drill-chuck-key.png';
+import screwdriverBitsImg from '@/assets/products/screwdriver-bits.png';
+import multiPurposeDrillBitsImg from '@/assets/products/multi-purpose-drill-bits.png';
+import hssDrillBitsImg from '@/assets/products/hss-drill-bits.png';
+import sdsPlusDrillBitsImg from '@/assets/products/sds-plus-drill-bits.png';
+
 export const drillingCuttingToolsProducts: Product[] = [
   {
     id: 'dct-001',
     name: 'A2 Arbor',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: holeSawAdaptorSmallImg,
     shortDescription: 'A2 arbor for hole saw mounting.',
     description: 'A2 Arbor for mounting hole saws on drills, compatible with standard hole saw sizes.',
     features: ['For hole saws', 'Pilot drill included', 'Quick change', 'Standard fitting', 'Durable construction'],
@@ -17,7 +26,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'A4 Arbor',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: holeSawAdaptorLargeImg,
     shortDescription: 'A4 arbor for large hole saws.',
     description: 'A4 Arbor for mounting large hole saws, suitable for heavy duty drilling applications.',
     features: ['For large hole saws', 'Heavy duty', 'Pilot drill included', 'Secure mounting', 'Professional grade'],
@@ -28,7 +37,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Drill Chuck Key with Adaptor (Sizes 13 mm, 16 mm)',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: drillChuckSetImg,
     shortDescription: 'Drill chuck key with adaptor in two sizes.',
     description: 'Drill Chuck Key with Adaptor available in 13mm and 16mm sizes for drill chuck operation.',
     features: ['With adaptor', 'Two sizes', 'Quality steel', 'Easy grip', 'Durable'],
@@ -39,7 +48,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Drill Chuck Key – All Sizes',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: drillChuckKeyImg,
     shortDescription: 'Drill chuck keys in all standard sizes.',
     description: 'Drill Chuck Keys available in all standard sizes for tightening and loosening drill chucks.',
     features: ['All sizes available', 'Standard design', 'Quality steel', 'Easy operation', 'Durable'],
@@ -50,7 +59,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Screwdriver Bit – All Sizes',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: screwdriverBitsImg,
     shortDescription: 'Screwdriver bits in all types and sizes.',
     description: 'Screwdriver Bits available in all types (Phillips, Flat, Torx, Hex) and sizes.',
     features: ['All types available', 'All sizes', 'Impact rated', 'Quality steel', 'Long lasting'],
@@ -61,7 +70,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Masonry Drill Bit Set – All Sizes',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: multiPurposeDrillBitsImg,
     shortDescription: 'Masonry drill bits for concrete and brick.',
     description: 'Masonry Drill Bit Set for drilling into concrete, brick, and stone materials.',
     features: ['Carbide tipped', 'For masonry', 'All sizes', 'Hammer drill compatible', 'Long lasting'],
@@ -72,7 +81,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'H.S.S. Drill Bit – All Sizes',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: hssDrillBitsImg,
     shortDescription: 'High speed steel drill bits for metal.',
     description: 'High Speed Steel (HSS) Drill Bits for drilling into metal, wood, and plastic.',
     features: ['HSS material', 'All sizes', 'For metal', 'Precision ground', 'Long lasting'],
@@ -83,7 +92,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'SDS Drill Bits',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: sdsPlusDrillBitsImg,
     shortDescription: 'SDS drill bits for hammer drills.',
     description: 'SDS Drill Bits designed for rotary hammer drills, ideal for heavy duty masonry drilling.',
     features: ['SDS shank', 'For hammer drills', 'Carbide tipped', 'Heavy duty', 'Various sizes'],

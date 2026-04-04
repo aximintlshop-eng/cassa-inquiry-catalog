@@ -27,6 +27,8 @@ import ovalPipeImg from '@/assets/products/oval-pipe.png';
 import chromePipesImg from '@/assets/products/chrome-pipes.png';
 import slatBoardChannelImg from '@/assets/products/slat-board-channel.png';
 import pvcTileTrimImg from '@/assets/products/pvc-tile-trim.png';
+import mirrorClipSetImg from '@/assets/products/mirror-clip-set.png';
+import displayHookImg from '@/assets/products/display-hook.png';
 
 export const bracketsChannelsProducts: Product[] = [
   {
@@ -331,7 +333,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: '4 Pcs Mirror Clip Set',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: mirrorClipSetImg,
     shortDescription: '4 piece mirror clip set for mirror mounting.',
     description: '4 Piece Mirror Clip Set for securely mounting mirrors on walls.',
     features: ['4 clips included', 'For mirrors', 'Easy mounting', 'Secure hold', 'Chrome finish'],
@@ -342,7 +344,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Display Hook (Sizes 2", 4", 6", 8", 10")',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: displayHookImg,
     shortDescription: 'Display hooks in multiple sizes for retail.',
     description: 'Display Hooks in 2", 4", 6", 8", and 10" sizes for retail slat board displays.',
     features: ['Multiple sizes', 'For slat boards', 'Retail displays', 'Chrome finish', 'Easy insertion'],
