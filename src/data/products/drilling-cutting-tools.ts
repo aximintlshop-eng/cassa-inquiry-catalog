@@ -8,6 +8,16 @@ import screwdriverBitsImg from '@/assets/products/screwdriver-bits.png';
 import multiPurposeDrillBitsImg from '@/assets/products/multi-purpose-drill-bits.png';
 import hssDrillBitsImg from '@/assets/products/hss-drill-bits.png';
 import sdsPlusDrillBitsImg from '@/assets/products/sds-plus-drill-bits.png';
+import glassDrillBitImg from '@/assets/products/glass-drill-bit.png';
+import woodFlatBitImg from '@/assets/products/wood-flat-bit.webp';
+import hingeHoleCutterImg from '@/assets/products/hinge-hole-cutter.png';
+import tileCuttingDiscImg from '@/assets/products/tile-cutting-disc.png';
+import metalCuttingDiscImg from '@/assets/products/metal-cutting-disc.png';
+import concreteCuttingDiscImg from '@/assets/products/concrete-cutting-disc.png';
+import marbleCuttingDiscImg from '@/assets/products/marble-cutting-disc.png';
+import woodCuttingDiscImg from '@/assets/products/wood-cutting-disc.png';
+import multiCuttingDiscImg from '@/assets/products/multi-cutting-disc.png';
+import flapGrindingDiscImg from '@/assets/products/flap-grinding-disc.png';
 
 export const drillingCuttingToolsProducts: Product[] = [
   {
