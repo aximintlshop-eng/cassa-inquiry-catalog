@@ -212,7 +212,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Flap Grinding Disc (60 / 80 Grit)',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: flapGrindingDiscImg,
     shortDescription: 'Flap discs for grinding in 60 and 80 grit.',
     description: 'Flap Grinding Discs in 60 and 80 grit for surface preparation and finishing.',
     features: ['60 & 80 grit options', 'For grinding', 'Surface finishing', 'Flexible flaps', 'Long lasting'],
