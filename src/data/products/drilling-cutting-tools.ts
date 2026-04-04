@@ -179,7 +179,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Marble Cutting Disc – All Sizes',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: marbleCuttingDiscImg,
     shortDescription: 'Diamond discs for cutting marble.',
     description: 'Diamond Marble Cutting Discs for clean, chip-free cutting of marble and granite.',
     features: ['Continuous rim', 'For marble/granite', 'All sizes', 'Chip-free cuts', 'Wet cutting'],
