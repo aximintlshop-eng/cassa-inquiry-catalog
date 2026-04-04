@@ -254,7 +254,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Pipe Socket Bend (Sizes 3/4", 1")',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: pipeSocketBendImg,
     shortDescription: 'Pipe socket bends for angled connections.',
     description: 'Pipe Socket Bends in 3/4" and 1" sizes for creating angled pipe connections.',
     features: ['Angled connection', 'Two sizes', 'Chrome finish', 'Socket type', 'Secure fit'],
