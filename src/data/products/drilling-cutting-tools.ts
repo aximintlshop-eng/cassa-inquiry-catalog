@@ -81,7 +81,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'H.S.S. Drill Bit – All Sizes',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: hssDrillBitsImg,
     shortDescription: 'High speed steel drill bits for metal.',
     description: 'High Speed Steel (HSS) Drill Bits for drilling into metal, wood, and plastic.',
     features: ['HSS material', 'All sizes', 'For metal', 'Precision ground', 'Long lasting'],
