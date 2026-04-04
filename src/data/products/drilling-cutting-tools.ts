@@ -146,7 +146,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Tile Cutting Disc – 4.5"',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: tileCuttingDiscImg,
     shortDescription: '4.5 inch diamond tile cutting disc.',
     description: '4.5 inch Diamond Tile Cutting Disc for cutting ceramic tiles and porcelain.',
     features: ['Diamond edge', '4.5 inch size', 'For tiles', 'Clean cuts', 'Long lasting'],
