@@ -124,7 +124,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Wood Flat Bit – All Sizes',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: woodFlatBitImg,
     shortDescription: 'Flat wood bits for large diameter holes.',
     description: 'Wood Flat Bits for drilling large diameter holes in wood, available in all sizes.',
     features: ['Flat design', 'For wood', 'All sizes', 'Fast drilling', 'Clean holes'],
