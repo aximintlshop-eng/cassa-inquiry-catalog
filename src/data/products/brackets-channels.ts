@@ -287,7 +287,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Chrome Plated Oval Pipes',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: ovalPipeImg,
     shortDescription: 'Chrome plated oval pipes for wardrobes.',
     description: 'Chrome Plated Oval Pipes for wardrobe hanging rails with elegant finish.',
     features: ['Oval profile', 'Chrome plated', 'For wardrobes', 'Hanging clothes', 'Cut to length'],
