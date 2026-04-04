@@ -232,7 +232,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Oval Pipe Bracket (Small / Big)',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: ovalPipeBracketImg,
     shortDescription: 'Brackets for oval wardrobe pipes.',
     description: 'Oval Pipe Brackets in small and big sizes for supporting oval wardrobe hanging rails.',
     features: ['For oval pipes', 'Two sizes', 'Chrome finish', 'Secure support', 'Easy installation'],
