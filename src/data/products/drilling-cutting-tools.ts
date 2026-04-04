@@ -92,7 +92,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'SDS Drill Bits',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: sdsPlusDrillBitsImg,
     shortDescription: 'SDS drill bits for hammer drills.',
     description: 'SDS Drill Bits designed for rotary hammer drills, ideal for heavy duty masonry drilling.',
     features: ['SDS shank', 'For hammer drills', 'Carbide tipped', 'Heavy duty', 'Various sizes'],
