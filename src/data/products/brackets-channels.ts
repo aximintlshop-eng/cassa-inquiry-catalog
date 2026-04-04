@@ -309,7 +309,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Aluminium Slat Board Channel',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: slatBoardChannelImg,
     shortDescription: 'Aluminium slat board channels for retail displays.',
     description: 'Aluminium Slat Board Channels for retail display systems and shop fittings.',
     features: ['For retail displays', 'Aluminium construction', 'Modular system', 'Easy installation', 'Professional look'],
