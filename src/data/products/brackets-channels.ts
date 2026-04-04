@@ -298,7 +298,7 @@ export const bracketsChannelsProducts: Product[] = [
     name: 'Chrome Plated Pipes (Sizes 1/2", 1", 3/4" – Length 3 Mtr)',
     categoryId: 'brackets-channels',
     category: 'Brackets & Channels',
-    image: lBracketSmallImg,
+    image: chromePipesImg,
     shortDescription: 'Chrome plated round pipes in 3 meter lengths.',
     description: 'Chrome Plated Round Pipes in 1/2", 3/4", and 1" sizes, available in 3 meter lengths.',
     features: ['Round profile', 'Chrome plated', 'Three sizes', '3 meter length', 'Cut to size'],
