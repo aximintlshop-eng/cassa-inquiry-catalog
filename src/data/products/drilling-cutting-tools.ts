@@ -113,7 +113,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Glass Drill Bit (Sizes 6, 8, 10 mm)',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: glassDrillBitImg,
     shortDescription: 'Spear point glass drill bits in three sizes.',
     description: 'Glass Drill Bits with spear point tip in 6mm, 8mm, and 10mm sizes for glass and tile.',
     features: ['Spear point tip', 'For glass & tile', 'Three sizes', 'Precision drilling', 'Carbide tip'],
