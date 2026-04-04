@@ -27,6 +27,8 @@ import ovalPipeImg from '@/assets/products/oval-pipe.png';
 import chromePipesImg from '@/assets/products/chrome-pipes.png';
 import slatBoardChannelImg from '@/assets/products/slat-board-channel.png';
 import pvcTileTrimImg from '@/assets/products/pvc-tile-trim.png';
+import mirrorClipSetImg from '@/assets/products/mirror-clip-set.png';
+import displayHookImg from '@/assets/products/display-hook.png';
 
 export const bracketsChannelsProducts: Product[] = [
   {
