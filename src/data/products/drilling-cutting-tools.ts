@@ -18,6 +18,16 @@ import marbleCuttingDiscImg from '@/assets/products/marble-cutting-disc.png';
 import woodCuttingDiscImg from '@/assets/products/wood-cutting-disc.png';
 import multiCuttingDiscImg from '@/assets/products/multi-cutting-disc.png';
 import flapGrindingDiscImg from '@/assets/products/flap-grinding-disc.png';
+import velcroBackingPadImg from '@/assets/products/velcro-backing-pad.png';
+import tctHoleSawImg from '@/assets/products/tct-hole-saw.png';
+import biMetalHoleSawImg from '@/assets/products/bi-metal-hole-saw.png';
+import baghdadiSawImg from '@/assets/products/baghdadi-saw.png';
+import woodHandSawImg from '@/assets/products/wood-hand-saw.png';
+import gypsumBoardSawImg from '@/assets/products/gypsum-board-saw.png';
+import hacksawFrameImg from '@/assets/products/hacksaw-frame.png';
+import miniHacksawImg from '@/assets/products/mini-hacksaw.png';
+import doubleEdgeHacksawBladeImg from '@/assets/products/double-edge-hacksaw-blade.png';
+import singleEdgeHacksawBladeImg from '@/assets/products/single-edge-hacksaw-blade.png';
 
 export const drillingCuttingToolsProducts: Product[] = [
   {
@@ -223,7 +233,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Velcro Backing Pad – All Sizes',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: velcroBackingPadImg,
     shortDescription: 'Velcro backing pads for sanders.',
     description: 'Velcro Backing Pads for attaching sanding discs to random orbital sanders.',
     features: ['Velcro attachment', 'All sizes', 'For sanders', 'Easy disc change', 'Durable'],
@@ -234,7 +244,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'TCT Hole Saw',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: tctHoleSawImg,
     shortDescription: 'TCT hole saws for metal and stainless steel.',
     description: 'TCT Hole Saws with carbide teeth for cutting holes in metal and stainless steel.',
     features: ['TCT teeth', 'For metal', 'Long lasting', 'Various sizes', 'Professional grade'],
@@ -245,7 +255,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Bi-Metal Hole Saw Cutter',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: biMetalHoleSawImg,
     shortDescription: 'Bi-metal hole saws for wood and metal.',
     description: 'Bi-Metal Hole Saw Cutters for cutting holes in wood, plastic, and thin metal.',
     features: ['Bi-metal construction', 'For wood & metal', 'Various sizes', 'Teeth per inch options', 'Durable'],
@@ -256,7 +266,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Baghdadi Saw (Sizes 16", 18")',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: baghdadiSawImg,
     shortDescription: 'Traditional Baghdadi saws in two sizes.',
     description: 'Traditional Baghdadi Saws in 16" and 18" sizes for wood cutting.',
     features: ['Traditional design', 'Two sizes', 'For wood', 'Sharp teeth', 'Comfortable handle'],
@@ -267,7 +277,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Wood Hand Saw (Sizes 16", 18")',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: woodHandSawImg,
     shortDescription: 'Wood hand saws in standard sizes.',
     description: 'Wood Hand Saws in 16" and 18" sizes with hardpoint teeth for fast cutting.',
     features: ['Hardpoint teeth', 'Two sizes', 'Fast cutting', 'Comfortable grip', 'Durable blade'],
@@ -278,7 +288,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Gypsum Board Saw',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: gypsumBoardSawImg,
     shortDescription: 'Specialized saw for cutting gypsum board.',
     description: 'Gypsum Board Saw with pointed tip for plunge cutting into drywall and gypsum boards.',
     features: ['Pointed tip', 'For gypsum board', 'Plunge cutting', 'Easy control', 'Comfortable handle'],
@@ -289,7 +299,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Hacksaw Frame – 10"',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: hacksawFrameImg,
     shortDescription: '10 inch hacksaw frame for metal cutting.',
     description: '10 inch Hacksaw Frame with adjustable blade tension for cutting metal pipes and rods.',
     features: ['10 inch size', 'Adjustable tension', 'For metal', 'Comfortable grip', 'Durable frame'],
@@ -300,7 +310,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Mini Hacksaw',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: miniHacksawImg,
     shortDescription: 'Compact mini hacksaw for tight spaces.',
     description: 'Compact Mini Hacksaw for cutting in tight spaces and detailed work.',
     features: ['Compact size', 'For tight spaces', 'Lightweight', 'Easy to use', 'Blade included'],
@@ -311,7 +321,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Double Edge Hacksaw Blade',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: doubleEdgeHacksawBladeImg,
     shortDescription: 'Double edge hacksaw blades for versatile cutting.',
     description: 'Double Edge Hacksaw Blades with teeth on both edges for versatile metal cutting.',
     features: ['Double edge', 'Versatile cutting', 'For metal', 'Long lasting', 'Standard size'],
@@ -322,7 +332,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Single Edge Hacksaw Blade',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: singleEdgeHacksawBladeImg,
     shortDescription: 'Standard single edge hacksaw blades.',
     description: 'Standard Single Edge Hacksaw Blades for general metal cutting applications.',
     features: ['Single edge', 'Standard design', 'For metal', 'Various TPI', 'Quality steel'],
@@ -333,7 +343,7 @@ export const drillingCuttingToolsProducts: Product[] = [
     name: 'Mini Hacksaw Blade',
     categoryId: 'drilling-cutting-tools',
     category: 'Drilling & Cutting Tools',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: singleEdgeHacksawBladeImg,
     shortDescription: 'Small hacksaw blades for mini hacksaws.',
     description: 'Mini Hacksaw Blades sized for compact hacksaws and detail cutting work.',
     features: ['Mini size', 'For compact saws', 'Fine teeth', 'Detail work', 'Pack of blades'],
