@@ -32,7 +32,6 @@ const CategoryCard = ({ id, name, image, productCount, productImages }: Category
             Coming Soon
           </div>
         )}
-      <div className="bg-white rounded-lg overflow-hidden shadow-md card-hover">
         <div className="h-44 overflow-hidden relative bg-gray-50">
           {images.map((img, index) => (
             <img
