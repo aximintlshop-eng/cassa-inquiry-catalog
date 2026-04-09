@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ProductCard from '@/components/ProductCard';
@@ -9,6 +9,7 @@ import { products, getProductsByCategoryId } from '@/data/products';
 
 const Products = () => {
   const location = useLocation();
+  const navigate = useNavigate();
   const queryParams = new URLSearchParams(location.search);
   const categoryParam = queryParams.get('category');
   const searchParam = queryParams.get('search');
@@ -46,6 +47,10 @@ const Products = () => {
   }, [selectedCategory, searchTerm]);
   
   const handleCategoryChange = (categoryId: string | null) => {
+    if (categoryId === 'cassa-electronic-paint-machinery') {
+      navigate('/coming-soon');
+      return;
+    }
     setSelectedCategory(categoryId);
     setSearchTerm('');
   };
