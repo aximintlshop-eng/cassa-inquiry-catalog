@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ProductCard from '@/components/ProductCard';
@@ -9,6 +9,7 @@ import { products, getProductsByCategoryId } from '@/data/products';
 
 const Products = () => {
   const location = useLocation();
+  const navigate = useNavigate();
   const queryParams = new URLSearchParams(location.search);
   const categoryParam = queryParams.get('category');
   const searchParam = queryParams.get('search');
@@ -46,6 +47,10 @@ const Products = () => {
   }, [selectedCategory, searchTerm]);
   
   const handleCategoryChange = (categoryId: string | null) => {
+    if (categoryId === 'cassa-electronic-paint-machinery') {
+      navigate('/coming-soon');
+      return;
+    }
     setSelectedCategory(categoryId);
     setSearchTerm('');
   };
@@ -94,7 +99,9 @@ const Products = () => {
                           onClick={() => handleCategoryChange(category.id)}
                           className={`w-full text-left py-2 px-3 rounded-md transition-colors ${selectedCategory === category.id ? 'bg-cassa-blue text-white' : 'hover:bg-gray-100'}`}
                         >
-                          {category.name} ({category.productCount})
+                          {category.name} {category.id === 'cassa-electronic-paint-machinery' ? (
+                            <span className="ml-1 text-xs bg-yellow-400 text-blue-900 px-2 py-0.5 rounded-full font-semibold">Soon</span>
+                          ) : `(${category.productCount})`}
                         </button>
                       </li>
                     ))}

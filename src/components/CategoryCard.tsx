@@ -13,6 +13,8 @@ interface CategoryCardProps {
 const CategoryCard = ({ id, name, image, productCount, productImages }: CategoryCardProps) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = productImages && productImages.length > 0 ? productImages : [image];
+  const isComingSoon = id === 'cassa-electronic-paint-machinery';
+  const linkTo = isComingSoon ? '/coming-soon' : `/products?category=${id}`;
 
   useEffect(() => {
     if (images.length <= 1) return;
@@ -23,8 +25,13 @@ const CategoryCard = ({ id, name, image, productCount, productImages }: Category
   }, [images.length]);
 
   return (
-    <Link to={`/products?category=${id}`} className="block group">
-      <div className="bg-white rounded-lg overflow-hidden shadow-md card-hover">
+    <Link to={linkTo} className="block group">
+      <div className="bg-white rounded-lg overflow-hidden shadow-md card-hover relative">
+        {isComingSoon && (
+          <div className="absolute top-3 right-3 z-10 bg-gradient-to-r from-yellow-400 to-yellow-500 text-blue-900 text-xs font-bold px-3 py-1 rounded-full shadow-md">
+            Coming Soon
+          </div>
+        )}
         <div className="h-44 overflow-hidden relative bg-gray-50">
           {images.map((img, index) => (
             <img
@@ -42,7 +49,7 @@ const CategoryCard = ({ id, name, image, productCount, productImages }: Category
             {name}
           </h3>
           <p className="text-sm text-gray-500">
-            {productCount} products
+            {isComingSoon ? 'Coming Soon' : `${productCount} products`}
           </p>
         </div>
       </div>
