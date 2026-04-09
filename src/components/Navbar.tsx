@@ -63,6 +63,13 @@ const Navbar = () => {
             <Link to="/products" className="font-medium hover:text-cassa-yellow transition-colors">Products</Link>
             <Link to="/about" className="font-medium hover:text-cassa-yellow transition-colors">About Us</Link>
             <Link to="/contact" className="font-medium hover:text-cassa-yellow transition-colors">Contact</Link>
+            <Link to="/coming-soon" className="font-medium text-cassa-yellow hover:text-cassa-blue transition-colors flex items-center gap-1">
+              <span className="relative flex h-2 w-2">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cassa-yellow opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-cassa-yellow"></span>
+              </span>
+              Cassa Machinery
+            </Link>
             
             {/* Desktop Search - Always visible */}
             <form onSubmit={handleSearch} className="flex items-center">
@@ -122,6 +129,13 @@ const Navbar = () => {
             <Link to="/products" className="font-medium hover:text-cassa-yellow transition-colors" onClick={toggleMenu}>Products</Link>
             <Link to="/about" className="font-medium hover:text-cassa-yellow transition-colors" onClick={toggleMenu}>About Us</Link>
             <Link to="/contact" className="font-medium hover:text-cassa-yellow transition-colors" onClick={toggleMenu}>Contact</Link>
+            <Link to="/coming-soon" className="font-medium text-cassa-yellow hover:text-cassa-blue transition-colors flex items-center gap-1" onClick={toggleMenu}>
+              <span className="relative flex h-2 w-2">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cassa-yellow opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-cassa-yellow"></span>
+              </span>
+              Cassa Machinery
+            </Link>
             <div className="pt-4 border-t flex flex-col space-y-2">
               <a href="tel:+971589275323" className="flex items-center space-x-2 text-sm">
                 <Phone size={14} />
