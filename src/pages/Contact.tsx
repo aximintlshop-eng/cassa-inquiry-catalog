@@ -258,13 +258,14 @@ const Contact = () => {
                 
                 <div className="bg-white p-4 rounded-lg shadow-md">
                   <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.5176073152046!2d55.3089!3d25.2697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5ccf5d726a9d%3A0x8e3b3b3b3b3b3b3b!2sNaif%20Bazar%20Centre!5e0!3m2!1sen!2sae!4v1619756483885!5m2!1sen!2sae" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d901.8793!2d55.3089!3d25.2697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0x7f06764f3e085130!2sAxim%20International%20Trading%20Co%20LLC!5e0!3m2!1sen!2sae!4v1700000000000!5m2!1sen!2sae" 
                     width="100%" 
                     height="300" 
                     style={{ border: 0 }} 
                     allowFullScreen 
                     loading="lazy"
-                    title="Axim International Location Map"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Axim International Trading Co LLC Location Map"
                   ></iframe>
                 </div>
               </div>
