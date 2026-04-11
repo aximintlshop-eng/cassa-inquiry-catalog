@@ -258,14 +258,14 @@ const Contact = () => {
                 
                 <div className="bg-white p-4 rounded-lg shadow-md">
                   <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.56!2d55.3041!3d25.2719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348610a3c3%3A0x4a4e9d481a67f92d!2sAxim+International+Trading+Co+LLC!5e0!3m2!1sen!2sae!4v1712700000000!5m2!1sen!2sae" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.1!2d55.3041!3d25.2719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f682829c85c07%3A0xa5c1234d567890ab!2sNaif%20Bazar%20Centre%2C%20Shop%20No.%2054%2C%20Deira%2C%20Dubai!5e0!3m2!1sen!2sae!4v1712700000000!5m2!1sen!2sae&q=Naif+Bazar+Centre+Shop+54+Dubai" 
                     width="100%" 
                     height="300" 
                     style={{ border: 0 }} 
                     allowFullScreen 
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Axim International Trading Co LLC Location Map"
+                    title="Axim International Trading Co LLC - Naif Bazar Centre, Shop 54, Dubai"
                   ></iframe>
                 </div>
               </div>
