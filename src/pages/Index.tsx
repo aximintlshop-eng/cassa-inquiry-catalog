@@ -1,5 +1,6 @@
 
 import { ArrowRight, Mail, MessageSquare, Phone } from 'lucide-react';
+import aboutCassaImg from '@/assets/about-cassa-hardware.jpg';
 import { Link } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -127,9 +128,12 @@ const Index = () => {
               
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1581094794329-c8112a89af44?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                  alt="Cassa Tools Manufacturing" 
+                  src={aboutCassaImg} 
+                  alt="Cassa Hardware Showroom - Door Handles, Tools, and Fittings" 
                   className="rounded-lg shadow-xl w-full"
+                  loading="lazy"
+                  width={800}
+                  height={600}
                 />
               </div>
             </div>
