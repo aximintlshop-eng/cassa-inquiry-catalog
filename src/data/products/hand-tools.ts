@@ -50,6 +50,16 @@ import adjustableWrenchImg from '@/assets/products/adjustable-wrench.png';
 import pipeWrenchImg from '@/assets/products/pipe-wrench.png';
 import handRiveterGunImg from '@/assets/products/hand-riveter-gun.png';
 import combinationPlierImg from '@/assets/products/combination-plier.png';
+import ratchetHandleImg from '@/assets/products/ratchet-handle.png';
+import twoWayBigScrewdriverImg from '@/assets/products/2-way-big-screwdriver.png';
+import screwdriverSetImg from '@/assets/products/screwdriver-set.png';
+import twoWayMiniScrewdriverImg from '@/assets/products/2-way-mini-screwdriver.png';
+import magneticNutSetterImg from '@/assets/products/magnetic-nut-setter.png';
+import combinationSpannerSetImg from '@/assets/products/combination-spanner-set.png';
+import tSpannerImg from '@/assets/products/t-spanner.png';
+import allenKeyBigImg from '@/assets/products/allen-key-big.png';
+import allenKeySmallImg from '@/assets/products/allen-key-small.png';
+import netFixingRollerImg from '@/assets/products/net-fixing-roller.png';
 
 export const handToolsProducts: Product[] = [
   { id: 'ht-001', name: 'Jigsaw Blade (Metal / Wood)', categoryId: 'hand-tools', category: 'Hand Tools', image: 'https://images.unsplash.com/photo-1530124566582-a618bc2615dc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', shortDescription: 'Jigsaw blades for metal and wood cutting.', description: 'Jigsaw Blades available in metal and wood cutting types for precision cutting.', features: ['Metal & wood types', 'Various TPI', 'Quality steel', 'Clean cuts', 'Universal fit'], specifications: { 'Brand': 'CASSA', 'Material': 'HSS / HCS', 'Types': 'Metal / Wood', 'Fit': 'T-Shank / U-Shank' } },
