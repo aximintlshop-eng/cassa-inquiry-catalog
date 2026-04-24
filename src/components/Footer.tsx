@@ -1,6 +1,5 @@
-
 import { Link } from 'react-router-dom';
-import { MapPin, Phone, Mail, Clock, Facebook, Instagram, Linkedin, Twitter, Globe } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, Facebook, Instagram, Linkedin, Globe } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -9,6 +8,7 @@ const Footer = () => {
     <footer className="bg-gray-100 pt-12 pb-6">
       <div className="container-custom">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          
           {/* Company Info */}
           <div>
             <h3 className="text-xl font-bold mb-4">Axim International</h3>
@@ -16,19 +16,29 @@ const Footer = () => {
             <p className="text-gray-600 mb-4">
               Premium hardware tools, furniture fittings, screws & fasteners, and professional tools for the industry.
             </p>
+
             <div className="flex space-x-4">
-              <a href="#" className="text-cassa-blue hover:text-cassa-yellow transition-colors">
+              
+              {/* Facebook */}
+              <a href="https://www.facebook.com/Aximintltr" target="_blank" rel="noopener noreferrer" className="text-cassa-blue hover:text-cassa-yellow transition-colors">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="text-cassa-blue hover:text-cassa-yellow transition-colors">
+
+              {/* Instagram (update later if needed) */}
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="text-cassa-blue hover:text-cassa-yellow transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-cassa-blue hover:text-cassa-yellow transition-colors">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="text-cassa-blue hover:text-cassa-yellow transition-colors">
+
+              {/* LinkedIn */}
+              <a href="https://www.linkedin.com/in/axim-international-trading-co-llc-cassa-55b649374/" target="_blank" rel="noopener noreferrer" className="text-cassa-blue hover:text-cassa-yellow transition-colors">
                 <Linkedin size={20} />
               </a>
+
+              {/* WhatsApp */}
+              <a href="https://wa.me/971589275323" target="_blank" rel="noopener noreferrer" className="text-cassa-blue hover:text-cassa-yellow transition-colors">
+                <span className="font-bold text-sm">WA</span>
+              </a>
+
             </div>
           </div>
           
@@ -55,10 +65,14 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Contact Us</h3>
             <ul className="space-y-3">
+              
               <li className="flex items-start space-x-3">
                 <MapPin className="text-cassa-blue mt-1 flex-shrink-0" size={18} />
-                <span className="text-gray-600">Naif Bazar Centre - Showroom No. 40 - Naif Rd - Naif - Deira - Dubai</span>
+                <span className="text-gray-600">
+                  Naif Bazar Centre - Showroom No. 40 - Naif Rd - Naif - Deira - Dubai
+                </span>
               </li>
+
               <li className="flex items-center space-x-3">
                 <Phone className="text-cassa-blue flex-shrink-0" size={18} />
                 <div className="flex flex-col">
@@ -67,14 +81,21 @@ const Footer = () => {
                   <a href="tel:+97142225410" className="text-gray-600 hover:text-cassa-yellow transition-colors">+971 4 222 5410</a>
                 </div>
               </li>
+
               <li className="flex items-center space-x-3">
                 <Mail className="text-cassa-blue flex-shrink-0" size={18} />
-                <a href="mailto:aximinternationaltr@gmail.com" className="text-gray-600 hover:text-cassa-yellow transition-colors">aximinternationaltr@gmail.com</a>
+                <a href="mailto:aximinternationaltr@gmail.com" className="text-gray-600 hover:text-cassa-yellow transition-colors">
+                  aximinternationaltr@gmail.com
+                </a>
               </li>
+
               <li className="flex items-center space-x-3">
                 <Globe className="text-cassa-blue flex-shrink-0" size={18} />
-                <a href="https://aximintltr.ae" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-cassa-yellow transition-colors">aximintltr.ae</a>
+                <a href="https://aximintltr.ae" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-cassa-yellow transition-colors">
+                  aximintltr.ae
+                </a>
               </li>
+
             </ul>
           </div>
           
@@ -82,6 +103,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Business Hours</h3>
             <ul className="space-y-3">
+              
               <li className="flex items-start space-x-3">
                 <Clock className="text-cassa-blue mt-1 flex-shrink-0" size={18} />
                 <div>
@@ -89,6 +111,7 @@ const Footer = () => {
                   <p className="text-gray-600">8:00 AM - 8:30 PM</p>
                 </div>
               </li>
+
               <li className="flex items-start space-x-3">
                 <Clock className="text-cassa-blue mt-1 flex-shrink-0" size={18} />
                 <div>
@@ -96,6 +119,7 @@ const Footer = () => {
                   <p className="text-gray-600">8:00 AM - 8:30 PM</p>
                 </div>
               </li>
+
               <li className="flex items-start space-x-3">
                 <Clock className="text-cassa-blue mt-1 flex-shrink-0" size={18} />
                 <div>
@@ -103,6 +127,7 @@ const Footer = () => {
                   <p className="text-gray-600">Closed</p>
                 </div>
               </li>
+
             </ul>
           </div>
         </div>
