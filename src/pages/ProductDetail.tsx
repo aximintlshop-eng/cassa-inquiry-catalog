@@ -151,7 +151,7 @@ const ProductDetail = () => {
                   
                   <div className="flex gap-4 mb-6">
                     <a 
-                      href={`https://wa.me/1234567890?text=I'm%20interested%20in%20the%20product:%20${encodeURIComponent(product.name)}`} 
+                      href={`https://wa.me/971589275323?text=I'm%20interested%20in%20the%20product:%20${encodeURIComponent(product.name)}`} 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600 transition-colors flex items-center justify-center"
@@ -160,7 +160,7 @@ const ProductDetail = () => {
                       WhatsApp Inquiry
                     </a>
                     <a 
-                      href={`mailto:info@cassa.com?subject=Inquiry about ${product.name}&body=I'm interested in learning more about the ${product.name}.`} 
+                      href={`mailto:aximintlshop@gmail.com?subject=Inquiry about ${product.name}&body=I'm interested in learning more about the ${product.name}.`} 
                       className="btn-primary flex items-center justify-center"
                     >
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
